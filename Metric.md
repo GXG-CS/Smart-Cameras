@@ -58,6 +58,15 @@ The ML process on a smart camera, given the absence of a GPU, can be represented
 
 ML<sub>process</sub> = f(S<sub>read</sub>, S<sub>cap</sub>, R<sub>cap</sub>, R<sub>speed</sub>, P<sub>speed</sub>, P<sub>cores</sub>, P<sub>consumption</sub>, T<sub>manage</sub>)
 
+
+
+
+
+
+
+
+
+
 # Abstracting Hardware Capabilities using Raspberry Pi 4 Model B
 
 Our objective is to create an abstraction metric to classify and understand the capabilities of various smart cameras. We will utilize the Raspberry Pi 4 Model B as a stand-in for these cameras by constraining ML process resources and observing the resulting behaviors.
