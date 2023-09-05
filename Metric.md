@@ -6,6 +6,7 @@ Ensure you've collected all necessary metrics from the smart cameras:
 
 - **CPU**: 
   - Speed (GHz): \(CPUspeed\)
+  - P<sub>consumption</sub>
   - Number of Cores: \(CPU_{cores}\)
 - **Memory (RAM)**:
   - Size (GB): \(RAM_{size}\)
