@@ -235,4 +235,87 @@ A single hardware setup or a simulated state can be represented as a vector:
    - \( y = (y<sub>trainingtime</sub>, y<sub>reward</sub>, y<sub>episode_length</sub>) \)
      - \( y<sub>reward</sub> \): Total Reward.
      - \( y<sub>episode_length</sub> \): Episode Length.
+------------------------------------------------------------------------------------------
+
+
+
+
+### Performance Metrics (y) and Representative Models for Different Types of Machine Learning:
+
+1. **Supervised Learning**:
+
+- **Classification**:
+   - Models: Logistic Regression, Decision Trees, Random Forest, Support Vector Machines, Neural Networks.
+   - \( y = (y<sub>trainingtime</sub>, y<sub>acc</sub>, y<sub>f1</sub>, y<sub>roc_auc</sub>) \)
+     - \( y<sub>trainingtime</sub> \): Time taken to train the model.
+     - \( y<sub>acc</sub> \): Accuracy - Proportion of correctly predicted classifications in the dataset.
+     - \( y<sub>f1</sub> \): F1 Score - Harmonic mean of precision and recall.
+     - \( y<sub>roc_auc</sub> \): Area under the Receiver Operating Characteristic curve.
+
+- **Regression**:
+   - Models: Linear Regression, Polynomial Regression, Ridge Regression, Lasso Regression, Decision Trees.
+   - \( y = (y<sub>trainingtime</sub>, y<sub>rmse</sub>, y<sub>mae</sub>, y<sub>R^2</sub>) \)
+     - \( y<sub>trainingtime</sub> \): Time taken to train the model.
+     - \( y<sub>rmse</sub> \): Root Mean Square Error - Square root of the average squared errors.
+     - \( y<sub>mae</sub> \): Mean Absolute Error - Average of absolute errors.
+     - \( y<sub>R^2</sub> \): R-squared - Proportion of variance in the dependent variable that's explained by independent variables.
+
+2. **Unsupervised Learning**:
+
+- **Clustering**:
+   - Models: K-Means, Hierarchical Clustering, DBSCAN.
+   - \( y = (y<sub>trainingtime</sub>, y<sub>silhouette</sub>) \)
+     - \( y<sub>trainingtime</sub> \): Time taken to classify data points.
+     - \( y<sub>silhouette</sub> \): Silhouette score - Measures how similar an object is to its cluster compared to other clusters.
+
+- **Dimensionality Reduction**:
+   - Models: Principal Component Analysis (PCA), t-SNE, Factor Analysis.
+   - \( y = (y<sub>trainingtime</sub>, y<sub>explained_var</sub>) \)
+     - \( y<sub>trainingtime</sub> \): Time taken for the reduction process.
+     - \( y<sub>explained_var</sub> \): Explained variance - Proportion of the dataset's variance captured by the components.
+
+3. **Time Series Forecasting**:
+   - Models: ARIMA, LSTM, Prophet.
+   - \( y = (y<sub>trainingtime</sub>, y<sub>mape</sub>, y<sub>mae</sub>) \)
+     - \( y<sub>trainingtime</sub> \): Time taken to fit the model to the data.
+     - \( y<sub>mape</sub> \): Mean Absolute Percentage Error - Average of absolute percentage errors.
+     - \( y<sub>mae</sub> \): Mean Absolute Error - Average of absolute errors.
+
+4. **Natural Language Processing (NLP)**:
+
+- **Classification/ Sentiment Analysis**:
+   - Models: Naive Bayes, LSTM, BERT.
+   - \( y = (y<sub>trainingtime</sub>, y<sub>acc</sub>, y<sub>f1</sub>) \)
+     - \( y<sub>trainingtime</sub> \): Time taken to train the model.
+     - \( y<sub>acc</sub> \): Accuracy - Proportion of correctly predicted classifications.
+     - \( y<sub>f1</sub> \): F1 Score - Harmonic mean of precision and recall.
+
+- **Machine Translation**:
+   - Models: Seq2Seq models, Transformer models.
+   - \( y = (y<sub>trainingtime</sub>, y<sub>bleu</sub>) \)
+     - \( y<sub>trainingtime</sub> \): Time taken to train the translation model.
+     - \( y<sub>bleu</sub> \): BLEU score - Measures the quality of translated texts against reference translations.
+
+5. **Computer Vision**:
+
+- **Image Classification**:
+   - Models: CNN, ResNet, VGG, Inception.
+   - \( y = (y<sub>trainingtime</sub>, y<sub>acc</sub>, y<sub>top_N</sub>) \)
+     - \( y<sub>trainingtime</sub> \): Time taken to train the model.
+     - \( y<sub>acc</sub> \): Accuracy - Proportion of correctly predicted classifications.
+     - \( y<sub>top_N</sub> \): Top-N accuracy - Proportion of images for which the correct label is within the top N predictions.
+
+- **Object Detection/Segmentation**:
+   - Models: Faster R-CNN, YOLO, Mask R-CNN, SSD.
+   - \( y = (y<sub>trainingtime</sub>, y<sub>map</sub>, y<sub>iou</sub>) \)
+     - \( y<sub>trainingtime</sub> \): Time taken to train the model.
+     - \( y<sub>map</sub> \): Mean Average Precision - Measures precision of object detections over different thresholds.
+     - \( y<sub>iou</sub> \): Intersection over Union - Measures the overlap between two bounding boxes.
+
+6. **Reinforcement Learning**:
+   - Models: Q-Learning, Deep Q Networks (DQN), Policy Gradient Methods.
+   - \( y = (y<sub>trainingtime</sub>, y<sub>reward</sub>, y<sub>episode_length</sub>) \)
+     - \( y<sub>trainingtime</sub> \): Time taken to train the agent.
+     - \( y<sub>reward</sub> \): Average reward obtained during training/testing.
+     - \( y<sub>episode_length</sub> \): Length of each episode during training/testing.
 
