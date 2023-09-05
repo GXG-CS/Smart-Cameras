@@ -193,4 +193,63 @@ For multiple hardware setups and associated performance metrics, you'll have mul
 \[ (X1, Y1), (X2, Y2), ... \]
 
 Each \(Xi\) and \(Yi\) represents the hardware and performance metrics for the i-th setup or simulation, respectively.
+-----------------------------------------------------------
+
+
+
+
+### Performance Metrics (y) for Different Types of Machine Learning:
+
+1. **Supervised Learning**:
+
+- **Classification**:
+   - \( y = (y_{\text{trainingtime}}, y_{\text{acc}}, y_{\text{f1}}, y_{\text{roc\_auc}}) \)
+     - \( y_{\text{trainingtime}} \): Duration required to train the model.
+     - \( y_{\text{acc}} \): Accuracy (Percentage of correct predictions).
+     - \( y_{\text{f1}} \): F1-Score (Harmonic mean of precision and recall).
+     - \( y_{\text{roc\_auc}} \): ROC-AUC (Area under the Receiver Operating Characteristic curve).
+
+- **Regression**:
+   - \( y = (y_{\text{trainingtime}}, y_{\text{rmse}}, y_{\text{mae}}, y_{R^2}) \)
+     - \( y_{\text{rmse}} \): Root Mean Square Error.
+     - \( y_{\text{mae}} \): Mean Absolute Error.
+     - \( y_{R^2} \): Coefficient of determination.
+
+2. **Unsupervised Learning**:
+
+- **Clustering**:
+   - \( y = (y_{\text{trainingtime}}, y_{\text{silhouette}}) \)
+     - \( y_{\text{silhouette}} \): Silhouette Score.
+
+- **Dimensionality Reduction**:
+   - \( y = (y_{\text{trainingtime}}, y_{\text{explained\_var}}) \)
+     - \( y_{\text{explained\_var}} \): Explained Variance.
+
+3. **Time Series Forecasting**:
+   - \( y = (y_{\text{trainingtime}}, y_{\text{mape}}, y_{\text{mae}}) \)
+     - \( y_{\text{mape}} \): Mean Absolute Percentage Error.
+
+4. **Natural Language Processing (NLP)**:
+
+- **Classification/ Sentiment Analysis**:
+   - \( y = (y_{\text{trainingtime}}, y_{\text{acc}}, y_{\text{f1}}) \)
+
+- **Machine Translation**:
+   - \( y = (y_{\text{trainingtime}}, y_{\text{bleu}}) \)
+     - \( y_{\text{bleu}} \): BLEU Score.
+
+5. **Computer Vision**:
+
+- **Image Classification**:
+   - \( y = (y_{\text{trainingtime}}, y_{\text{acc}}, y_{\text{top\_N}}) \)
+
+- **Object Detection/Segmentation**:
+   - \( y = (y_{\text{trainingtime}}, y_{\text{map}}, y_{\text{iou}}) \)
+     - \( y_{\text{map}} \): Mean Average Precision.
+     - \( y_{\text{iou}} \): Intersection over Union.
+
+6. **Reinforcement Learning**:
+   - \( y = (y_{\text{trainingtime}}, y_{\text{reward}}, y_{\text{episode\_length}}) \)
+     - \( y_{\text{reward}} \): Total Reward.
+     - \( y_{\text{episode\_length}} \): Episode Length.
 
