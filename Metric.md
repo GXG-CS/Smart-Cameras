@@ -174,26 +174,9 @@ A single hardware setup or a simulated state can be represented as a vector:
 
 \[ X = (x1, x2, x3, x4, x5, x6, x7, x8) \]
 
----
 
-## ML Performance Metrics (Y):
 
-Let `y1`, `y2`, `y3` represent the performance metrics:
-
-1. `y1`: Training Time - Time taken to train the specific ML model.
-2. `y2`: Accuracy - Accuracy of the model on the validation/test set.
-3. `y3`: Inference Speed - Time taken for a single prediction.
-
-A performance outcome for a given hardware setup can be represented as:
-
-\[ Y = (y1, y2, y3) \]
-
-For multiple hardware setups and associated performance metrics, you'll have multiple \(X\) and \(Y\) pairs:
-
-\[ (X1, Y1), (X2, Y2), ... \]
-
-Each \(Xi\) and \(Yi\) represents the hardware and performance metrics for the i-th setup or simulation, respectively.
------------------------------------------------------------
+-------------------------------------------------------------------------
 
 
 
