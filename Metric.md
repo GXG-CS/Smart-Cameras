@@ -1,3 +1,8 @@
+Goal: Abstract the hardware capabilities of various smart camera devices for machine learning tasks.
+
+Scope: Use the Raspberry Pi 4 Model B as a simulation base for a smart camera to abstract across multiple such devices. The focus is on local training, where data is stored locally on the smart cameras.
+
+
 # Abstracting Smart Camera Hardware Capabilities Using ML
 
 ## Hardware Metrics in Mathematical Notation:
