@@ -116,28 +116,28 @@ Use machine learning clustering methods to classify various devices with differe
 These metrics detail the properties of the simulated device:
 
 - **Storage**: 
-  - `S<sub>read</sub>`: Storage read speed (MB/s)
-  - `S<sub>cap</sub>`: Storage capacity (GB)
+  - S<sub>read</sub>: Storage read speed (MB/s)
+  - S<sub>cap</sub>: Storage capacity (GB)
 
 - **RAM**: 
-  - `R<sub>cap</sub>`: RAM capacity (GB)
-  - `R<sub>speed</sub>`: RAM speed (MHz or GHz)
+  - R<sub>cap</sub>: RAM capacity (GB)
+  - R<sub>speed</sub>: RAM speed (MHz or GHz)
 
 - **Processing**:
-  - `P<sub>speed</sub>`: CPU processing speed (GHz)
-  - `P<sub>cores</sub>`: Number of CPU cores
+  - P<sub>speed</sub>: CPU processing speed (GHz)
+  - P<sub>cores</sub>: Number of CPU cores
 
 - **Power and Temperature**:
-  - `P<sub>consumption</sub>`: Power consumption (W)
-  - `T<sub>manage</sub>`: Thermal management capacity (°C)
+  - P<sub>consumption</sub>: Power consumption (W)
+  - T<sub>manage</sub>: Thermal management capacity (°C)
 
 ### 2. ML Performance Metrics:
 
 These metrics detail the performance of a machine learning model under the constraints of the associated hardware capabilities metrics:
 
-- `Training Time`: Time taken to train the model (s)
-- `Accuracy`: Model accuracy on a validation set (%)
-- `Inference Speed`: Time taken for a single forward pass (ms)
+- Training Time: Time taken to train the model (s)
+- Accuracy: Model accuracy on a validation set (%)
+- Inference Speed: Time taken for a single forward pass (ms)
 
 ### Data Structure:
 
