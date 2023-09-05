@@ -181,64 +181,6 @@ A single hardware setup or a simulated state can be represented as a vector:
 
 
 
-### Performance Metrics (y) for Different Types of Machine Learning:
-
-1. **Supervised Learning**:
-
-- **Classification**:
-   - \( y = (y<sub>trainingtime</sub>, y<sub>acc</sub>, y<sub>f1</sub>, y<sub>roc_auc</sub>) \)
-     - \( y<sub>trainingtime</sub> \): Duration required to train the model.
-     - \( y<sub>acc</sub> \): Accuracy (Percentage of correct predictions).
-     - \( y<sub>f1</sub> \): F1-Score (Harmonic mean of precision and recall).
-     - \( y<sub>roc_auc</sub> \): ROC-AUC (Area under the Receiver Operating Characteristic curve).
-
-- **Regression**:
-   - \( y = (y<sub>trainingtime</sub>, y<sub>rmse</sub>, y<sub>mae</sub>, y<sub>R^2</sub>) \)
-     - \( y<sub>rmse</sub> \): Root Mean Square Error.
-     - \( y<sub>mae</sub> \): Mean Absolute Error.
-     - \( y<sub>R^2</sub> \): Coefficient of determination.
-
-2. **Unsupervised Learning**:
-
-- **Clustering**:
-   - \( y = (y<sub>trainingtime</sub>, y<sub>silhouette</sub>) \)
-     - \( y<sub>silhouette</sub> \): Silhouette Score.
-
-- **Dimensionality Reduction**:
-   - \( y = (y<sub>trainingtime</sub>, y<sub>explained_var</sub>) \)
-     - \( y<sub>explained_var</sub> \): Explained Variance.
-
-3. **Time Series Forecasting**:
-   - \( y = (y<sub>trainingtime</sub>, y<sub>mape</sub>, y<sub>mae</sub>) \)
-     - \( y<sub>mape</sub> \): Mean Absolute Percentage Error.
-
-4. **Natural Language Processing (NLP)**:
-
-- **Classification/ Sentiment Analysis**:
-   - \( y = (y<sub>trainingtime</sub>, y<sub>acc</sub>, y<sub>f1</sub>) \)
-
-- **Machine Translation**:
-   - \( y = (y<sub>trainingtime</sub>, y<sub>bleu</sub>) \)
-     - \( y<sub>bleu</sub> \): BLEU Score.
-
-5. **Computer Vision**:
-
-- **Image Classification**:
-   - \( y = (y<sub>trainingtime</sub>, y<sub>acc</sub>, y<sub>top_N</sub>) \)
-
-- **Object Detection/Segmentation**:
-   - \( y = (y<sub>trainingtime</sub>, y<sub>map</sub>, y<sub>iou</sub>) \)
-     - \( y<sub>map</sub> \): Mean Average Precision.
-     - \( y<sub>iou</sub> \): Intersection over Union.
-
-6. **Reinforcement Learning**:
-   - \( y = (y<sub>trainingtime</sub>, y<sub>reward</sub>, y<sub>episode_length</sub>) \)
-     - \( y<sub>reward</sub> \): Total Reward.
-     - \( y<sub>episode_length</sub> \): Episode Length.
-------------------------------------------------------------------------------------------
-
-
-
 
 ### Performance Metrics (y) and Representative Models for Different Types of Machine Learning:
 
