@@ -1,3 +1,24 @@
+# Machine Learning Process as a Function of Hardware Metrics
+
+The machine learning process on a smart camera can be influenced by its hardware metrics. 
+
+ML_process = f(S_read, S_cap, R_cap, R_speed, P_speed, P_cores, P_consumption, T_manage)
+
+Where:
+- **S_read**: Storage read speed in MB/s
+- **S_cap**: Storage capacity in GB
+- **R_cap**: RAM capacity in GB
+- **R_speed**: RAM speed in MHz or GHz
+- **P_speed**: CPU processing speed in GHz
+- **P_cores**: Number of CPU cores
+- **P_consumption**: Power consumption in W
+- **T_manage**: Thermal management capacity in °C
+
+The function 'f' represents the relationship between these hardware metrics and the overall performance of the machine learning process on the smart camera. This relationship can be empirically determined through experimentation and data collection.
+
+
+
+
 # Abstracting Smart Camera Hardware Capabilities Using ML
 
 ## 1. Data Collection
