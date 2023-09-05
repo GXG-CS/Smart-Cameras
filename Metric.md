@@ -155,3 +155,42 @@ With the collected dataset, we'll use clustering algorithms like KMeans or DBSCA
 
 For each cluster formed, you'll have a group of simulated devices that perform similarly given their hardware constraints. This clustering will allow for easy categorization of new simulated devices to understand which cluster (and thus which kind of device capability) they most closely align with.
 
+--------------------------------------------------------------------------------------------------
+
+## Hardware Capabilities Metrics (X):
+
+Let `x1`, `x2`, ... `x8` represent the hardware capabilities metrics:
+
+1. `x1`: S<sub>read</sub> - Storage read speed (MB/s)
+2. `x2`: S<sub>cap</sub> - Storage capacity (GB)
+3. `x3`: R<sub>cap</sub> - RAM capacity (GB)
+4. `x4`: R<sub>speed</sub> - RAM speed (MHz or GHz)
+5. `x5`: P<sub>speed</sub> - CPU processing speed (GHz)
+6. `x6`: P<sub>cores</sub> - Number of CPU cores
+7. `x7`: P<sub>consumption</sub> - Power consumption (W)
+8. `x8`: T<sub>manage</sub> - Thermal management capacity (°C)
+
+A single hardware setup or a simulated state can be represented as a vector:
+
+\[ X = (x1, x2, x3, x4, x5, x6, x7, x8) \]
+
+---
+
+## ML Performance Metrics (Y):
+
+Let `y1`, `y2`, `y3` represent the performance metrics:
+
+1. `y1`: Training Time - Time taken to train the specific ML model.
+2. `y2`: Accuracy - Accuracy of the model on the validation/test set.
+3. `y3`: Inference Speed - Time taken for a single prediction.
+
+A performance outcome for a given hardware setup can be represented as:
+
+\[ Y = (y1, y2, y3) \]
+
+For multiple hardware setups and associated performance metrics, you'll have multiple \(X\) and \(Y\) pairs:
+
+\[ (X1, Y1), (X2, Y2), ... \]
+
+Each \(Xi\) and \(Yi\) represents the hardware and performance metrics for the i-th setup or simulation, respectively.
+
