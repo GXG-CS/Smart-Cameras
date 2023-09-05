@@ -5,22 +5,21 @@
 Ensure you've collected all necessary metrics from the smart cameras:
 
 - **CPU**: 
-  - Speed (GHz): \(CPUspeed\)
-  - P<sub>consumption</sub>
-  - Number of Cores: \(CPU_{cores}\)
+  - Speed (GHz): `CPU<sub>speed</sub>`
+  - Number of Cores: `CPU<sub>cores</sub>`
 - **Memory (RAM)**:
-  - Size (GB): \(RAM_{size}\)
-  - Speed (MHz): \(RAM_{speed}\)
+  - Size (GB): `RAM<sub>size</sub>`
+  - Speed (MHz): `RAM<sub>speed</sub>`
 - **Storage**:
-  - Size (GB): \(Storage_{size}\)
-  - I/O Speed (MB/s): \(Storage_{IO}\)
-  - Type (e.g., SSD, HDD): \(Storage_{type}\)
+  - Size (GB): `Storage<sub>size</sub>`
+  - I/O Speed (MB/s): `Storage<sub>IO</sub>`
+  - Type (e.g., SSD, HDD): `Storage<sub>type</sub>`
 - **Power Consumption**:
-  - Average Power (Watts): \(P_{avg}\)
-  - Peak Power (Watts): \(P_{peak}\)
+  - Average Power (Watts): `P<sub>avg</sub>`
+  - Peak Power (Watts): `P<sub>peak</sub>`
 - **Management and Software Efficiency**: 
-  - Overhead: \(OS_{overhead}\)
-  - Model Storage and Versioning Overhead: \(Model_{overhead}\)
+  - Overhead: `OS<sub>overhead</sub>`
+  - Model Storage and Versioning Overhead: `Model<sub>overhead</sub>`
 
 ## 2. Data Preprocessing
 
