@@ -3,7 +3,7 @@ Goal: Abstract the hardware capabilities of various smart camera devices for mac
 Scope: Use the Raspberry Pi 4 Model B as a simulation base for a smart camera to abstract across multiple such devices. The focus is on local training, where data is stored locally on the smart cameras.
 
 
-# Abstracting Smart Camera Hardware Capabilities Using ML
+# Abstracting Smart Camera Hardware Capabilities Using ML(Version 1)
 
 ## Hardware Metrics in Mathematical Notation:
 
@@ -67,7 +67,7 @@ ML<sub>process</sub> = f(S<sub>read</sub>, S<sub>cap</sub>, R<sub>cap</sub>, R<s
 
 
 
-# Abstracting Hardware Capabilities using Raspberry Pi 4 Model B
+# Abstracting Hardware Capabilities using Raspberry Pi 4 Model B(Version 2)
 
 Our objective is to create an abstraction metric to classify and understand the capabilities of various smart cameras. We will utilize the Raspberry Pi 4 Model B as a stand-in for these cameras by constraining ML process resources and observing the resulting behaviors.
 
@@ -105,7 +105,7 @@ By the end of this process, we should have a predictive model that, given certai
 ----------------------------------------------------------------------------------------------
 
 
-## Abstracting Hardware Capabilities Using ML
+## Abstracting Hardware Capabilities Using ML(Version 3)
 
 ### Objective:
 
