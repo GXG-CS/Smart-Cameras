@@ -1,0 +1,27 @@
+Focus on tf lite obj detection on rpi 4b
+
+Model:
+EfficientDet-Lite 
+efficientdet_lite0.tflite 
+
+The model itself processes individual frames (images) and is agnostic to the source of these frames, whether they come from a live camera feed or a pre-recorded video.
+
+Steps:
+
+1. Know the obj performance metrics(y) and the results module.
+2. Modify the detect.py so that it can work with video file(instead of camera feed).
+3. Know the results module.
+4. Output results to record.
+5. Limit the hardware ability.
+6. Create a Script to run all configuration with specific dataset and specific model(inference is ok now). 
+
+
+Metrics in tflite obj detection: 
+Frames-per-second (FPS)
+(Maybe incorporate other metrics: model accuracy, robustness, latency...)
+
+Modification:
+1. From camera feed to pre-recorded video: "cap = cv2.VideoCapture(camera_id)"  ->   "cap = cv2.VideoCapture('path_to_video_file.mp4')"
+2. Frame Resolution: If the resolution of the video differs from the default specified in the script, adjust the width and height parameters to match the video's resolution.
+3. End of Video Handling
+4. Playback Speed
