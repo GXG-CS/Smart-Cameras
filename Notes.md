@@ -20,9 +20,3 @@ Frames-per-second (FPS)
 (Maybe incorporate other metrics: model accuracy, robustness, latency...)
 
 
-
-Modification:
-1. From camera feed to pre-recorded video: "cap = cv2.VideoCapture(camera_id)"  ->  "cap = cv2.VideoCapture('path_to_video_file.mp4')"
-2. Frame Resolution: If the resolution of the video differs from the default specified in the script, adjust the width and height parameters to match the video's resolution.
-3. End of Video Handling
-4. Playback Speed
