@@ -11,9 +11,8 @@ Steps:
 1. Know the obj performance metrics(y) and the results output module.
 2. Modify the detect.py so that it can work with video file(instead of camera feed).
 3. Modify the results module.
-4. Output results to record.
-5. Limit the hardware ability.
-6. Create a Script to run all configuration with specific dataset and specific model(inference is ok now). 
+4. Limit the hardware ability.
+5. Create a Script to run all configuration with specific dataset and specific model(inference is ok now). 
 
 
 Metrics in tflite obj detection: 
