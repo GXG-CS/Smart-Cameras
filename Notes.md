@@ -33,6 +33,8 @@ Object detection:
 3. Single Shot MultiBox Detector (SSD)
 
 Facial Recognition:
+1. https://github.com/ageitgey/face_recognition
+
 
 Motion Detection:
 
