@@ -21,7 +21,6 @@ Frames-per-second (FPS)
 
 
 
-----------------------------------Sep 18, 2023-----------------------------
 
 Pre-trained Models:
 1. Feature Transfer
