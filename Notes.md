@@ -27,10 +27,19 @@ Pre-trained Models:
 1. Feature Transfer
 2. Fine-tuning: on a smaller dataset specific to a particular task.
 
-Next step I should run multiple models on rpi 4b
+Object detection:
 1. OpenCV's Deep Neural Network module
 2. YOLO (You Only Look Once)
 3. Single Shot MultiBox Detector (SSD)
+
+Facial Recognition:
+
+Motion Detection:
+
+Anomaly Detection:
+
+License Plate Recognition:
+
 
 
 Python obj detection on rpi
