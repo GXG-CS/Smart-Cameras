@@ -45,3 +45,6 @@ rpi-objection-detection
 1. Face-detection   Estimated fps < 5
 2. Motion-detection  Estimated fps < 100
 3. Object-tracking-shape Estimated fps <50
+
+YOLOv5-Lite
+It can reach 10+ FPS on the Raspberry Pi 4B when the input size is 320×320~
