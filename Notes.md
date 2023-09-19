@@ -27,10 +27,6 @@ Pre-trained Models:
 1. Feature Transfer
 2. Fine-tuning: on a smaller dataset specific to a particular task.
 
-Object detection:
-1. OpenCV's Deep Neural Network module
-2. YOLO (You Only Look Once)
-3. Single Shot MultiBox Detector (SSD)
 
 Facial Recognition:
 1. https://github.com/ageitgey/face_recognition
