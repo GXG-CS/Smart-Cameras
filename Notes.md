@@ -37,7 +37,8 @@ Python obj detection on rpi
 1. https://github.com/automaticdai/rpi-object-detection
 2. https://github.com/EdjeElectronics/TensorFlow-Lite-Object-Detection-on-Android-and-Raspberry-Pi
 3. https://github.com/tensorflow/examples/tree/master/lite/examples/object_detection/raspberry_pi
-4. 
+4. https://github.com/ppogg/YOLOv5-Lite
+5. 
 
 
 rpi-objection-detection
