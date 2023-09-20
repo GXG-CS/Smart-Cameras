@@ -71,7 +71,8 @@ It can reach 10+ FPS on the Raspberry Pi 4B when the input size is 320×320~
 
 
 Tensorflow-Lite-Object-Detection-Raspberry-Pi
-1. Obj_detection
-2. Pose_estimation
-3. 
+1. obj_detection
+2. pose_estimation
+3. image_classification
+4. 
 
