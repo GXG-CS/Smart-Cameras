@@ -74,5 +74,11 @@ Tensorflow-Lite-Object-Detection-Raspberry-Pi
 1. obj_detection
 2. pose_estimation
 3. image_classification
-4. 
+4. image_segementation
+5. video_classification
+6. audio_classification
+7. sound_classification
 
+
+Integrate all available applications.
+Use one single script to run all of them.
