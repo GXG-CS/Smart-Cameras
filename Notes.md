@@ -82,3 +82,5 @@ Tensorflow-Lite-Object-Detection-Raspberry-Pi
 
 Integrate all available applications.
 Use one single script to run all of them.
+
+Each results.txt should add some description of model.
