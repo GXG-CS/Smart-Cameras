@@ -1,0 +1,4 @@
+CPU_Speed,CPU_Cores,Avg_FPS,Min_FPS,Max_FPS
+1800,0-3,Video playback completed.
+0.52,0.00,0.62
+1800,0-1,0.22,0.00,0.60
