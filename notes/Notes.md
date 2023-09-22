@@ -84,3 +84,9 @@ Integrate all available applications.
 Use one single script to run all of them.
 
 Each results.txt should add some description of model.
+
+I think we can use cpu_freq, cpu_cores, fps_avg to train a simple model first.
+
+
+
+
