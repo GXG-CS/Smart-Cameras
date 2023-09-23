@@ -89,4 +89,10 @@ I think we can use cpu_freq, cpu_cores, fps_avg to train a simple model first.
 
 
 
+modify sdram_freq to raspberry pi 4b
+
+
+
+
+
 
