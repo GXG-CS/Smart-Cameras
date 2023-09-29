@@ -94,5 +94,12 @@ modify sdram_freq to raspberry pi 4b
 
 
 
+Adjust sdram_freq:
+1. Write a shell scripts to change settings in the /boot/config.txt
+2. Use cron jobs to execute these scripts at startup.
+
+
+
+
 
 
