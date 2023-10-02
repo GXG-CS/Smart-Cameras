@@ -99,6 +99,15 @@ Adjust sdram_freq:
 2. Use cron jobs to execute these scripts at startup.
 
 
+Shell scripts for pose_estimation:
+1. CPU_Freq : [1.4 1.3 1.2 1.1 1.0 0.9 0.8 0.7 0.6] GHz
+2. CPU_Cores : [4, 2, 1]
+3. SDRAM_Freq : [450, 400, 350, 300, 250, 200, 150, 100] MHz
+
+
+
+
+
 
 
 
