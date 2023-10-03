@@ -105,6 +105,11 @@ Shell scripts for pose_estimation:
 3. SDRAM_Freq : [450, 400, 350, 300, 250, 200, 150, 100] MHz
 
 
+Simple try for cron job on pi 3b+ focusing on sdram_freq:
+1. Limited reboot
+2. gnome-schedule
+
+
 
 
 
