@@ -107,7 +107,7 @@ Shell scripts for pose_estimation:
 
 Simple try for cron job on pi 3b+ focusing on sdram_freq:
 1. Limited reboot
-2. gnome-schedule
+2. Zeit
 
 
 
