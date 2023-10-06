@@ -147,16 +147,16 @@ cron job:
 
 
 
-3 files:
+4 files:
 1. counter.txt   counter = 0
 2. log.txt
-3. sdram_freq.txt  [450, 400, ...]
+3. sdram_freq.txt manually create   content is 450,400
 4. 3_metrics.sh
 
 In 3_metrics.sh:
 1. Create counter.txt if no exists and set the counter = 0 only the first time create it.
 2. Create log.txt
-3. Create sdram_freq.txt to store sdram_freq_list [450, 400, ...]
+
 
 Output the current to sdram_freq and counter into log.txt
 
