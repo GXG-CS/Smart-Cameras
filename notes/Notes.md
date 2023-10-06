@@ -107,7 +107,92 @@ Shell scripts for pose_estimation:
 
 Simple try for cron job on pi 3b+ focusing on sdram_freq:
 1. Limited reboot
-2. Zeit
+
+
+
+
+
+
+
+
+Shell script:
+Loop:
+Begin with sdram_freq=450(default) & init counter.txt counter=0
+
+Output the current sdram_freq to log.txt
+
+Run cpu_freq [1.4Ghz, 1.3Ghz, ...]
+    Run cpu_cores [4, 2, 1]
+Ouput each line of configuration to log.txt
+
+counter++
+
+#switch to another sdram_freq
+if counter <= 1 (450:0 400:1 if counter reaches 2, stop setting sdram_freq)
+Set the sdram_freq [450, 400, ...] & reboot
+
+command line to run tf_pose_estimation: "python pose_estimation.py --videoPath output.avi"
+
+store the .csv with [cpu_cores, cpu_freq, sdram_freq, avg_fps]
+
+each time execute 3_metrics.sh will add new content of results_pose_estimation.csv
+
+path of 3_metrics.sh : /home/pi/Smart-Cameras/sdram_freq/3_metrics.sh
+path of pose_estimation.py :: /home/pi/Smart-Cameras/tf_pose_estimation/pose_estimation.py
+
+
+
+cron job: 
+"@reboot /path/to/3_metrics.sh"
+
+
+
+4 files:
+1. counter.txt   counter = 0
+2. log.txt
+3. sdram_freq.txt manually create   content is 450,400
+4. 3_metrics.sh
+
+In 3_metrics.sh:
+1. Create counter.txt if no exists and set the counter = 0 only the first time create it.
+2. Create log.txt
+
+
+Output the current to sdram_freq and counter into log.txt
+
+counter++ in counter.txt
+
+if (counter < sdram_freq_listSize)
+  set the sdram_freq to next value & reboot
+
+
+crontab -e   "@reboot /path/to/3_metrics."
+
+
+After that run cpu confiugration loop
+
+
+
+cpu_freq = [1400 1300 1200]
+cpu_cores = [4 2 1]
+
+# Loop through configurations and run pose_estimation.py
+for speed in "${CPU_SPEEDS[@]}"; do
+    sudo cpufreq-set -f ${speed}MHz
+    
+    for cores in "${CORE_CONFIGS[@]}"; do
+
+        # Run the pose_estimation.py script and append the output to the results file
+        FPS_RESULTS=$(taskset -c ${cores//[-]/,} python3 pose_estimation.py --videoPath $VIDEO_PATH)
+        
+        # Construct and print the CSV-style line to the file
+        echo "$speed,$cores,$FPS_RESULTS" | tee -a $OUTPUT_FILE
+    done
+done
+
+
+
+
 
 
 
