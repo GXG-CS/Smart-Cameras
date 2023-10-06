@@ -1,0 +1,140 @@
+Debug: sdram_freq_list: 450 400 350 300
+Debug: sdram_freq_list_size: 4
+Current counter: 0
+Current sdram_freq from list: 450
+Setting CPU cores to 4 and CPU frequency to 1400MHz
+Current CPU frequency: 1400000 kHz
+Average FPS: 3.14
+Setting CPU cores to 2 and CPU frequency to 1400MHz
+Current CPU frequency: 1400000 kHz
+Average FPS: 0.82
+Setting CPU cores to 4 and CPU frequency to 1300MHz
+Current CPU frequency: 1300000 kHz
+Average FPS: 4.83
+Setting CPU cores to 2 and CPU frequency to 1300MHz
+Current CPU frequency: 1300000 kHz
+Average FPS: 0.76
+Setting CPU cores to 4 and CPU frequency to 1200MHz
+Current CPU frequency: 1200000 kHz
+Average FPS: 4.87
+Setting CPU cores to 2 and CPU frequency to 1200MHz
+Current CPU frequency: 1200000 kHz
+Average FPS: 0.73
+Setting CPU cores to 4 and CPU frequency to 1100MHz
+Current CPU frequency: 1100000 kHz
+Average FPS: 4.63
+Setting CPU cores to 2 and CPU frequency to 1100MHz
+Current CPU frequency: 1100000 kHz
+Average FPS: 0.68
+Setting CPU cores to 4 and CPU frequency to 1000MHz
+Current CPU frequency: 1000000 kHz
+Average FPS: 4.34
+Setting CPU cores to 2 and CPU frequency to 1000MHz
+Current CPU frequency: 1000000 kHz
+Average FPS: 0.63
+Setting next sdram_freq to 400 and rebooting
+Debug: sdram_freq_list: 450 400 350 300
+Debug: sdram_freq_list_size: 4
+Current counter: 1
+Current sdram_freq from list: 400
+Setting CPU cores to 4 and CPU frequency to 1400MHz
+Current CPU frequency: 1400000 kHz
+Average FPS: 2.25
+Setting CPU cores to 2 and CPU frequency to 1400MHz
+Current CPU frequency: 1400000 kHz
+Average FPS: 0.38
+Setting CPU cores to 4 and CPU frequency to 1300MHz
+Current CPU frequency: 1300000 kHz
+Average FPS: 5.01
+Setting CPU cores to 2 and CPU frequency to 1300MHz
+Current CPU frequency: 1300000 kHz
+Average FPS: 0.74
+Setting CPU cores to 4 and CPU frequency to 1200MHz
+Current CPU frequency: 1200000 kHz
+Average FPS: 4.93
+Setting CPU cores to 2 and CPU frequency to 1200MHz
+Current CPU frequency: 1200000 kHz
+Average FPS: 0.74
+Setting CPU cores to 4 and CPU frequency to 1100MHz
+Current CPU frequency: 1100000 kHz
+Average FPS: 4.77
+Setting CPU cores to 2 and CPU frequency to 1100MHz
+Current CPU frequency: 1100000 kHz
+Average FPS: 0.69
+Setting CPU cores to 4 and CPU frequency to 1000MHz
+Current CPU frequency: 1000000 kHz
+Average FPS: 4.59
+Setting CPU cores to 2 and CPU frequency to 1000MHz
+Current CPU frequency: 1000000 kHz
+Average FPS: 0.63
+Setting next sdram_freq to 350 and rebooting
+Debug: sdram_freq_list: 450 400 350 300
+Debug: sdram_freq_list_size: 4
+Current counter: 2
+Current sdram_freq from list: 350
+Setting CPU cores to 4 and CPU frequency to 1400MHz
+Current CPU frequency: 1400000 kHz
+Average FPS: 2.03
+Setting CPU cores to 2 and CPU frequency to 1400MHz
+Current CPU frequency: 1400000 kHz
+Average FPS: 0.39
+Setting CPU cores to 4 and CPU frequency to 1300MHz
+Current CPU frequency: 1300000 kHz
+Average FPS: 4.68
+Setting CPU cores to 2 and CPU frequency to 1300MHz
+Current CPU frequency: 1300000 kHz
+Average FPS: 0.71
+Setting CPU cores to 4 and CPU frequency to 1200MHz
+Current CPU frequency: 1200000 kHz
+Average FPS: 1.65
+Setting CPU cores to 2 and CPU frequency to 1200MHz
+Current CPU frequency: 1200000 kHz
+Average FPS: 0.73
+Setting CPU cores to 4 and CPU frequency to 1100MHz
+Current CPU frequency: 1100000 kHz
+Average FPS: 4.45
+Setting CPU cores to 2 and CPU frequency to 1100MHz
+Current CPU frequency: 1100000 kHz
+Average FPS: 0.68
+Setting CPU cores to 4 and CPU frequency to 1000MHz
+Current CPU frequency: 1000000 kHz
+Average FPS: 4.23
+Setting CPU cores to 2 and CPU frequency to 1000MHz
+Current CPU frequency: 1000000 kHz
+Average FPS: 0.62
+Setting next sdram_freq to 300 and rebooting
+Debug: sdram_freq_list: 450 400 350 300
+Debug: sdram_freq_list_size: 4
+Current counter: 3
+Current sdram_freq from list: 300
+Setting CPU cores to 4 and CPU frequency to 1400MHz
+Current CPU frequency: 1400000 kHz
+Average FPS: 1.82
+Setting CPU cores to 2 and CPU frequency to 1400MHz
+Current CPU frequency: 1400000 kHz
+Average FPS: 0.65
+Setting CPU cores to 4 and CPU frequency to 1300MHz
+Current CPU frequency: 1300000 kHz
+Average FPS: 4.27
+Setting CPU cores to 2 and CPU frequency to 1300MHz
+Current CPU frequency: 1300000 kHz
+Average FPS: 0.72
+Setting CPU cores to 4 and CPU frequency to 1200MHz
+Current CPU frequency: 1200000 kHz
+Average FPS: 4.24
+Setting CPU cores to 2 and CPU frequency to 1200MHz
+Current CPU frequency: 1200000 kHz
+Average FPS: 0.72
+Setting CPU cores to 4 and CPU frequency to 1100MHz
+Current CPU frequency: 1100000 kHz
+Average FPS: 4.11
+Setting CPU cores to 2 and CPU frequency to 1100MHz
+Current CPU frequency: 1100000 kHz
+Average FPS: 0.67
+Setting CPU cores to 4 and CPU frequency to 1000MHz
+Current CPU frequency: 1000000 kHz
+Average FPS: 3.94
+Setting CPU cores to 2 and CPU frequency to 1000MHz
+Current CPU frequency: 1000000 kHz
+Average FPS: 0.62
+Counter has reached the end of the sdram_freq list. Not rebooting.
