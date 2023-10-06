@@ -173,8 +173,22 @@ After that run cpu confiugration loop
 
 
 
+cpu_freq = [1400 1300 1200]
+cpu_cores = [4 2 1]
 
+# Loop through configurations and run pose_estimation.py
+for speed in "${CPU_SPEEDS[@]}"; do
+    sudo cpufreq-set -f ${speed}MHz
+    
+    for cores in "${CORE_CONFIGS[@]}"; do
 
+        # Run the pose_estimation.py script and append the output to the results file
+        FPS_RESULTS=$(taskset -c ${cores//[-]/,} python3 pose_estimation.py --videoPath $VIDEO_PATH)
+        
+        # Construct and print the CSV-style line to the file
+        echo "$speed,$cores,$FPS_RESULTS" | tee -a $OUTPUT_FILE
+    done
+done
 
 
 
