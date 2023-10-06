@@ -193,6 +193,17 @@ done
 
 
 
+Hardware configurations:
+1. cpu_cores (✅)
+2. cpu_freq  (✅)
+3. sdram_freq  (✅)
+4. USB Boost
+5. Disk I/O Scheduler(noop, deadline, cfq)
+6. Swap Space
+7. Storage: Different microSD card has different I/O speeds.
+
+
+
 
 
 
