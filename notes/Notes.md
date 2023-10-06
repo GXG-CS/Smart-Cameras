@@ -169,6 +169,10 @@ if (counter < sdram_freq_listSize)
 crontab -e   "@reboot /path/to/3_metrics."
 
 
+After that run cpu confiugration loop
+
+
+
 
 
 
