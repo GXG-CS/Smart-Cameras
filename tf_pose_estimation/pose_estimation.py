@@ -168,11 +168,11 @@ def run(estimation_model: str, tracker_type: str, classification_model: str,
 
   # Calculate average FPS
   avg_fps = np.mean(fps_list)
-  min_fps = np.min(fps_list)
-  max_fps = np.max(fps_list)
+  # min_fps = np.min(fps_list)
+  # max_fps = np.max(fps_list)
 
-  print(f"{avg_fps:.2f},{min_fps:.2f},{max_fps:.2f}, {total_time:.2f}")
-
+  # print(f"{avg_fps:.2f},{min_fps:.2f},{max_fps:.2f}, {total_time:.2f}")
+  print(f"{avg_fps:.2f},{total_time:.2f}")
 
 def main():
   parser = argparse.ArgumentParser(
@@ -218,4 +218,5 @@ def main():
 
 
 if __name__ == '__main__':
+  sys.argv = ['pose_estimation.py', '--videoPath', '/home/pi/Smart-Cameras/output.avi']
   main()

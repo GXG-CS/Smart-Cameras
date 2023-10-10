@@ -1,140 +1,2466 @@
-Debug: sdram_freq_list: 450 400 350 300
-Debug: sdram_freq_list_size: 4
+Swap is disabled on this system.
+Debug: sdram_freq_list: 450 400 350 300 250 200
+Debug: sdram_freq_list_size: 6
 Current counter: 0
 Current sdram_freq from list: 450
 Setting CPU cores to 4 and CPU frequency to 1400MHz
 Current CPU frequency: 1400000 kHz
-Average FPS: 3.14
+Setting memory limit to 262144 kB
+Average FPS: 3.27
+Total time: 4.03
+Setting CPU cores to 4 and CPU frequency to 1400MHz
+Current CPU frequency: 1400000 kHz
+Setting memory limit to 524288 kB
+Average FPS: 2.75
+Total time: 4.54
+Setting CPU cores to 4 and CPU frequency to 1400MHz
+Current CPU frequency: 1400000 kHz
+Setting memory limit to 1048576 kB
+Average FPS: 2.39
+Total time: 5.54
 Setting CPU cores to 2 and CPU frequency to 1400MHz
 Current CPU frequency: 1400000 kHz
-Average FPS: 0.82
+Setting memory limit to 262144 kB
+Average FPS: 0.75
+Total time: 17.34
+Setting CPU cores to 2 and CPU frequency to 1400MHz
+Current CPU frequency: 1400000 kHz
+Setting memory limit to 524288 kB
+Average FPS: 0.69
+Total time: 18.37
+Setting CPU cores to 2 and CPU frequency to 1400MHz
+Current CPU frequency: 1400000 kHz
+Setting memory limit to 1048576 kB
+Average FPS: 0.71
+Total time: 18.20
+Setting CPU cores to 1 and CPU frequency to 1400MHz
+Current CPU frequency: 1400000 kHz
+Setting memory limit to 262144 kB
+Average FPS: 0.41
+Total time: 32.61
+Setting CPU cores to 1 and CPU frequency to 1400MHz
+Current CPU frequency: 1400000 kHz
+Setting memory limit to 524288 kB
+Average FPS: 0.40
+Total time: 33.23
+Setting CPU cores to 1 and CPU frequency to 1400MHz
+Current CPU frequency: 1400000 kHz
+Setting memory limit to 1048576 kB
+Average FPS: 0.40
+Total time: 32.95
 Setting CPU cores to 4 and CPU frequency to 1300MHz
 Current CPU frequency: 1300000 kHz
-Average FPS: 4.83
+Setting memory limit to 262144 kB
+Average FPS: 3.00
+Total time: 4.65
+Setting CPU cores to 4 and CPU frequency to 1300MHz
+Current CPU frequency: 1300000 kHz
+Setting memory limit to 524288 kB
+Average FPS: 2.87
+Total time: 4.23
+Setting CPU cores to 4 and CPU frequency to 1300MHz
+Current CPU frequency: 1300000 kHz
+Setting memory limit to 1048576 kB
+Average FPS: 2.70
+Total time: 4.38
 Setting CPU cores to 2 and CPU frequency to 1300MHz
 Current CPU frequency: 1300000 kHz
-Average FPS: 0.76
+Setting memory limit to 262144 kB
+Average FPS: 0.66
+Total time: 19.43
+Setting CPU cores to 2 and CPU frequency to 1300MHz
+Current CPU frequency: 1300000 kHz
+Setting memory limit to 524288 kB
+Average FPS: 0.67
+Total time: 19.17
+Setting CPU cores to 2 and CPU frequency to 1300MHz
+Current CPU frequency: 1300000 kHz
+Setting memory limit to 1048576 kB
+Average FPS: 0.66
+Total time: 19.51
+Setting CPU cores to 1 and CPU frequency to 1300MHz
+Current CPU frequency: 1300000 kHz
+Setting memory limit to 262144 kB
+Average FPS: 0.38
+Total time: 35.15
+Setting CPU cores to 1 and CPU frequency to 1300MHz
+Current CPU frequency: 1300000 kHz
+Setting memory limit to 524288 kB
+Average FPS: 0.37
+Total time: 35.45
+Setting CPU cores to 1 and CPU frequency to 1300MHz
+Current CPU frequency: 1300000 kHz
+Setting memory limit to 1048576 kB
+Average FPS: 0.36
+Total time: 36.54
 Setting CPU cores to 4 and CPU frequency to 1200MHz
 Current CPU frequency: 1200000 kHz
-Average FPS: 4.87
+Setting memory limit to 262144 kB
+Average FPS: 2.98
+Total time: 4.56
+Setting CPU cores to 4 and CPU frequency to 1200MHz
+Current CPU frequency: 1200000 kHz
+Setting memory limit to 524288 kB
+Average FPS: 2.77
+Total time: 4.50
+Setting CPU cores to 4 and CPU frequency to 1200MHz
+Current CPU frequency: 1200000 kHz
+Setting memory limit to 1048576 kB
+Average FPS: 3.18
+Total time: 4.11
 Setting CPU cores to 2 and CPU frequency to 1200MHz
 Current CPU frequency: 1200000 kHz
-Average FPS: 0.73
+Setting memory limit to 262144 kB
+Average FPS: 0.59
+Total time: 21.54
+Setting CPU cores to 2 and CPU frequency to 1200MHz
+Current CPU frequency: 1200000 kHz
+Setting memory limit to 524288 kB
+Average FPS: 0.62
+Total time: 20.75
+Setting CPU cores to 2 and CPU frequency to 1200MHz
+Current CPU frequency: 1200000 kHz
+Setting memory limit to 1048576 kB
+Average FPS: 0.62
+Total time: 20.81
+Setting CPU cores to 1 and CPU frequency to 1200MHz
+Current CPU frequency: 1200000 kHz
+Setting memory limit to 262144 kB
+Average FPS: 0.36
+Total time: 37.18
+Setting CPU cores to 1 and CPU frequency to 1200MHz
+Current CPU frequency: 1200000 kHz
+Setting memory limit to 524288 kB
+Average FPS: 0.36
+Total time: 36.84
+Setting CPU cores to 1 and CPU frequency to 1200MHz
+Current CPU frequency: 1200000 kHz
+Setting memory limit to 1048576 kB
+Average FPS: 0.35
+Total time: 37.73
 Setting CPU cores to 4 and CPU frequency to 1100MHz
 Current CPU frequency: 1100000 kHz
-Average FPS: 4.63
+Setting memory limit to 262144 kB
+Average FPS: 2.84
+Total time: 4.86
+Setting CPU cores to 4 and CPU frequency to 1100MHz
+Current CPU frequency: 1100000 kHz
+Setting memory limit to 524288 kB
+Average FPS: 2.74
+Total time: 5.01
+Setting CPU cores to 4 and CPU frequency to 1100MHz
+Current CPU frequency: 1100000 kHz
+Setting memory limit to 1048576 kB
+Average FPS: 2.72
+Total time: 4.32
 Setting CPU cores to 2 and CPU frequency to 1100MHz
 Current CPU frequency: 1100000 kHz
-Average FPS: 0.68
+Setting memory limit to 262144 kB
+Average FPS: 0.60
+Total time: 21.65
+Setting CPU cores to 2 and CPU frequency to 1100MHz
+Current CPU frequency: 1100000 kHz
+Setting memory limit to 524288 kB
+Average FPS: 0.59
+Total time: 22.13
+Setting CPU cores to 2 and CPU frequency to 1100MHz
+Current CPU frequency: 1100000 kHz
+Setting memory limit to 1048576 kB
+Average FPS: 0.55
+Total time: 23.22
+Setting CPU cores to 1 and CPU frequency to 1100MHz
+Current CPU frequency: 1100000 kHz
+Setting memory limit to 262144 kB
+Average FPS: 0.33
+Total time: 40.52
+Setting CPU cores to 1 and CPU frequency to 1100MHz
+Current CPU frequency: 1100000 kHz
+Setting memory limit to 524288 kB
+Average FPS: 0.33
+Total time: 40.54
+Setting CPU cores to 1 and CPU frequency to 1100MHz
+Current CPU frequency: 1100000 kHz
+Setting memory limit to 1048576 kB
+Average FPS: 0.33
+Total time: 40.12
 Setting CPU cores to 4 and CPU frequency to 1000MHz
 Current CPU frequency: 1000000 kHz
-Average FPS: 4.34
+Setting memory limit to 262144 kB
+Average FPS: 2.75
+Total time: 4.87
+Setting CPU cores to 4 and CPU frequency to 1000MHz
+Current CPU frequency: 1000000 kHz
+Setting memory limit to 524288 kB
+Average FPS: 2.66
+Total time: 5.33
+Setting CPU cores to 4 and CPU frequency to 1000MHz
+Current CPU frequency: 1000000 kHz
+Setting memory limit to 1048576 kB
+Average FPS: 2.66
+Total time: 4.81
 Setting CPU cores to 2 and CPU frequency to 1000MHz
 Current CPU frequency: 1000000 kHz
-Average FPS: 0.63
+Setting memory limit to 262144 kB
+Average FPS: 0.56
+Total time: 23.62
+Setting CPU cores to 2 and CPU frequency to 1000MHz
+Current CPU frequency: 1000000 kHz
+Setting memory limit to 524288 kB
+Average FPS: 0.53
+Total time: 24.33
+Setting CPU cores to 2 and CPU frequency to 1000MHz
+Current CPU frequency: 1000000 kHz
+Setting memory limit to 1048576 kB
+Average FPS: 0.55
+Total time: 23.85
+Setting CPU cores to 1 and CPU frequency to 1000MHz
+Current CPU frequency: 1000000 kHz
+Setting memory limit to 262144 kB
+Average FPS: 0.30
+Total time: 43.88
+Setting CPU cores to 1 and CPU frequency to 1000MHz
+Current CPU frequency: 1000000 kHz
+Setting memory limit to 524288 kB
+Average FPS: 0.30
+Total time: 43.80
+Setting CPU cores to 1 and CPU frequency to 1000MHz
+Current CPU frequency: 1000000 kHz
+Setting memory limit to 1048576 kB
+Average FPS: 0.30
+Total time: 43.34
+Setting CPU cores to 4 and CPU frequency to 900MHz
+Current CPU frequency: 900000 kHz
+Setting memory limit to 262144 kB
+Average FPS: 2.48
+Total time: 5.18
+Setting CPU cores to 4 and CPU frequency to 900MHz
+Current CPU frequency: 900000 kHz
+Setting memory limit to 524288 kB
+Average FPS: 2.57
+Total time: 5.42
+Setting CPU cores to 4 and CPU frequency to 900MHz
+Current CPU frequency: 900000 kHz
+Setting memory limit to 1048576 kB
+Average FPS: 2.74
+Total time: 4.77
+Setting CPU cores to 2 and CPU frequency to 900MHz
+Current CPU frequency: 900000 kHz
+Setting memory limit to 262144 kB
+Average FPS: 0.50
+Total time: 26.26
+Setting CPU cores to 2 and CPU frequency to 900MHz
+Current CPU frequency: 900000 kHz
+Setting memory limit to 524288 kB
+Average FPS: 0.49
+Total time: 26.41
+Setting CPU cores to 2 and CPU frequency to 900MHz
+Current CPU frequency: 900000 kHz
+Setting memory limit to 1048576 kB
+Average FPS: 0.48
+Total time: 27.02
+Setting CPU cores to 1 and CPU frequency to 900MHz
+Current CPU frequency: 900000 kHz
+Setting memory limit to 262144 kB
+Average FPS: 0.28
+Total time: 48.27
+Setting CPU cores to 1 and CPU frequency to 900MHz
+Current CPU frequency: 900000 kHz
+Setting memory limit to 524288 kB
+Average FPS: 0.27
+Total time: 48.71
+Setting CPU cores to 1 and CPU frequency to 900MHz
+Current CPU frequency: 900000 kHz
+Setting memory limit to 1048576 kB
+Average FPS: 0.28
+Total time: 48.43
+Setting CPU cores to 4 and CPU frequency to 800MHz
+Current CPU frequency: 800000 kHz
+Setting memory limit to 262144 kB
+Average FPS: 2.36
+Total time: 5.56
+Setting CPU cores to 4 and CPU frequency to 800MHz
+Current CPU frequency: 800000 kHz
+Setting memory limit to 524288 kB
+Average FPS: 2.35
+Total time: 5.88
+Setting CPU cores to 4 and CPU frequency to 800MHz
+Current CPU frequency: 800000 kHz
+Setting memory limit to 1048576 kB
+Average FPS: 2.14
+Total time: 6.92
+Setting CPU cores to 2 and CPU frequency to 800MHz
+Current CPU frequency: 800000 kHz
+Setting memory limit to 262144 kB
+Average FPS: 0.44
+Total time: 29.23
+Setting CPU cores to 2 and CPU frequency to 800MHz
+Current CPU frequency: 800000 kHz
+Setting memory limit to 524288 kB
+Average FPS: 0.43
+Total time: 29.96
+Setting CPU cores to 2 and CPU frequency to 800MHz
+Current CPU frequency: 800000 kHz
+Setting memory limit to 1048576 kB
+Average FPS: 0.44
+Total time: 29.52
+Setting CPU cores to 1 and CPU frequency to 800MHz
+Current CPU frequency: 800000 kHz
+Setting memory limit to 262144 kB
+Average FPS: 0.25
+Total time: 53.47
+Setting CPU cores to 1 and CPU frequency to 800MHz
+Current CPU frequency: 800000 kHz
+Setting memory limit to 524288 kB
+Average FPS: 0.25
+Total time: 53.29
+Setting CPU cores to 1 and CPU frequency to 800MHz
+Current CPU frequency: 800000 kHz
+Setting memory limit to 1048576 kB
+Average FPS: 0.25
+Total time: 53.17
+Setting CPU cores to 4 and CPU frequency to 700MHz
+Current CPU frequency: 700000 kHz
+Setting memory limit to 262144 kB
+Average FPS: 1.87
+Total time: 6.62
+Setting CPU cores to 4 and CPU frequency to 700MHz
+Current CPU frequency: 700000 kHz
+Setting memory limit to 524288 kB
+Average FPS: 2.26
+Total time: 5.93
+Setting CPU cores to 4 and CPU frequency to 700MHz
+Current CPU frequency: 700000 kHz
+Setting memory limit to 1048576 kB
+Average FPS: 2.38
+Total time: 5.33
+Setting CPU cores to 2 and CPU frequency to 700MHz
+Current CPU frequency: 700000 kHz
+Setting memory limit to 262144 kB
+Average FPS: 0.39
+Total time: 33.49
+Setting CPU cores to 2 and CPU frequency to 700MHz
+Current CPU frequency: 700000 kHz
+Setting memory limit to 524288 kB
+Average FPS: 0.41
+Total time: 32.43
+Setting CPU cores to 2 and CPU frequency to 700MHz
+Current CPU frequency: 700000 kHz
+Setting memory limit to 1048576 kB
+Average FPS: 0.40
+Total time: 32.75
+Setting CPU cores to 1 and CPU frequency to 700MHz
+Current CPU frequency: 700000 kHz
+Setting memory limit to 262144 kB
+Average FPS: 0.22
+Total time: 60.73
+Setting CPU cores to 1 and CPU frequency to 700MHz
+Current CPU frequency: 700000 kHz
+Setting memory limit to 524288 kB
+Average FPS: 0.22
+Total time: 60.69
+Setting CPU cores to 1 and CPU frequency to 700MHz
+Current CPU frequency: 700000 kHz
+Setting memory limit to 1048576 kB
+Average FPS: 0.22
+Total time: 60.95
+Setting CPU cores to 4 and CPU frequency to 600MHz
+Current CPU frequency: 600000 kHz
+Setting memory limit to 262144 kB
+Average FPS: 2.14
+Total time: 6.05
+Setting CPU cores to 4 and CPU frequency to 600MHz
+Current CPU frequency: 600000 kHz
+Setting memory limit to 524288 kB
+Average FPS: 2.05
+Total time: 6.04
+Setting CPU cores to 4 and CPU frequency to 600MHz
+Current CPU frequency: 600000 kHz
+Setting memory limit to 1048576 kB
+Average FPS: 1.81
+Total time: 8.09
+Setting CPU cores to 2 and CPU frequency to 600MHz
+Current CPU frequency: 600000 kHz
+Setting memory limit to 262144 kB
+Average FPS: 0.36
+Total time: 37.39
+Setting CPU cores to 2 and CPU frequency to 600MHz
+Current CPU frequency: 600000 kHz
+Setting memory limit to 524288 kB
+Average FPS: 0.36
+Total time: 37.39
+Setting CPU cores to 2 and CPU frequency to 600MHz
+Current CPU frequency: 600000 kHz
+Setting memory limit to 1048576 kB
+Average FPS: 0.36
+Total time: 36.93
+Setting CPU cores to 1 and CPU frequency to 600MHz
+Current CPU frequency: 600000 kHz
+Setting memory limit to 262144 kB
+Average FPS: 0.20
+Total time: 66.61
+Setting CPU cores to 1 and CPU frequency to 600MHz
+Current CPU frequency: 600000 kHz
+Setting memory limit to 524288 kB
+Average FPS: 0.21
+Total time: 65.74
+Setting CPU cores to 1 and CPU frequency to 600MHz
+Current CPU frequency: 600000 kHz
+Setting memory limit to 1048576 kB
+Average FPS: 0.21
+Total time: 65.52
 Setting next sdram_freq to 400 and rebooting
-Debug: sdram_freq_list: 450 400 350 300
-Debug: sdram_freq_list_size: 4
+Swap is disabled on this system.
+Debug: sdram_freq_list: 450 400 350 300 250 200
+Debug: sdram_freq_list_size: 6
 Current counter: 1
 Current sdram_freq from list: 400
 Setting CPU cores to 4 and CPU frequency to 1400MHz
 Current CPU frequency: 1400000 kHz
-Average FPS: 2.25
+Setting memory limit to 262144 kB
+Average FPS: 0.71
+Total time: 25.03
+Setting CPU cores to 4 and CPU frequency to 1400MHz
+Current CPU frequency: 1400000 kHz
+Setting memory limit to 524288 kB
+Average FPS: 3.83
+Total time: 3.53
+Setting CPU cores to 4 and CPU frequency to 1400MHz
+Current CPU frequency: 1400000 kHz
+Setting memory limit to 1048576 kB
+Average FPS: 3.13
+Total time: 4.06
 Setting CPU cores to 2 and CPU frequency to 1400MHz
 Current CPU frequency: 1400000 kHz
-Average FPS: 0.38
+Setting memory limit to 262144 kB
+Average FPS: 0.80
+Total time: 17.54
+Setting CPU cores to 2 and CPU frequency to 1400MHz
+Current CPU frequency: 1400000 kHz
+Setting memory limit to 524288 kB
+Average FPS: 0.79
+Total time: 17.74
+Setting CPU cores to 2 and CPU frequency to 1400MHz
+Current CPU frequency: 1400000 kHz
+Setting memory limit to 1048576 kB
+Average FPS: 0.78
+Total time: 17.79
+Setting CPU cores to 1 and CPU frequency to 1400MHz
+Current CPU frequency: 1400000 kHz
+Setting memory limit to 262144 kB
+Average FPS: 0.45
+Total time: 31.17
+Setting CPU cores to 1 and CPU frequency to 1400MHz
+Current CPU frequency: 1400000 kHz
+Setting memory limit to 524288 kB
+Average FPS: 0.45
+Total time: 31.20
+Setting CPU cores to 1 and CPU frequency to 1400MHz
+Current CPU frequency: 1400000 kHz
+Setting memory limit to 1048576 kB
+Average FPS: 0.45
+Total time: 31.18
 Setting CPU cores to 4 and CPU frequency to 1300MHz
 Current CPU frequency: 1300000 kHz
-Average FPS: 5.01
+Setting memory limit to 262144 kB
+Average FPS: 5.12
+Total time: 2.62
+Setting CPU cores to 4 and CPU frequency to 1300MHz
+Current CPU frequency: 1300000 kHz
+Setting memory limit to 524288 kB
+Average FPS: 5.09
+Total time: 2.63
+Setting CPU cores to 4 and CPU frequency to 1300MHz
+Current CPU frequency: 1300000 kHz
+Setting memory limit to 1048576 kB
+Average FPS: 5.07
+Total time: 2.64
 Setting CPU cores to 2 and CPU frequency to 1300MHz
 Current CPU frequency: 1300000 kHz
-Average FPS: 0.74
+Setting memory limit to 262144 kB
+Average FPS: 0.75
+Total time: 18.73
+Setting CPU cores to 2 and CPU frequency to 1300MHz
+Current CPU frequency: 1300000 kHz
+Setting memory limit to 524288 kB
+Average FPS: 0.51
+Total time: 27.08
+Setting CPU cores to 2 and CPU frequency to 1300MHz
+Current CPU frequency: 1300000 kHz
+Setting memory limit to 1048576 kB
+Average FPS: 0.71
+Total time: 19.24
+Setting CPU cores to 1 and CPU frequency to 1300MHz
+Current CPU frequency: 1300000 kHz
+Setting memory limit to 262144 kB
+Average FPS: 0.40
+Total time: 34.51
+Setting CPU cores to 1 and CPU frequency to 1300MHz
+Current CPU frequency: 1300000 kHz
+Setting memory limit to 524288 kB
+Average FPS: 0.41
+Total time: 33.63
+Setting CPU cores to 1 and CPU frequency to 1300MHz
+Current CPU frequency: 1300000 kHz
+Setting memory limit to 1048576 kB
+Average FPS: 0.42
+Total time: 33.62
 Setting CPU cores to 4 and CPU frequency to 1200MHz
 Current CPU frequency: 1200000 kHz
-Average FPS: 4.93
+Setting memory limit to 262144 kB
+Average FPS: 4.86
+Total time: 2.75
+Setting CPU cores to 4 and CPU frequency to 1200MHz
+Current CPU frequency: 1200000 kHz
+Setting memory limit to 524288 kB
+Average FPS: 4.46
+Total time: 2.94
+Setting CPU cores to 4 and CPU frequency to 1200MHz
+Current CPU frequency: 1200000 kHz
+Setting memory limit to 1048576 kB
+Average FPS: 4.40
+Total time: 2.96
 Setting CPU cores to 2 and CPU frequency to 1200MHz
 Current CPU frequency: 1200000 kHz
+Setting memory limit to 262144 kB
 Average FPS: 0.74
+Total time: 18.83
+Setting CPU cores to 2 and CPU frequency to 1200MHz
+Current CPU frequency: 1200000 kHz
+Setting memory limit to 524288 kB
+Average FPS: 0.74
+Total time: 18.86
+Setting CPU cores to 2 and CPU frequency to 1200MHz
+Current CPU frequency: 1200000 kHz
+Setting memory limit to 1048576 kB
+Average FPS: 0.74
+Total time: 18.88
+Setting CPU cores to 1 and CPU frequency to 1200MHz
+Current CPU frequency: 1200000 kHz
+Setting memory limit to 262144 kB
+Average FPS: 0.39
+Total time: 35.54
+Setting CPU cores to 1 and CPU frequency to 1200MHz
+Current CPU frequency: 1200000 kHz
+Setting memory limit to 524288 kB
+Average FPS: 0.39
+Total time: 35.42
+Setting CPU cores to 1 and CPU frequency to 1200MHz
+Current CPU frequency: 1200000 kHz
+Setting memory limit to 1048576 kB
+Average FPS: 0.39
+Total time: 35.33
 Setting CPU cores to 4 and CPU frequency to 1100MHz
 Current CPU frequency: 1100000 kHz
-Average FPS: 4.77
+Setting memory limit to 262144 kB
+Average FPS: 4.49
+Total time: 2.96
+Setting CPU cores to 4 and CPU frequency to 1100MHz
+Current CPU frequency: 1100000 kHz
+Setting memory limit to 524288 kB
+Average FPS: 4.57
+Total time: 2.93
+Setting CPU cores to 4 and CPU frequency to 1100MHz
+Current CPU frequency: 1100000 kHz
+Setting memory limit to 1048576 kB
+Average FPS: 4.32
+Total time: 3.04
 Setting CPU cores to 2 and CPU frequency to 1100MHz
 Current CPU frequency: 1100000 kHz
+Setting memory limit to 262144 kB
 Average FPS: 0.69
+Total time: 20.10
+Setting CPU cores to 2 and CPU frequency to 1100MHz
+Current CPU frequency: 1100000 kHz
+Setting memory limit to 524288 kB
+Average FPS: 0.69
+Total time: 20.12
+Setting CPU cores to 2 and CPU frequency to 1100MHz
+Current CPU frequency: 1100000 kHz
+Setting memory limit to 1048576 kB
+Average FPS: 0.69
+Total time: 20.10
+Setting CPU cores to 1 and CPU frequency to 1100MHz
+Current CPU frequency: 1100000 kHz
+Setting memory limit to 262144 kB
+Average FPS: 0.36
+Total time: 38.30
+Setting CPU cores to 1 and CPU frequency to 1100MHz
+Current CPU frequency: 1100000 kHz
+Setting memory limit to 524288 kB
+Average FPS: 0.36
+Total time: 38.36
+Setting CPU cores to 1 and CPU frequency to 1100MHz
+Current CPU frequency: 1100000 kHz
+Setting memory limit to 1048576 kB
+Average FPS: 0.36
+Total time: 38.34
 Setting CPU cores to 4 and CPU frequency to 1000MHz
 Current CPU frequency: 1000000 kHz
-Average FPS: 4.59
+Setting memory limit to 262144 kB
+Average FPS: 5.14
+Total time: 2.58
+Setting CPU cores to 4 and CPU frequency to 1000MHz
+Current CPU frequency: 1000000 kHz
+Setting memory limit to 524288 kB
+Average FPS: 4.86
+Total time: 2.72
+Setting CPU cores to 4 and CPU frequency to 1000MHz
+Current CPU frequency: 1000000 kHz
+Setting memory limit to 1048576 kB
+Average FPS: 4.55
+Total time: 2.84
 Setting CPU cores to 2 and CPU frequency to 1000MHz
 Current CPU frequency: 1000000 kHz
+Setting memory limit to 262144 kB
 Average FPS: 0.63
+Total time: 21.94
+Setting CPU cores to 2 and CPU frequency to 1000MHz
+Current CPU frequency: 1000000 kHz
+Setting memory limit to 524288 kB
+Average FPS: 0.63
+Total time: 21.91
+Setting CPU cores to 2 and CPU frequency to 1000MHz
+Current CPU frequency: 1000000 kHz
+Setting memory limit to 1048576 kB
+Average FPS: 0.64
+Total time: 21.85
+Setting CPU cores to 1 and CPU frequency to 1000MHz
+Current CPU frequency: 1000000 kHz
+Setting memory limit to 262144 kB
+Average FPS: 0.34
+Total time: 41.04
+Setting CPU cores to 1 and CPU frequency to 1000MHz
+Current CPU frequency: 1000000 kHz
+Setting memory limit to 524288 kB
+Average FPS: 0.34
+Total time: 41.07
+Setting CPU cores to 1 and CPU frequency to 1000MHz
+Current CPU frequency: 1000000 kHz
+Setting memory limit to 1048576 kB
+Average FPS: 0.34
+Total time: 41.01
+Setting CPU cores to 4 and CPU frequency to 900MHz
+Current CPU frequency: 900000 kHz
+Setting memory limit to 262144 kB
+Average FPS: 4.54
+Total time: 2.94
+Setting CPU cores to 4 and CPU frequency to 900MHz
+Current CPU frequency: 900000 kHz
+Setting memory limit to 524288 kB
+Average FPS: 4.83
+Total time: 2.75
+Setting CPU cores to 4 and CPU frequency to 900MHz
+Current CPU frequency: 900000 kHz
+Setting memory limit to 1048576 kB
+Average FPS: 4.50
+Total time: 2.91
+Setting CPU cores to 2 and CPU frequency to 900MHz
+Current CPU frequency: 900000 kHz
+Setting memory limit to 262144 kB
+Average FPS: 0.57
+Total time: 24.27
+Setting CPU cores to 2 and CPU frequency to 900MHz
+Current CPU frequency: 900000 kHz
+Setting memory limit to 524288 kB
+Average FPS: 0.57
+Total time: 24.23
+Setting CPU cores to 2 and CPU frequency to 900MHz
+Current CPU frequency: 900000 kHz
+Setting memory limit to 1048576 kB
+Average FPS: 0.58
+Total time: 24.20
+Setting CPU cores to 1 and CPU frequency to 900MHz
+Current CPU frequency: 900000 kHz
+Setting memory limit to 262144 kB
+Average FPS: 0.30
+Total time: 45.81
+Setting CPU cores to 1 and CPU frequency to 900MHz
+Current CPU frequency: 900000 kHz
+Setting memory limit to 524288 kB
+Average FPS: 0.30
+Total time: 45.87
+Setting CPU cores to 1 and CPU frequency to 900MHz
+Current CPU frequency: 900000 kHz
+Setting memory limit to 1048576 kB
+Average FPS: 0.30
+Total time: 45.83
+Setting CPU cores to 4 and CPU frequency to 800MHz
+Current CPU frequency: 800000 kHz
+Setting memory limit to 262144 kB
+Average FPS: 4.29
+Total time: 3.07
+Setting CPU cores to 4 and CPU frequency to 800MHz
+Current CPU frequency: 800000 kHz
+Setting memory limit to 524288 kB
+Average FPS: 4.47
+Total time: 2.96
+Setting CPU cores to 4 and CPU frequency to 800MHz
+Current CPU frequency: 800000 kHz
+Setting memory limit to 1048576 kB
+Average FPS: 4.36
+Total time: 3.02
+Setting CPU cores to 2 and CPU frequency to 800MHz
+Current CPU frequency: 800000 kHz
+Setting memory limit to 262144 kB
+Average FPS: 0.51
+Total time: 27.13
+Setting CPU cores to 2 and CPU frequency to 800MHz
+Current CPU frequency: 800000 kHz
+Setting memory limit to 524288 kB
+Average FPS: 0.51
+Total time: 27.07
+Setting CPU cores to 2 and CPU frequency to 800MHz
+Current CPU frequency: 800000 kHz
+Setting memory limit to 1048576 kB
+Average FPS: 0.51
+Total time: 27.15
+Setting CPU cores to 1 and CPU frequency to 800MHz
+Current CPU frequency: 800000 kHz
+Setting memory limit to 262144 kB
+Average FPS: 0.27
+Total time: 51.49
+Setting CPU cores to 1 and CPU frequency to 800MHz
+Current CPU frequency: 800000 kHz
+Setting memory limit to 524288 kB
+Average FPS: 0.27
+Total time: 51.49
+Setting CPU cores to 1 and CPU frequency to 800MHz
+Current CPU frequency: 800000 kHz
+Setting memory limit to 1048576 kB
+Average FPS: 0.27
+Total time: 51.48
+Setting CPU cores to 4 and CPU frequency to 700MHz
+Current CPU frequency: 700000 kHz
+Setting memory limit to 262144 kB
+Average FPS: 3.85
+Total time: 3.43
+Setting CPU cores to 4 and CPU frequency to 700MHz
+Current CPU frequency: 700000 kHz
+Setting memory limit to 524288 kB
+Average FPS: 4.06
+Total time: 3.27
+Setting CPU cores to 4 and CPU frequency to 700MHz
+Current CPU frequency: 700000 kHz
+Setting memory limit to 1048576 kB
+Average FPS: 3.69
+Total time: 3.73
+Setting CPU cores to 2 and CPU frequency to 700MHz
+Current CPU frequency: 700000 kHz
+Setting memory limit to 262144 kB
+Average FPS: 0.45
+Total time: 30.88
+Setting CPU cores to 2 and CPU frequency to 700MHz
+Current CPU frequency: 700000 kHz
+Setting memory limit to 524288 kB
+Average FPS: 0.45
+Total time: 30.98
+Setting CPU cores to 2 and CPU frequency to 700MHz
+Current CPU frequency: 700000 kHz
+Setting memory limit to 1048576 kB
+Average FPS: 0.45
+Total time: 30.99
+Setting CPU cores to 1 and CPU frequency to 700MHz
+Current CPU frequency: 700000 kHz
+Setting memory limit to 262144 kB
+Average FPS: 0.24
+Total time: 58.59
+Setting CPU cores to 1 and CPU frequency to 700MHz
+Current CPU frequency: 700000 kHz
+Setting memory limit to 524288 kB
+Average FPS: 0.24
+Total time: 58.58
+Setting CPU cores to 1 and CPU frequency to 700MHz
+Current CPU frequency: 700000 kHz
+Setting memory limit to 1048576 kB
+Average FPS: 0.24
+Total time: 58.73
+Setting CPU cores to 4 and CPU frequency to 600MHz
+Current CPU frequency: 600000 kHz
+Setting memory limit to 262144 kB
+Average FPS: 3.58
+Total time: 3.68
+Setting CPU cores to 4 and CPU frequency to 600MHz
+Current CPU frequency: 600000 kHz
+Setting memory limit to 524288 kB
+Average FPS: 3.39
+Total time: 3.97
+Setting CPU cores to 4 and CPU frequency to 600MHz
+Current CPU frequency: 600000 kHz
+Setting memory limit to 1048576 kB
+Average FPS: 3.32
+Total time: 3.90
+Setting CPU cores to 2 and CPU frequency to 600MHz
+Current CPU frequency: 600000 kHz
+Setting memory limit to 262144 kB
+Average FPS: 0.39
+Total time: 35.48
+Setting CPU cores to 2 and CPU frequency to 600MHz
+Current CPU frequency: 600000 kHz
+Setting memory limit to 524288 kB
+Average FPS: 0.39
+Total time: 35.43
+Setting CPU cores to 2 and CPU frequency to 600MHz
+Current CPU frequency: 600000 kHz
+Setting memory limit to 1048576 kB
+Average FPS: 0.39
+Total time: 35.34
+Setting CPU cores to 1 and CPU frequency to 600MHz
+Current CPU frequency: 600000 kHz
+Setting memory limit to 262144 kB
+Average FPS: 0.22
+Total time: 63.79
+Setting CPU cores to 1 and CPU frequency to 600MHz
+Current CPU frequency: 600000 kHz
+Setting memory limit to 524288 kB
+Average FPS: 0.22
+Total time: 63.77
+Setting CPU cores to 1 and CPU frequency to 600MHz
+Current CPU frequency: 600000 kHz
+Setting memory limit to 1048576 kB
+Average FPS: 0.22
+Total time: 63.77
 Setting next sdram_freq to 350 and rebooting
-Debug: sdram_freq_list: 450 400 350 300
-Debug: sdram_freq_list_size: 4
+Swap is disabled on this system.
+Debug: sdram_freq_list: 450 400 350 300 250 200
+Debug: sdram_freq_list_size: 6
 Current counter: 2
 Current sdram_freq from list: 350
 Setting CPU cores to 4 and CPU frequency to 1400MHz
 Current CPU frequency: 1400000 kHz
-Average FPS: 2.03
+Setting memory limit to 262144 kB
+Average FPS: 0.54
+Total time: 26.55
+Setting CPU cores to 4 and CPU frequency to 1400MHz
+Current CPU frequency: 1400000 kHz
+Setting memory limit to 524288 kB
+Average FPS: 2.18
+Total time: 5.94
+Setting CPU cores to 4 and CPU frequency to 1400MHz
+Current CPU frequency: 1400000 kHz
+Setting memory limit to 1048576 kB
+Average FPS: 4.85
+Total time: 2.78
 Setting CPU cores to 2 and CPU frequency to 1400MHz
 Current CPU frequency: 1400000 kHz
-Average FPS: 0.39
+Setting memory limit to 262144 kB
+Average FPS: 0.78
+Total time: 17.82
+Setting CPU cores to 2 and CPU frequency to 1400MHz
+Current CPU frequency: 1400000 kHz
+Setting memory limit to 524288 kB
+Average FPS: 0.78
+Total time: 17.96
+Setting CPU cores to 2 and CPU frequency to 1400MHz
+Current CPU frequency: 1400000 kHz
+Setting memory limit to 1048576 kB
+Average FPS: 0.78
+Total time: 18.06
+Setting CPU cores to 1 and CPU frequency to 1400MHz
+Current CPU frequency: 1400000 kHz
+Setting memory limit to 262144 kB
+Average FPS: 0.44
+Total time: 31.39
+Setting CPU cores to 1 and CPU frequency to 1400MHz
+Current CPU frequency: 1400000 kHz
+Setting memory limit to 524288 kB
+Average FPS: 0.44
+Total time: 31.33
+Setting CPU cores to 1 and CPU frequency to 1400MHz
+Current CPU frequency: 1400000 kHz
+Setting memory limit to 1048576 kB
+Average FPS: 0.45
+Total time: 31.23
 Setting CPU cores to 4 and CPU frequency to 1300MHz
 Current CPU frequency: 1300000 kHz
-Average FPS: 4.68
+Setting memory limit to 262144 kB
+Average FPS: 4.79
+Total time: 2.81
+Setting CPU cores to 4 and CPU frequency to 1300MHz
+Current CPU frequency: 1300000 kHz
+Setting memory limit to 524288 kB
+Average FPS: 4.74
+Total time: 2.83
+Setting CPU cores to 4 and CPU frequency to 1300MHz
+Current CPU frequency: 1300000 kHz
+Setting memory limit to 1048576 kB
+Average FPS: 4.71
+Total time: 2.84
 Setting CPU cores to 2 and CPU frequency to 1300MHz
 Current CPU frequency: 1300000 kHz
-Average FPS: 0.71
+Setting memory limit to 262144 kB
+Average FPS: 0.74
+Total time: 18.76
+Setting CPU cores to 2 and CPU frequency to 1300MHz
+Current CPU frequency: 1300000 kHz
+Setting memory limit to 524288 kB
+Average FPS: 0.75
+Total time: 18.70
+Setting CPU cores to 2 and CPU frequency to 1300MHz
+Current CPU frequency: 1300000 kHz
+Setting memory limit to 1048576 kB
+Average FPS: 0.74
+Total time: 18.72
+Setting CPU cores to 1 and CPU frequency to 1300MHz
+Current CPU frequency: 1300000 kHz
+Setting memory limit to 262144 kB
+Average FPS: 0.42
+Total time: 33.36
+Setting CPU cores to 1 and CPU frequency to 1300MHz
+Current CPU frequency: 1300000 kHz
+Setting memory limit to 524288 kB
+Average FPS: 0.42
+Total time: 33.37
+Setting CPU cores to 1 and CPU frequency to 1300MHz
+Current CPU frequency: 1300000 kHz
+Setting memory limit to 1048576 kB
+Average FPS: 0.42
+Total time: 33.25
 Setting CPU cores to 4 and CPU frequency to 1200MHz
 Current CPU frequency: 1200000 kHz
-Average FPS: 1.65
+Setting memory limit to 262144 kB
+Average FPS: 4.68
+Total time: 2.86
+Setting CPU cores to 4 and CPU frequency to 1200MHz
+Current CPU frequency: 1200000 kHz
+Setting memory limit to 524288 kB
+Average FPS: 4.70
+Total time: 2.85
+Setting CPU cores to 4 and CPU frequency to 1200MHz
+Current CPU frequency: 1200000 kHz
+Setting memory limit to 1048576 kB
+Average FPS: 4.69
+Total time: 2.85
 Setting CPU cores to 2 and CPU frequency to 1200MHz
 Current CPU frequency: 1200000 kHz
+Setting memory limit to 262144 kB
+Average FPS: 0.74
+Total time: 18.86
+Setting CPU cores to 2 and CPU frequency to 1200MHz
+Current CPU frequency: 1200000 kHz
+Setting memory limit to 524288 kB
+Average FPS: 0.74
+Total time: 18.88
+Setting CPU cores to 2 and CPU frequency to 1200MHz
+Current CPU frequency: 1200000 kHz
+Setting memory limit to 1048576 kB
 Average FPS: 0.73
+Total time: 18.95
+Setting CPU cores to 1 and CPU frequency to 1200MHz
+Current CPU frequency: 1200000 kHz
+Setting memory limit to 262144 kB
+Average FPS: 0.39
+Total time: 35.53
+Setting CPU cores to 1 and CPU frequency to 1200MHz
+Current CPU frequency: 1200000 kHz
+Setting memory limit to 524288 kB
+Average FPS: 0.39
+Total time: 35.60
+Setting CPU cores to 1 and CPU frequency to 1200MHz
+Current CPU frequency: 1200000 kHz
+Setting memory limit to 1048576 kB
+Average FPS: 0.39
+Total time: 35.77
 Setting CPU cores to 4 and CPU frequency to 1100MHz
 Current CPU frequency: 1100000 kHz
-Average FPS: 4.45
+Setting memory limit to 262144 kB
+Average FPS: 4.48
+Total time: 2.98
+Setting CPU cores to 4 and CPU frequency to 1100MHz
+Current CPU frequency: 1100000 kHz
+Setting memory limit to 524288 kB
+Average FPS: 4.49
+Total time: 2.98
+Setting CPU cores to 4 and CPU frequency to 1100MHz
+Current CPU frequency: 1100000 kHz
+Setting memory limit to 1048576 kB
+Average FPS: 4.37
+Total time: 3.06
 Setting CPU cores to 2 and CPU frequency to 1100MHz
 Current CPU frequency: 1100000 kHz
+Setting memory limit to 262144 kB
 Average FPS: 0.68
+Total time: 20.23
+Setting CPU cores to 2 and CPU frequency to 1100MHz
+Current CPU frequency: 1100000 kHz
+Setting memory limit to 524288 kB
+Average FPS: 0.69
+Total time: 20.08
+Setting CPU cores to 2 and CPU frequency to 1100MHz
+Current CPU frequency: 1100000 kHz
+Setting memory limit to 1048576 kB
+Average FPS: 0.69
+Total time: 20.09
+Setting CPU cores to 1 and CPU frequency to 1100MHz
+Current CPU frequency: 1100000 kHz
+Setting memory limit to 262144 kB
+Average FPS: 0.36
+Total time: 38.37
+Setting CPU cores to 1 and CPU frequency to 1100MHz
+Current CPU frequency: 1100000 kHz
+Setting memory limit to 524288 kB
+Average FPS: 0.36
+Total time: 38.44
+Setting CPU cores to 1 and CPU frequency to 1100MHz
+Current CPU frequency: 1100000 kHz
+Setting memory limit to 1048576 kB
+Average FPS: 0.36
+Total time: 38.47
 Setting CPU cores to 4 and CPU frequency to 1000MHz
 Current CPU frequency: 1000000 kHz
-Average FPS: 4.23
+Setting memory limit to 262144 kB
+Average FPS: 5.04
+Total time: 2.63
+Setting CPU cores to 4 and CPU frequency to 1000MHz
+Current CPU frequency: 1000000 kHz
+Setting memory limit to 524288 kB
+Average FPS: 5.03
+Total time: 2.64
+Setting CPU cores to 4 and CPU frequency to 1000MHz
+Current CPU frequency: 1000000 kHz
+Setting memory limit to 1048576 kB
+Average FPS: 5.08
+Total time: 2.62
 Setting CPU cores to 2 and CPU frequency to 1000MHz
 Current CPU frequency: 1000000 kHz
-Average FPS: 0.62
+Setting memory limit to 262144 kB
+Average FPS: 0.63
+Total time: 21.97
+Setting CPU cores to 2 and CPU frequency to 1000MHz
+Current CPU frequency: 1000000 kHz
+Setting memory limit to 524288 kB
+Average FPS: 0.63
+Total time: 21.92
+Setting CPU cores to 2 and CPU frequency to 1000MHz
+Current CPU frequency: 1000000 kHz
+Setting memory limit to 1048576 kB
+Average FPS: 0.63
+Total time: 21.94
+Setting CPU cores to 1 and CPU frequency to 1000MHz
+Current CPU frequency: 1000000 kHz
+Setting memory limit to 262144 kB
+Average FPS: 0.34
+Total time: 41.05
+Setting CPU cores to 1 and CPU frequency to 1000MHz
+Current CPU frequency: 1000000 kHz
+Setting memory limit to 524288 kB
+Average FPS: 0.34
+Total time: 41.04
+Setting CPU cores to 1 and CPU frequency to 1000MHz
+Current CPU frequency: 1000000 kHz
+Setting memory limit to 1048576 kB
+Average FPS: 0.34
+Total time: 41.02
+Setting CPU cores to 4 and CPU frequency to 900MHz
+Current CPU frequency: 900000 kHz
+Setting memory limit to 262144 kB
+Average FPS: 4.74
+Total time: 2.80
+Setting CPU cores to 4 and CPU frequency to 900MHz
+Current CPU frequency: 900000 kHz
+Setting memory limit to 524288 kB
+Average FPS: 4.73
+Total time: 2.80
+Setting CPU cores to 4 and CPU frequency to 900MHz
+Current CPU frequency: 900000 kHz
+Setting memory limit to 1048576 kB
+Average FPS: 4.75
+Total time: 2.79
+Setting CPU cores to 2 and CPU frequency to 900MHz
+Current CPU frequency: 900000 kHz
+Setting memory limit to 262144 kB
+Average FPS: 0.57
+Total time: 24.28
+Setting CPU cores to 2 and CPU frequency to 900MHz
+Current CPU frequency: 900000 kHz
+Setting memory limit to 524288 kB
+Average FPS: 0.57
+Total time: 24.24
+Setting CPU cores to 2 and CPU frequency to 900MHz
+Current CPU frequency: 900000 kHz
+Setting memory limit to 1048576 kB
+Average FPS: 0.57
+Total time: 24.30
+Setting CPU cores to 1 and CPU frequency to 900MHz
+Current CPU frequency: 900000 kHz
+Setting memory limit to 262144 kB
+Average FPS: 0.31
+Total time: 45.67
+Setting CPU cores to 1 and CPU frequency to 900MHz
+Current CPU frequency: 900000 kHz
+Setting memory limit to 524288 kB
+Average FPS: 0.30
+Total time: 45.73
+Setting CPU cores to 1 and CPU frequency to 900MHz
+Current CPU frequency: 900000 kHz
+Setting memory limit to 1048576 kB
+Average FPS: 0.30
+Total time: 45.74
+Setting CPU cores to 4 and CPU frequency to 800MHz
+Current CPU frequency: 800000 kHz
+Setting memory limit to 262144 kB
+Average FPS: 4.42
+Total time: 3.00
+Setting CPU cores to 4 and CPU frequency to 800MHz
+Current CPU frequency: 800000 kHz
+Setting memory limit to 524288 kB
+Average FPS: 4.41
+Total time: 3.00
+Setting CPU cores to 4 and CPU frequency to 800MHz
+Current CPU frequency: 800000 kHz
+Setting memory limit to 1048576 kB
+Average FPS: 4.42
+Total time: 3.00
+Setting CPU cores to 2 and CPU frequency to 800MHz
+Current CPU frequency: 800000 kHz
+Setting memory limit to 262144 kB
+Average FPS: 0.51
+Total time: 27.18
+Setting CPU cores to 2 and CPU frequency to 800MHz
+Current CPU frequency: 800000 kHz
+Setting memory limit to 524288 kB
+Average FPS: 0.51
+Total time: 27.09
+Setting CPU cores to 2 and CPU frequency to 800MHz
+Current CPU frequency: 800000 kHz
+Setting memory limit to 1048576 kB
+Average FPS: 0.51
+Total time: 27.15
+Setting CPU cores to 1 and CPU frequency to 800MHz
+Current CPU frequency: 800000 kHz
+Setting memory limit to 262144 kB
+Average FPS: 0.27
+Total time: 51.54
+Setting CPU cores to 1 and CPU frequency to 800MHz
+Current CPU frequency: 800000 kHz
+Setting memory limit to 524288 kB
+Average FPS: 0.27
+Total time: 51.55
+Setting CPU cores to 1 and CPU frequency to 800MHz
+Current CPU frequency: 800000 kHz
+Setting memory limit to 1048576 kB
+Average FPS: 0.27
+Total time: 51.51
+Setting CPU cores to 4 and CPU frequency to 700MHz
+Current CPU frequency: 700000 kHz
+Setting memory limit to 262144 kB
+Average FPS: 4.05
+Total time: 3.27
+Setting CPU cores to 4 and CPU frequency to 700MHz
+Current CPU frequency: 700000 kHz
+Setting memory limit to 524288 kB
+Average FPS: 4.05
+Total time: 3.26
+Setting CPU cores to 4 and CPU frequency to 700MHz
+Current CPU frequency: 700000 kHz
+Setting memory limit to 1048576 kB
+Average FPS: 4.03
+Total time: 3.28
+Setting CPU cores to 2 and CPU frequency to 700MHz
+Current CPU frequency: 700000 kHz
+Setting memory limit to 262144 kB
+Average FPS: 0.45
+Total time: 30.95
+Setting CPU cores to 2 and CPU frequency to 700MHz
+Current CPU frequency: 700000 kHz
+Setting memory limit to 524288 kB
+Average FPS: 0.45
+Total time: 31.00
+Setting CPU cores to 2 and CPU frequency to 700MHz
+Current CPU frequency: 700000 kHz
+Setting memory limit to 1048576 kB
+Average FPS: 0.45
+Total time: 31.04
+Setting CPU cores to 1 and CPU frequency to 700MHz
+Current CPU frequency: 700000 kHz
+Setting memory limit to 262144 kB
+Average FPS: 0.24
+Total time: 58.81
+Setting CPU cores to 1 and CPU frequency to 700MHz
+Current CPU frequency: 700000 kHz
+Setting memory limit to 524288 kB
+Average FPS: 0.24
+Total time: 58.72
+Setting CPU cores to 1 and CPU frequency to 700MHz
+Current CPU frequency: 700000 kHz
+Setting memory limit to 1048576 kB
+Average FPS: 0.24
+Total time: 58.73
+Setting CPU cores to 4 and CPU frequency to 600MHz
+Current CPU frequency: 600000 kHz
+Setting memory limit to 262144 kB
+Average FPS: 3.61
+Total time: 3.66
+Setting CPU cores to 4 and CPU frequency to 600MHz
+Current CPU frequency: 600000 kHz
+Setting memory limit to 524288 kB
+Average FPS: 3.60
+Total time: 3.67
+Setting CPU cores to 4 and CPU frequency to 600MHz
+Current CPU frequency: 600000 kHz
+Setting memory limit to 1048576 kB
+Average FPS: 3.61
+Total time: 3.65
+Setting CPU cores to 2 and CPU frequency to 600MHz
+Current CPU frequency: 600000 kHz
+Setting memory limit to 262144 kB
+Average FPS: 0.39
+Total time: 35.49
+Setting CPU cores to 2 and CPU frequency to 600MHz
+Current CPU frequency: 600000 kHz
+Setting memory limit to 524288 kB
+Average FPS: 0.39
+Total time: 35.45
+Setting CPU cores to 2 and CPU frequency to 600MHz
+Current CPU frequency: 600000 kHz
+Setting memory limit to 1048576 kB
+Average FPS: 0.39
+Total time: 35.38
+Setting CPU cores to 1 and CPU frequency to 600MHz
+Current CPU frequency: 600000 kHz
+Setting memory limit to 262144 kB
+Average FPS: 0.22
+Total time: 63.87
+Setting CPU cores to 1 and CPU frequency to 600MHz
+Current CPU frequency: 600000 kHz
+Setting memory limit to 524288 kB
+Average FPS: 0.22
+Total time: 63.83
+Setting CPU cores to 1 and CPU frequency to 600MHz
+Current CPU frequency: 600000 kHz
+Setting memory limit to 1048576 kB
+Average FPS: 0.22
+Total time: 63.90
 Setting next sdram_freq to 300 and rebooting
-Debug: sdram_freq_list: 450 400 350 300
-Debug: sdram_freq_list_size: 4
+Swap is disabled on this system.
+Debug: sdram_freq_list: 450 400 350 300 250 200
+Debug: sdram_freq_list_size: 6
 Current counter: 3
 Current sdram_freq from list: 300
 Setting CPU cores to 4 and CPU frequency to 1400MHz
 Current CPU frequency: 1400000 kHz
-Average FPS: 1.82
+Setting memory limit to 262144 kB
+Average FPS: 0.66
+Total time: 25.40
+Setting CPU cores to 4 and CPU frequency to 1400MHz
+Current CPU frequency: 1400000 kHz
+Setting memory limit to 524288 kB
+Average FPS: 2.78
+Total time: 4.96
+Setting CPU cores to 4 and CPU frequency to 1400MHz
+Current CPU frequency: 1400000 kHz
+Setting memory limit to 1048576 kB
+Average FPS: 4.06
+Total time: 3.24
 Setting CPU cores to 2 and CPU frequency to 1400MHz
 Current CPU frequency: 1400000 kHz
-Average FPS: 0.65
+Setting memory limit to 262144 kB
+Average FPS: 0.80
+Total time: 17.39
+Setting CPU cores to 2 and CPU frequency to 1400MHz
+Current CPU frequency: 1400000 kHz
+Setting memory limit to 524288 kB
+Average FPS: 0.79
+Total time: 17.69
+Setting CPU cores to 2 and CPU frequency to 1400MHz
+Current CPU frequency: 1400000 kHz
+Setting memory limit to 1048576 kB
+Average FPS: 0.78
+Total time: 17.91
+Setting CPU cores to 1 and CPU frequency to 1400MHz
+Current CPU frequency: 1400000 kHz
+Setting memory limit to 262144 kB
+Average FPS: 0.44
+Total time: 31.65
+Setting CPU cores to 1 and CPU frequency to 1400MHz
+Current CPU frequency: 1400000 kHz
+Setting memory limit to 524288 kB
+Average FPS: 0.44
+Total time: 31.57
+Setting CPU cores to 1 and CPU frequency to 1400MHz
+Current CPU frequency: 1400000 kHz
+Setting memory limit to 1048576 kB
+Average FPS: 0.44
+Total time: 31.61
 Setting CPU cores to 4 and CPU frequency to 1300MHz
 Current CPU frequency: 1300000 kHz
-Average FPS: 4.27
+Setting memory limit to 262144 kB
+Average FPS: 4.40
+Total time: 3.07
+Setting CPU cores to 4 and CPU frequency to 1300MHz
+Current CPU frequency: 1300000 kHz
+Setting memory limit to 524288 kB
+Average FPS: 4.37
+Total time: 3.08
+Setting CPU cores to 4 and CPU frequency to 1300MHz
+Current CPU frequency: 1300000 kHz
+Setting memory limit to 1048576 kB
+Average FPS: 4.37
+Total time: 3.07
 Setting CPU cores to 2 and CPU frequency to 1300MHz
 Current CPU frequency: 1300000 kHz
-Average FPS: 0.72
+Setting memory limit to 262144 kB
+Average FPS: 0.74
+Total time: 18.82
+Setting CPU cores to 2 and CPU frequency to 1300MHz
+Current CPU frequency: 1300000 kHz
+Setting memory limit to 524288 kB
+Average FPS: 0.75
+Total time: 18.70
+Setting CPU cores to 2 and CPU frequency to 1300MHz
+Current CPU frequency: 1300000 kHz
+Setting memory limit to 1048576 kB
+Average FPS: 0.74
+Total time: 18.77
+Setting CPU cores to 1 and CPU frequency to 1300MHz
+Current CPU frequency: 1300000 kHz
+Setting memory limit to 262144 kB
+Average FPS: 0.42
+Total time: 33.55
+Setting CPU cores to 1 and CPU frequency to 1300MHz
+Current CPU frequency: 1300000 kHz
+Setting memory limit to 524288 kB
+Average FPS: 0.42
+Total time: 33.50
+Setting CPU cores to 1 and CPU frequency to 1300MHz
+Current CPU frequency: 1300000 kHz
+Setting memory limit to 1048576 kB
+Average FPS: 0.41
+Total time: 33.58
 Setting CPU cores to 4 and CPU frequency to 1200MHz
 Current CPU frequency: 1200000 kHz
-Average FPS: 4.24
+Setting memory limit to 262144 kB
+Average FPS: 4.28
+Total time: 3.13
+Setting CPU cores to 4 and CPU frequency to 1200MHz
+Current CPU frequency: 1200000 kHz
+Setting memory limit to 524288 kB
+Average FPS: 4.29
+Total time: 3.12
+Setting CPU cores to 4 and CPU frequency to 1200MHz
+Current CPU frequency: 1200000 kHz
+Setting memory limit to 1048576 kB
+Average FPS: 4.31
+Total time: 3.11
 Setting CPU cores to 2 and CPU frequency to 1200MHz
 Current CPU frequency: 1200000 kHz
-Average FPS: 0.72
+Setting memory limit to 262144 kB
+Average FPS: 0.73
+Total time: 19.12
+Setting CPU cores to 2 and CPU frequency to 1200MHz
+Current CPU frequency: 1200000 kHz
+Setting memory limit to 524288 kB
+Average FPS: 0.73
+Total time: 19.19
+Setting CPU cores to 2 and CPU frequency to 1200MHz
+Current CPU frequency: 1200000 kHz
+Setting memory limit to 1048576 kB
+Average FPS: 0.73
+Total time: 19.13
+Setting CPU cores to 1 and CPU frequency to 1200MHz
+Current CPU frequency: 1200000 kHz
+Setting memory limit to 262144 kB
+Average FPS: 0.39
+Total time: 36.01
+Setting CPU cores to 1 and CPU frequency to 1200MHz
+Current CPU frequency: 1200000 kHz
+Setting memory limit to 524288 kB
+Average FPS: 0.39
+Total time: 35.90
+Setting CPU cores to 1 and CPU frequency to 1200MHz
+Current CPU frequency: 1200000 kHz
+Setting memory limit to 1048576 kB
+Average FPS: 0.39
+Total time: 36.04
 Setting CPU cores to 4 and CPU frequency to 1100MHz
 Current CPU frequency: 1100000 kHz
-Average FPS: 4.11
+Setting memory limit to 262144 kB
+Average FPS: 4.16
+Total time: 3.23
+Setting CPU cores to 4 and CPU frequency to 1100MHz
+Current CPU frequency: 1100000 kHz
+Setting memory limit to 524288 kB
+Average FPS: 4.16
+Total time: 3.22
+Setting CPU cores to 4 and CPU frequency to 1100MHz
+Current CPU frequency: 1100000 kHz
+Setting memory limit to 1048576 kB
+Average FPS: 4.17
+Total time: 3.14
 Setting CPU cores to 2 and CPU frequency to 1100MHz
 Current CPU frequency: 1100000 kHz
-Average FPS: 0.67
+Setting memory limit to 262144 kB
+Average FPS: 0.69
+Total time: 20.20
+Setting CPU cores to 2 and CPU frequency to 1100MHz
+Current CPU frequency: 1100000 kHz
+Setting memory limit to 524288 kB
+Average FPS: 0.69
+Total time: 20.14
+Setting CPU cores to 2 and CPU frequency to 1100MHz
+Current CPU frequency: 1100000 kHz
+Setting memory limit to 1048576 kB
+Average FPS: 0.68
+Total time: 20.29
+Setting CPU cores to 1 and CPU frequency to 1100MHz
+Current CPU frequency: 1100000 kHz
+Setting memory limit to 262144 kB
+Average FPS: 0.36
+Total time: 38.44
+Setting CPU cores to 1 and CPU frequency to 1100MHz
+Current CPU frequency: 1100000 kHz
+Setting memory limit to 524288 kB
+Average FPS: 0.36
+Total time: 38.47
+Setting CPU cores to 1 and CPU frequency to 1100MHz
+Current CPU frequency: 1100000 kHz
+Setting memory limit to 1048576 kB
+Average FPS: 0.36
+Total time: 38.45
 Setting CPU cores to 4 and CPU frequency to 1000MHz
 Current CPU frequency: 1000000 kHz
-Average FPS: 3.94
+Setting memory limit to 262144 kB
+Average FPS: 4.84
+Total time: 2.75
+Setting CPU cores to 4 and CPU frequency to 1000MHz
+Current CPU frequency: 1000000 kHz
+Setting memory limit to 524288 kB
+Average FPS: 4.88
+Total time: 2.73
+Setting CPU cores to 4 and CPU frequency to 1000MHz
+Current CPU frequency: 1000000 kHz
+Setting memory limit to 1048576 kB
+Average FPS: 4.85
+Total time: 2.76
 Setting CPU cores to 2 and CPU frequency to 1000MHz
 Current CPU frequency: 1000000 kHz
+Setting memory limit to 262144 kB
+Average FPS: 0.63
+Total time: 21.95
+Setting CPU cores to 2 and CPU frequency to 1000MHz
+Current CPU frequency: 1000000 kHz
+Setting memory limit to 524288 kB
+Average FPS: 0.63
+Total time: 22.00
+Setting CPU cores to 2 and CPU frequency to 1000MHz
+Current CPU frequency: 1000000 kHz
+Setting memory limit to 1048576 kB
+Average FPS: 0.63
+Total time: 21.98
+Setting CPU cores to 1 and CPU frequency to 1000MHz
+Current CPU frequency: 1000000 kHz
+Setting memory limit to 262144 kB
+Average FPS: 0.34
+Total time: 41.03
+Setting CPU cores to 1 and CPU frequency to 1000MHz
+Current CPU frequency: 1000000 kHz
+Setting memory limit to 524288 kB
+Average FPS: 0.34
+Total time: 41.16
+Setting CPU cores to 1 and CPU frequency to 1000MHz
+Current CPU frequency: 1000000 kHz
+Setting memory limit to 1048576 kB
+Average FPS: 0.34
+Total time: 41.11
+Setting CPU cores to 4 and CPU frequency to 900MHz
+Current CPU frequency: 900000 kHz
+Setting memory limit to 262144 kB
+Average FPS: 4.57
+Total time: 2.90
+Setting CPU cores to 4 and CPU frequency to 900MHz
+Current CPU frequency: 900000 kHz
+Setting memory limit to 524288 kB
+Average FPS: 4.62
+Total time: 2.88
+Setting CPU cores to 4 and CPU frequency to 900MHz
+Current CPU frequency: 900000 kHz
+Setting memory limit to 1048576 kB
+Average FPS: 4.59
+Total time: 2.89
+Setting CPU cores to 2 and CPU frequency to 900MHz
+Current CPU frequency: 900000 kHz
+Setting memory limit to 262144 kB
+Average FPS: 0.57
+Total time: 24.30
+Setting CPU cores to 2 and CPU frequency to 900MHz
+Current CPU frequency: 900000 kHz
+Setting memory limit to 524288 kB
+Average FPS: 0.57
+Total time: 24.29
+Setting CPU cores to 2 and CPU frequency to 900MHz
+Current CPU frequency: 900000 kHz
+Setting memory limit to 1048576 kB
+Average FPS: 0.57
+Total time: 24.29
+Setting CPU cores to 1 and CPU frequency to 900MHz
+Current CPU frequency: 900000 kHz
+Setting memory limit to 262144 kB
+Average FPS: 0.30
+Total time: 45.76
+Setting CPU cores to 1 and CPU frequency to 900MHz
+Current CPU frequency: 900000 kHz
+Setting memory limit to 524288 kB
+Average FPS: 0.30
+Total time: 45.69
+Setting CPU cores to 1 and CPU frequency to 900MHz
+Current CPU frequency: 900000 kHz
+Setting memory limit to 1048576 kB
+Average FPS: 0.30
+Total time: 45.76
+Setting CPU cores to 4 and CPU frequency to 800MHz
+Current CPU frequency: 800000 kHz
+Setting memory limit to 262144 kB
+Average FPS: 4.28
+Total time: 3.10
+Setting CPU cores to 4 and CPU frequency to 800MHz
+Current CPU frequency: 800000 kHz
+Setting memory limit to 524288 kB
+Average FPS: 4.25
+Total time: 3.11
+Setting CPU cores to 4 and CPU frequency to 800MHz
+Current CPU frequency: 800000 kHz
+Setting memory limit to 1048576 kB
+Average FPS: 4.29
+Total time: 3.09
+Setting CPU cores to 2 and CPU frequency to 800MHz
+Current CPU frequency: 800000 kHz
+Setting memory limit to 262144 kB
+Average FPS: 0.51
+Total time: 27.14
+Setting CPU cores to 2 and CPU frequency to 800MHz
+Current CPU frequency: 800000 kHz
+Setting memory limit to 524288 kB
+Average FPS: 0.51
+Total time: 27.20
+Setting CPU cores to 2 and CPU frequency to 800MHz
+Current CPU frequency: 800000 kHz
+Setting memory limit to 1048576 kB
+Average FPS: 0.51
+Total time: 27.23
+Setting CPU cores to 1 and CPU frequency to 800MHz
+Current CPU frequency: 800000 kHz
+Setting memory limit to 262144 kB
+Average FPS: 0.27
+Total time: 51.60
+Setting CPU cores to 1 and CPU frequency to 800MHz
+Current CPU frequency: 800000 kHz
+Setting memory limit to 524288 kB
+Average FPS: 0.27
+Total time: 51.63
+Setting CPU cores to 1 and CPU frequency to 800MHz
+Current CPU frequency: 800000 kHz
+Setting memory limit to 1048576 kB
+Average FPS: 0.27
+Total time: 51.62
+Setting CPU cores to 4 and CPU frequency to 700MHz
+Current CPU frequency: 700000 kHz
+Setting memory limit to 262144 kB
+Average FPS: 3.92
+Total time: 3.38
+Setting CPU cores to 4 and CPU frequency to 700MHz
+Current CPU frequency: 700000 kHz
+Setting memory limit to 524288 kB
+Average FPS: 3.92
+Total time: 3.39
+Setting CPU cores to 4 and CPU frequency to 700MHz
+Current CPU frequency: 700000 kHz
+Setting memory limit to 1048576 kB
+Average FPS: 3.80
+Total time: 3.49
+Setting CPU cores to 2 and CPU frequency to 700MHz
+Current CPU frequency: 700000 kHz
+Setting memory limit to 262144 kB
+Average FPS: 0.45
+Total time: 30.92
+Setting CPU cores to 2 and CPU frequency to 700MHz
+Current CPU frequency: 700000 kHz
+Setting memory limit to 524288 kB
+Average FPS: 0.45
+Total time: 31.17
+Setting CPU cores to 2 and CPU frequency to 700MHz
+Current CPU frequency: 700000 kHz
+Setting memory limit to 1048576 kB
+Average FPS: 0.45
+Total time: 30.98
+Setting CPU cores to 1 and CPU frequency to 700MHz
+Current CPU frequency: 700000 kHz
+Setting memory limit to 262144 kB
+Average FPS: 0.24
+Total time: 58.86
+Setting CPU cores to 1 and CPU frequency to 700MHz
+Current CPU frequency: 700000 kHz
+Setting memory limit to 524288 kB
+Average FPS: 0.24
+Total time: 58.89
+Setting CPU cores to 1 and CPU frequency to 700MHz
+Current CPU frequency: 700000 kHz
+Setting memory limit to 1048576 kB
+Average FPS: 0.24
+Total time: 58.91
+Setting CPU cores to 4 and CPU frequency to 600MHz
+Current CPU frequency: 600000 kHz
+Setting memory limit to 262144 kB
+Average FPS: 3.51
+Total time: 3.75
+Setting CPU cores to 4 and CPU frequency to 600MHz
+Current CPU frequency: 600000 kHz
+Setting memory limit to 524288 kB
+Average FPS: 3.53
+Total time: 3.75
+Setting CPU cores to 4 and CPU frequency to 600MHz
+Current CPU frequency: 600000 kHz
+Setting memory limit to 1048576 kB
+Average FPS: 3.55
+Total time: 3.72
+Setting CPU cores to 2 and CPU frequency to 600MHz
+Current CPU frequency: 600000 kHz
+Setting memory limit to 262144 kB
+Average FPS: 0.39
+Total time: 35.39
+Setting CPU cores to 2 and CPU frequency to 600MHz
+Current CPU frequency: 600000 kHz
+Setting memory limit to 524288 kB
+Average FPS: 0.40
+Total time: 35.12
+Setting CPU cores to 2 and CPU frequency to 600MHz
+Current CPU frequency: 600000 kHz
+Setting memory limit to 1048576 kB
+Average FPS: 0.39
+Total time: 35.64
+Setting CPU cores to 1 and CPU frequency to 600MHz
+Current CPU frequency: 600000 kHz
+Setting memory limit to 262144 kB
+Average FPS: 0.22
+Total time: 63.78
+Setting CPU cores to 1 and CPU frequency to 600MHz
+Current CPU frequency: 600000 kHz
+Setting memory limit to 524288 kB
+Average FPS: 0.22
+Total time: 63.85
+Setting CPU cores to 1 and CPU frequency to 600MHz
+Current CPU frequency: 600000 kHz
+Setting memory limit to 1048576 kB
+Average FPS: 0.22
+Total time: 63.89
+Setting next sdram_freq to 250 and rebooting
+Swap is disabled on this system.
+Debug: sdram_freq_list: 450 400 350 300 250 200
+Debug: sdram_freq_list_size: 6
+Current counter: 4
+Current sdram_freq from list: 250
+Setting CPU cores to 4 and CPU frequency to 1400MHz
+Current CPU frequency: 1400000 kHz
+Setting memory limit to 262144 kB
+Average FPS: 1.55
+Total time: 12.63
+Setting CPU cores to 4 and CPU frequency to 1400MHz
+Current CPU frequency: 1400000 kHz
+Setting memory limit to 524288 kB
+Average FPS: 2.05
+Total time: 6.62
+Setting CPU cores to 4 and CPU frequency to 1400MHz
+Current CPU frequency: 1400000 kHz
+Setting memory limit to 1048576 kB
+Average FPS: 3.84
+Total time: 3.53
+Setting CPU cores to 2 and CPU frequency to 1400MHz
+Current CPU frequency: 1400000 kHz
+Setting memory limit to 262144 kB
+Average FPS: 0.78
+Total time: 17.88
+Setting CPU cores to 2 and CPU frequency to 1400MHz
+Current CPU frequency: 1400000 kHz
+Setting memory limit to 524288 kB
+Average FPS: 0.77
+Total time: 18.13
+Setting CPU cores to 2 and CPU frequency to 1400MHz
+Current CPU frequency: 1400000 kHz
+Setting memory limit to 1048576 kB
+Average FPS: 0.76
+Total time: 18.30
+Setting CPU cores to 1 and CPU frequency to 1400MHz
+Current CPU frequency: 1400000 kHz
+Setting memory limit to 262144 kB
+Average FPS: 0.43
+Total time: 32.08
+Setting CPU cores to 1 and CPU frequency to 1400MHz
+Current CPU frequency: 1400000 kHz
+Setting memory limit to 524288 kB
+Average FPS: 0.43
+Total time: 32.07
+Setting CPU cores to 1 and CPU frequency to 1400MHz
+Current CPU frequency: 1400000 kHz
+Setting memory limit to 1048576 kB
+Average FPS: 0.43
+Total time: 32.01
+Setting CPU cores to 4 and CPU frequency to 1300MHz
+Current CPU frequency: 1300000 kHz
+Setting memory limit to 262144 kB
+Average FPS: 3.81
+Total time: 3.56
+Setting CPU cores to 4 and CPU frequency to 1300MHz
+Current CPU frequency: 1300000 kHz
+Setting memory limit to 524288 kB
+Average FPS: 3.80
+Total time: 3.55
+Setting CPU cores to 4 and CPU frequency to 1300MHz
+Current CPU frequency: 1300000 kHz
+Setting memory limit to 1048576 kB
+Average FPS: 3.80
+Total time: 3.55
+Setting CPU cores to 2 and CPU frequency to 1300MHz
+Current CPU frequency: 1300000 kHz
+Setting memory limit to 262144 kB
+Average FPS: 0.72
+Total time: 19.18
+Setting CPU cores to 2 and CPU frequency to 1300MHz
+Current CPU frequency: 1300000 kHz
+Setting memory limit to 524288 kB
+Average FPS: 0.73
+Total time: 19.13
+Setting CPU cores to 2 and CPU frequency to 1300MHz
+Current CPU frequency: 1300000 kHz
+Setting memory limit to 1048576 kB
+Average FPS: 0.73
+Total time: 19.16
+Setting CPU cores to 1 and CPU frequency to 1300MHz
+Current CPU frequency: 1300000 kHz
+Setting memory limit to 262144 kB
+Average FPS: 0.41
+Total time: 33.78
+Setting CPU cores to 1 and CPU frequency to 1300MHz
+Current CPU frequency: 1300000 kHz
+Setting memory limit to 524288 kB
+Average FPS: 0.41
+Total time: 33.74
+Setting CPU cores to 1 and CPU frequency to 1300MHz
+Current CPU frequency: 1300000 kHz
+Setting memory limit to 1048576 kB
+Average FPS: 0.41
+Total time: 33.72
+Setting CPU cores to 4 and CPU frequency to 1200MHz
+Current CPU frequency: 1200000 kHz
+Setting memory limit to 262144 kB
+Average FPS: 3.73
+Total time: 3.62
+Setting CPU cores to 4 and CPU frequency to 1200MHz
+Current CPU frequency: 1200000 kHz
+Setting memory limit to 524288 kB
+Average FPS: 3.72
+Total time: 3.63
+Setting CPU cores to 4 and CPU frequency to 1200MHz
+Current CPU frequency: 1200000 kHz
+Setting memory limit to 1048576 kB
+Average FPS: 3.75
+Total time: 3.60
+Setting CPU cores to 2 and CPU frequency to 1200MHz
+Current CPU frequency: 1200000 kHz
+Setting memory limit to 262144 kB
+Average FPS: 0.71
+Total time: 19.53
+Setting CPU cores to 2 and CPU frequency to 1200MHz
+Current CPU frequency: 1200000 kHz
+Setting memory limit to 524288 kB
+Average FPS: 0.71
+Total time: 19.46
+Setting CPU cores to 2 and CPU frequency to 1200MHz
+Current CPU frequency: 1200000 kHz
+Setting memory limit to 1048576 kB
+Average FPS: 0.71
+Total time: 19.51
+Setting CPU cores to 1 and CPU frequency to 1200MHz
+Current CPU frequency: 1200000 kHz
+Setting memory limit to 262144 kB
+Average FPS: 0.39
+Total time: 36.16
+Setting CPU cores to 1 and CPU frequency to 1200MHz
+Current CPU frequency: 1200000 kHz
+Setting memory limit to 524288 kB
+Average FPS: 0.38
+Total time: 36.18
+Setting CPU cores to 1 and CPU frequency to 1200MHz
+Current CPU frequency: 1200000 kHz
+Setting memory limit to 1048576 kB
+Average FPS: 0.38
+Total time: 36.11
+Setting CPU cores to 4 and CPU frequency to 1100MHz
+Current CPU frequency: 1100000 kHz
+Setting memory limit to 262144 kB
+Average FPS: 4.73
+Total time: 2.82
+Setting CPU cores to 4 and CPU frequency to 1100MHz
+Current CPU frequency: 1100000 kHz
+Setting memory limit to 524288 kB
+Average FPS: 4.71
+Total time: 2.83
+Setting CPU cores to 4 and CPU frequency to 1100MHz
+Current CPU frequency: 1100000 kHz
+Setting memory limit to 1048576 kB
+Average FPS: 4.75
+Total time: 2.82
+Setting CPU cores to 2 and CPU frequency to 1100MHz
+Current CPU frequency: 1100000 kHz
+Setting memory limit to 262144 kB
+Average FPS: 0.69
+Total time: 20.31
+Setting CPU cores to 2 and CPU frequency to 1100MHz
+Current CPU frequency: 1100000 kHz
+Setting memory limit to 524288 kB
+Average FPS: 0.68
+Total time: 20.34
+Setting CPU cores to 2 and CPU frequency to 1100MHz
+Current CPU frequency: 1100000 kHz
+Setting memory limit to 1048576 kB
+Average FPS: 0.69
+Total time: 20.28
+Setting CPU cores to 1 and CPU frequency to 1100MHz
+Current CPU frequency: 1100000 kHz
+Setting memory limit to 262144 kB
+Average FPS: 0.36
+Total time: 38.52
+Setting CPU cores to 1 and CPU frequency to 1100MHz
+Current CPU frequency: 1100000 kHz
+Setting memory limit to 524288 kB
+Average FPS: 0.36
+Total time: 38.47
+Setting CPU cores to 1 and CPU frequency to 1100MHz
+Current CPU frequency: 1100000 kHz
+Setting memory limit to 1048576 kB
+Average FPS: 0.36
+Total time: 38.58
+Setting CPU cores to 4 and CPU frequency to 1000MHz
+Current CPU frequency: 1000000 kHz
+Setting memory limit to 262144 kB
+Average FPS: 4.56
+Total time: 2.93
+Setting CPU cores to 4 and CPU frequency to 1000MHz
+Current CPU frequency: 1000000 kHz
+Setting memory limit to 524288 kB
+Average FPS: 4.57
+Total time: 2.92
+Setting CPU cores to 4 and CPU frequency to 1000MHz
+Current CPU frequency: 1000000 kHz
+Setting memory limit to 1048576 kB
+Average FPS: 4.53
+Total time: 2.94
+Setting CPU cores to 2 and CPU frequency to 1000MHz
+Current CPU frequency: 1000000 kHz
+Setting memory limit to 262144 kB
+Average FPS: 0.63
+Total time: 22.08
+Setting CPU cores to 2 and CPU frequency to 1000MHz
+Current CPU frequency: 1000000 kHz
+Setting memory limit to 524288 kB
+Average FPS: 0.63
+Total time: 22.15
+Setting CPU cores to 2 and CPU frequency to 1000MHz
+Current CPU frequency: 1000000 kHz
+Setting memory limit to 1048576 kB
+Average FPS: 0.63
+Total time: 22.11
+Setting CPU cores to 1 and CPU frequency to 1000MHz
+Current CPU frequency: 1000000 kHz
+Setting memory limit to 262144 kB
+Average FPS: 0.34
+Total time: 41.06
+Setting CPU cores to 1 and CPU frequency to 1000MHz
+Current CPU frequency: 1000000 kHz
+Setting memory limit to 524288 kB
+Average FPS: 0.34
+Total time: 40.95
+Setting CPU cores to 1 and CPU frequency to 1000MHz
+Current CPU frequency: 1000000 kHz
+Setting memory limit to 1048576 kB
+Average FPS: 0.34
+Total time: 41.04
+Setting CPU cores to 4 and CPU frequency to 900MHz
+Current CPU frequency: 900000 kHz
+Setting memory limit to 262144 kB
+Average FPS: 4.32
+Total time: 3.08
+Setting CPU cores to 4 and CPU frequency to 900MHz
+Current CPU frequency: 900000 kHz
+Setting memory limit to 524288 kB
+Average FPS: 4.37
+Total time: 3.05
+Setting CPU cores to 4 and CPU frequency to 900MHz
+Current CPU frequency: 900000 kHz
+Setting memory limit to 1048576 kB
+Average FPS: 4.30
+Total time: 3.10
+Setting CPU cores to 2 and CPU frequency to 900MHz
+Current CPU frequency: 900000 kHz
+Setting memory limit to 262144 kB
+Average FPS: 0.57
+Total time: 24.34
+Setting CPU cores to 2 and CPU frequency to 900MHz
+Current CPU frequency: 900000 kHz
+Setting memory limit to 524288 kB
+Average FPS: 0.57
+Total time: 24.31
+Setting CPU cores to 2 and CPU frequency to 900MHz
+Current CPU frequency: 900000 kHz
+Setting memory limit to 1048576 kB
+Average FPS: 0.57
+Total time: 24.41
+Setting CPU cores to 1 and CPU frequency to 900MHz
+Current CPU frequency: 900000 kHz
+Setting memory limit to 262144 kB
+Average FPS: 0.30
+Total time: 45.97
+Setting CPU cores to 1 and CPU frequency to 900MHz
+Current CPU frequency: 900000 kHz
+Setting memory limit to 524288 kB
+Average FPS: 0.30
+Total time: 45.75
+Setting CPU cores to 1 and CPU frequency to 900MHz
+Current CPU frequency: 900000 kHz
+Setting memory limit to 1048576 kB
+Average FPS: 0.30
+Total time: 46.02
+Setting CPU cores to 4 and CPU frequency to 800MHz
+Current CPU frequency: 800000 kHz
+Setting memory limit to 262144 kB
+Average FPS: 4.10
+Total time: 3.25
+Setting CPU cores to 4 and CPU frequency to 800MHz
+Current CPU frequency: 800000 kHz
+Setting memory limit to 524288 kB
+Average FPS: 4.10
+Total time: 3.25
+Setting CPU cores to 4 and CPU frequency to 800MHz
+Current CPU frequency: 800000 kHz
+Setting memory limit to 1048576 kB
+Average FPS: 4.11
+Total time: 3.23
+Setting CPU cores to 2 and CPU frequency to 800MHz
+Current CPU frequency: 800000 kHz
+Setting memory limit to 262144 kB
+Average FPS: 0.51
+Total time: 27.22
+Setting CPU cores to 2 and CPU frequency to 800MHz
+Current CPU frequency: 800000 kHz
+Setting memory limit to 524288 kB
+Average FPS: 0.51
+Total time: 27.15
+Setting CPU cores to 2 and CPU frequency to 800MHz
+Current CPU frequency: 800000 kHz
+Setting memory limit to 1048576 kB
+Average FPS: 0.51
+Total time: 27.27
+Setting CPU cores to 1 and CPU frequency to 800MHz
+Current CPU frequency: 800000 kHz
+Setting memory limit to 262144 kB
+Average FPS: 0.27
+Total time: 51.54
+Setting CPU cores to 1 and CPU frequency to 800MHz
+Current CPU frequency: 800000 kHz
+Setting memory limit to 524288 kB
+Average FPS: 0.27
+Total time: 51.64
+Setting CPU cores to 1 and CPU frequency to 800MHz
+Current CPU frequency: 800000 kHz
+Setting memory limit to 1048576 kB
+Average FPS: 0.27
+Total time: 51.72
+Setting CPU cores to 4 and CPU frequency to 700MHz
+Current CPU frequency: 700000 kHz
+Setting memory limit to 262144 kB
+Average FPS: 3.77
+Total time: 3.51
+Setting CPU cores to 4 and CPU frequency to 700MHz
+Current CPU frequency: 700000 kHz
+Setting memory limit to 524288 kB
+Average FPS: 3.79
+Total time: 3.49
+Setting CPU cores to 4 and CPU frequency to 700MHz
+Current CPU frequency: 700000 kHz
+Setting memory limit to 1048576 kB
+Average FPS: 3.77
+Total time: 3.51
+Setting CPU cores to 2 and CPU frequency to 700MHz
+Current CPU frequency: 700000 kHz
+Setting memory limit to 262144 kB
+Average FPS: 0.45
+Total time: 31.10
+Setting CPU cores to 2 and CPU frequency to 700MHz
+Current CPU frequency: 700000 kHz
+Setting memory limit to 524288 kB
+Average FPS: 0.45
+Total time: 31.02
+Setting CPU cores to 2 and CPU frequency to 700MHz
+Current CPU frequency: 700000 kHz
+Setting memory limit to 1048576 kB
+Average FPS: 0.45
+Total time: 31.00
+Setting CPU cores to 1 and CPU frequency to 700MHz
+Current CPU frequency: 700000 kHz
+Setting memory limit to 262144 kB
+Average FPS: 0.24
+Total time: 58.83
+Setting CPU cores to 1 and CPU frequency to 700MHz
+Current CPU frequency: 700000 kHz
+Setting memory limit to 524288 kB
+Average FPS: 0.24
+Total time: 58.86
+Setting CPU cores to 1 and CPU frequency to 700MHz
+Current CPU frequency: 700000 kHz
+Setting memory limit to 1048576 kB
+Average FPS: 0.24
+Total time: 58.97
+Setting CPU cores to 4 and CPU frequency to 600MHz
+Current CPU frequency: 600000 kHz
+Setting memory limit to 262144 kB
+Average FPS: 3.43
+Total time: 3.86
+Setting CPU cores to 4 and CPU frequency to 600MHz
+Current CPU frequency: 600000 kHz
+Setting memory limit to 524288 kB
+Average FPS: 3.43
+Total time: 3.85
+Setting CPU cores to 4 and CPU frequency to 600MHz
+Current CPU frequency: 600000 kHz
+Setting memory limit to 1048576 kB
+Average FPS: 3.40
+Total time: 3.87
+Setting CPU cores to 2 and CPU frequency to 600MHz
+Current CPU frequency: 600000 kHz
+Setting memory limit to 262144 kB
+Average FPS: 0.39
+Total time: 35.46
+Setting CPU cores to 2 and CPU frequency to 600MHz
+Current CPU frequency: 600000 kHz
+Setting memory limit to 524288 kB
+Average FPS: 0.39
+Total time: 35.56
+Setting CPU cores to 2 and CPU frequency to 600MHz
+Current CPU frequency: 600000 kHz
+Setting memory limit to 1048576 kB
+Average FPS: 0.39
+Total time: 35.63
+Setting CPU cores to 1 and CPU frequency to 600MHz
+Current CPU frequency: 600000 kHz
+Setting memory limit to 262144 kB
+Average FPS: 0.22
+Total time: 64.22
+Setting CPU cores to 1 and CPU frequency to 600MHz
+Current CPU frequency: 600000 kHz
+Setting memory limit to 524288 kB
+Average FPS: 0.22
+Total time: 64.21
+Setting CPU cores to 1 and CPU frequency to 600MHz
+Current CPU frequency: 600000 kHz
+Setting memory limit to 1048576 kB
+Average FPS: 0.22
+Total time: 64.27
+Setting next sdram_freq to 200 and rebooting
+Swap is disabled on this system.
+Debug: sdram_freq_list: 450 400 350 300 250 200
+Debug: sdram_freq_list_size: 6
+Current counter: 5
+Current sdram_freq from list: 200
+Setting CPU cores to 4 and CPU frequency to 1400MHz
+Current CPU frequency: 1400000 kHz
+Setting memory limit to 262144 kB
+Average FPS: 0.88
+Total time: 13.97
+Setting CPU cores to 4 and CPU frequency to 1400MHz
+Current CPU frequency: 1400000 kHz
+Setting memory limit to 524288 kB
+Average FPS: 1.62
+Total time: 7.43
+Setting CPU cores to 4 and CPU frequency to 1400MHz
+Current CPU frequency: 1400000 kHz
+Setting memory limit to 1048576 kB
+Average FPS: 3.05
+Total time: 4.46
+Setting CPU cores to 2 and CPU frequency to 1400MHz
+Current CPU frequency: 1400000 kHz
+Setting memory limit to 262144 kB
+Average FPS: 0.75
+Total time: 18.59
+Setting CPU cores to 2 and CPU frequency to 1400MHz
+Current CPU frequency: 1400000 kHz
+Setting memory limit to 524288 kB
+Average FPS: 0.73
+Total time: 19.01
+Setting CPU cores to 2 and CPU frequency to 1400MHz
+Current CPU frequency: 1400000 kHz
+Setting memory limit to 1048576 kB
+Average FPS: 0.74
+Total time: 19.00
+Setting CPU cores to 1 and CPU frequency to 1400MHz
+Current CPU frequency: 1400000 kHz
+Setting memory limit to 262144 kB
+Average FPS: 0.42
+Total time: 33.00
+Setting CPU cores to 1 and CPU frequency to 1400MHz
+Current CPU frequency: 1400000 kHz
+Setting memory limit to 524288 kB
+Average FPS: 0.42
+Total time: 32.93
+Setting CPU cores to 1 and CPU frequency to 1400MHz
+Current CPU frequency: 1400000 kHz
+Setting memory limit to 1048576 kB
+Average FPS: 0.42
+Total time: 32.97
+Setting CPU cores to 4 and CPU frequency to 1300MHz
+Current CPU frequency: 1300000 kHz
+Setting memory limit to 262144 kB
+Average FPS: 3.02
+Total time: 4.49
+Setting CPU cores to 4 and CPU frequency to 1300MHz
+Current CPU frequency: 1300000 kHz
+Setting memory limit to 524288 kB
+Average FPS: 3.01
+Total time: 4.51
+Setting CPU cores to 4 and CPU frequency to 1300MHz
+Current CPU frequency: 1300000 kHz
+Setting memory limit to 1048576 kB
+Average FPS: 3.01
+Total time: 4.50
+Setting CPU cores to 2 and CPU frequency to 1300MHz
+Current CPU frequency: 1300000 kHz
+Setting memory limit to 262144 kB
+Average FPS: 0.70
+Total time: 19.81
+Setting CPU cores to 2 and CPU frequency to 1300MHz
+Current CPU frequency: 1300000 kHz
+Setting memory limit to 524288 kB
+Average FPS: 0.70
+Total time: 19.75
+Setting CPU cores to 2 and CPU frequency to 1300MHz
+Current CPU frequency: 1300000 kHz
+Setting memory limit to 1048576 kB
+Average FPS: 0.71
+Total time: 19.74
+Setting CPU cores to 1 and CPU frequency to 1300MHz
+Current CPU frequency: 1300000 kHz
+Setting memory limit to 262144 kB
+Average FPS: 0.40
+Total time: 34.55
+Setting CPU cores to 1 and CPU frequency to 1300MHz
+Current CPU frequency: 1300000 kHz
+Setting memory limit to 524288 kB
+Average FPS: 0.40
+Total time: 34.47
+Setting CPU cores to 1 and CPU frequency to 1300MHz
+Current CPU frequency: 1300000 kHz
+Setting memory limit to 1048576 kB
+Average FPS: 0.40
+Total time: 34.45
+Setting CPU cores to 4 and CPU frequency to 1200MHz
+Current CPU frequency: 1200000 kHz
+Setting memory limit to 262144 kB
+Average FPS: 2.96
+Total time: 4.58
+Setting CPU cores to 4 and CPU frequency to 1200MHz
+Current CPU frequency: 1200000 kHz
+Setting memory limit to 524288 kB
+Average FPS: 2.92
+Total time: 4.64
+Setting CPU cores to 4 and CPU frequency to 1200MHz
+Current CPU frequency: 1200000 kHz
+Setting memory limit to 1048576 kB
+Average FPS: 2.97
+Total time: 4.56
+Setting CPU cores to 2 and CPU frequency to 1200MHz
+Current CPU frequency: 1200000 kHz
+Setting memory limit to 262144 kB
+Average FPS: 0.69
+Total time: 20.12
+Setting CPU cores to 2 and CPU frequency to 1200MHz
+Current CPU frequency: 1200000 kHz
+Setting memory limit to 524288 kB
+Average FPS: 0.69
+Total time: 20.08
+Setting CPU cores to 2 and CPU frequency to 1200MHz
+Current CPU frequency: 1200000 kHz
+Setting memory limit to 1048576 kB
+Average FPS: 0.69
+Total time: 20.12
+Setting CPU cores to 1 and CPU frequency to 1200MHz
+Current CPU frequency: 1200000 kHz
+Setting memory limit to 262144 kB
+Average FPS: 0.38
+Total time: 37.05
+Setting CPU cores to 1 and CPU frequency to 1200MHz
+Current CPU frequency: 1200000 kHz
+Setting memory limit to 524288 kB
+Average FPS: 0.38
+Total time: 37.12
+Setting CPU cores to 1 and CPU frequency to 1200MHz
+Current CPU frequency: 1200000 kHz
+Setting memory limit to 1048576 kB
+Average FPS: 0.39
+Total time: 35.57
+Setting CPU cores to 4 and CPU frequency to 1100MHz
+Current CPU frequency: 1100000 kHz
+Setting memory limit to 262144 kB
+Average FPS: 4.18
+Total time: 3.21
+Setting CPU cores to 4 and CPU frequency to 1100MHz
+Current CPU frequency: 1100000 kHz
+Setting memory limit to 524288 kB
+Average FPS: 4.19
+Total time: 3.21
+Setting CPU cores to 4 and CPU frequency to 1100MHz
+Current CPU frequency: 1100000 kHz
+Setting memory limit to 1048576 kB
+Average FPS: 4.19
+Total time: 3.21
+Setting CPU cores to 2 and CPU frequency to 1100MHz
+Current CPU frequency: 1100000 kHz
+Setting memory limit to 262144 kB
+Average FPS: 0.68
+Total time: 20.45
+Setting CPU cores to 2 and CPU frequency to 1100MHz
+Current CPU frequency: 1100000 kHz
+Setting memory limit to 524288 kB
+Average FPS: 0.68
+Total time: 20.43
+Setting CPU cores to 2 and CPU frequency to 1100MHz
+Current CPU frequency: 1100000 kHz
+Setting memory limit to 1048576 kB
+Average FPS: 0.68
+Total time: 20.58
+Setting CPU cores to 1 and CPU frequency to 1100MHz
+Current CPU frequency: 1100000 kHz
+Setting memory limit to 262144 kB
+Average FPS: 0.36
+Total time: 38.84
+Setting CPU cores to 1 and CPU frequency to 1100MHz
+Current CPU frequency: 1100000 kHz
+Setting memory limit to 524288 kB
+Average FPS: 0.36
+Total time: 38.72
+Setting CPU cores to 1 and CPU frequency to 1100MHz
+Current CPU frequency: 1100000 kHz
+Setting memory limit to 1048576 kB
+Average FPS: 0.36
+Total time: 38.76
+Setting CPU cores to 4 and CPU frequency to 1000MHz
+Current CPU frequency: 1000000 kHz
+Setting memory limit to 262144 kB
+Average FPS: 4.05
+Total time: 3.31
+Setting CPU cores to 4 and CPU frequency to 1000MHz
+Current CPU frequency: 1000000 kHz
+Setting memory limit to 524288 kB
+Average FPS: 4.08
+Total time: 3.29
+Setting CPU cores to 4 and CPU frequency to 1000MHz
+Current CPU frequency: 1000000 kHz
+Setting memory limit to 1048576 kB
+Average FPS: 4.08
+Total time: 3.29
+Setting CPU cores to 2 and CPU frequency to 1000MHz
+Current CPU frequency: 1000000 kHz
+Setting memory limit to 262144 kB
+Average FPS: 0.63
+Total time: 22.16
+Setting CPU cores to 2 and CPU frequency to 1000MHz
+Current CPU frequency: 1000000 kHz
+Setting memory limit to 524288 kB
 Average FPS: 0.62
+Total time: 22.22
+Setting CPU cores to 2 and CPU frequency to 1000MHz
+Current CPU frequency: 1000000 kHz
+Setting memory limit to 1048576 kB
+Average FPS: 0.63
+Total time: 22.21
+Setting CPU cores to 1 and CPU frequency to 1000MHz
+Current CPU frequency: 1000000 kHz
+Setting memory limit to 262144 kB
+Average FPS: 0.34
+Total time: 41.21
+Setting CPU cores to 1 and CPU frequency to 1000MHz
+Current CPU frequency: 1000000 kHz
+Setting memory limit to 524288 kB
+Average FPS: 0.34
+Total time: 41.27
+Setting CPU cores to 1 and CPU frequency to 1000MHz
+Current CPU frequency: 1000000 kHz
+Setting memory limit to 1048576 kB
+Average FPS: 0.34
+Total time: 41.29
+Setting CPU cores to 4 and CPU frequency to 900MHz
+Current CPU frequency: 900000 kHz
+Setting memory limit to 262144 kB
+Average FPS: 3.92
+Total time: 3.41
+Setting CPU cores to 4 and CPU frequency to 900MHz
+Current CPU frequency: 900000 kHz
+Setting memory limit to 524288 kB
+Average FPS: 3.92
+Total time: 3.41
+Setting CPU cores to 4 and CPU frequency to 900MHz
+Current CPU frequency: 900000 kHz
+Setting memory limit to 1048576 kB
+Average FPS: 3.93
+Total time: 3.41
+Setting CPU cores to 2 and CPU frequency to 900MHz
+Current CPU frequency: 900000 kHz
+Setting memory limit to 262144 kB
+Average FPS: 0.57
+Total time: 24.40
+Setting CPU cores to 2 and CPU frequency to 900MHz
+Current CPU frequency: 900000 kHz
+Setting memory limit to 524288 kB
+Average FPS: 0.57
+Total time: 24.44
+Setting CPU cores to 2 and CPU frequency to 900MHz
+Current CPU frequency: 900000 kHz
+Setting memory limit to 1048576 kB
+Average FPS: 0.57
+Total time: 24.48
+Setting CPU cores to 1 and CPU frequency to 900MHz
+Current CPU frequency: 900000 kHz
+Setting memory limit to 262144 kB
+Average FPS: 0.30
+Total time: 46.35
+Setting CPU cores to 1 and CPU frequency to 900MHz
+Current CPU frequency: 900000 kHz
+Setting memory limit to 524288 kB
+Average FPS: 0.30
+Total time: 46.33
+Setting CPU cores to 1 and CPU frequency to 900MHz
+Current CPU frequency: 900000 kHz
+Setting memory limit to 1048576 kB
+Average FPS: 0.30
+Total time: 46.36
+Setting CPU cores to 4 and CPU frequency to 800MHz
+Current CPU frequency: 800000 kHz
+Setting memory limit to 262144 kB
+Average FPS: 3.73
+Total time: 3.57
+Setting CPU cores to 4 and CPU frequency to 800MHz
+Current CPU frequency: 800000 kHz
+Setting memory limit to 524288 kB
+Average FPS: 3.74
+Total time: 3.56
+Setting CPU cores to 4 and CPU frequency to 800MHz
+Current CPU frequency: 800000 kHz
+Setting memory limit to 1048576 kB
+Average FPS: 3.72
+Total time: 3.58
+Setting CPU cores to 2 and CPU frequency to 800MHz
+Current CPU frequency: 800000 kHz
+Setting memory limit to 262144 kB
+Average FPS: 0.51
+Total time: 27.48
+Setting CPU cores to 2 and CPU frequency to 800MHz
+Current CPU frequency: 800000 kHz
+Setting memory limit to 524288 kB
+Average FPS: 0.51
+Total time: 27.34
+Setting CPU cores to 2 and CPU frequency to 800MHz
+Current CPU frequency: 800000 kHz
+Setting memory limit to 1048576 kB
+Average FPS: 0.50
+Total time: 27.54
+Setting CPU cores to 1 and CPU frequency to 800MHz
+Current CPU frequency: 800000 kHz
+Setting memory limit to 262144 kB
+Average FPS: 0.27
+Total time: 51.86
+Setting CPU cores to 1 and CPU frequency to 800MHz
+Current CPU frequency: 800000 kHz
+Setting memory limit to 524288 kB
+Average FPS: 0.27
+Total time: 51.75
+Setting CPU cores to 1 and CPU frequency to 800MHz
+Current CPU frequency: 800000 kHz
+Setting memory limit to 1048576 kB
+Average FPS: 0.27
+Total time: 51.85
+Setting CPU cores to 4 and CPU frequency to 700MHz
+Current CPU frequency: 700000 kHz
+Setting memory limit to 262144 kB
+Average FPS: 3.52
+Total time: 3.78
+Setting CPU cores to 4 and CPU frequency to 700MHz
+Current CPU frequency: 700000 kHz
+Setting memory limit to 524288 kB
+Average FPS: 3.46
+Total time: 3.84
+Setting CPU cores to 4 and CPU frequency to 700MHz
+Current CPU frequency: 700000 kHz
+Setting memory limit to 1048576 kB
+Average FPS: 3.52
+Total time: 3.78
+Setting CPU cores to 2 and CPU frequency to 700MHz
+Current CPU frequency: 700000 kHz
+Setting memory limit to 262144 kB
+Average FPS: 0.45
+Total time: 31.12
+Setting CPU cores to 2 and CPU frequency to 700MHz
+Current CPU frequency: 700000 kHz
+Setting memory limit to 524288 kB
+Average FPS: 0.45
+Total time: 31.09
+Setting CPU cores to 2 and CPU frequency to 700MHz
+Current CPU frequency: 700000 kHz
+Setting memory limit to 1048576 kB
+Average FPS: 0.45
+Total time: 31.22
+Setting CPU cores to 1 and CPU frequency to 700MHz
+Current CPU frequency: 700000 kHz
+Setting memory limit to 262144 kB
+Average FPS: 0.24
+Total time: 58.91
+Setting CPU cores to 1 and CPU frequency to 700MHz
+Current CPU frequency: 700000 kHz
+Setting memory limit to 524288 kB
+Average FPS: 0.24
+Total time: 58.92
+Setting CPU cores to 1 and CPU frequency to 700MHz
+Current CPU frequency: 700000 kHz
+Setting memory limit to 1048576 kB
+Average FPS: 0.24
+Total time: 59.05
+Setting CPU cores to 4 and CPU frequency to 600MHz
+Current CPU frequency: 600000 kHz
+Setting memory limit to 262144 kB
+Average FPS: 3.17
+Total time: 4.24
+Setting CPU cores to 4 and CPU frequency to 600MHz
+Current CPU frequency: 600000 kHz
+Setting memory limit to 524288 kB
+Average FPS: 3.26
+Total time: 4.07
+Setting CPU cores to 4 and CPU frequency to 600MHz
+Current CPU frequency: 600000 kHz
+Setting memory limit to 1048576 kB
+Average FPS: 3.25
+Total time: 4.08
+Setting CPU cores to 2 and CPU frequency to 600MHz
+Current CPU frequency: 600000 kHz
+Setting memory limit to 262144 kB
+Average FPS: 0.39
+Total time: 35.58
+Setting CPU cores to 2 and CPU frequency to 600MHz
+Current CPU frequency: 600000 kHz
+Setting memory limit to 524288 kB
+Average FPS: 0.39
+Total time: 35.63
+Setting CPU cores to 2 and CPU frequency to 600MHz
+Current CPU frequency: 600000 kHz
+Setting memory limit to 1048576 kB
+Average FPS: 0.39
+Total time: 35.50
+Setting CPU cores to 1 and CPU frequency to 600MHz
+Current CPU frequency: 600000 kHz
+Setting memory limit to 262144 kB
+Average FPS: 0.22
+Total time: 64.43
+Setting CPU cores to 1 and CPU frequency to 600MHz
+Current CPU frequency: 600000 kHz
+Setting memory limit to 524288 kB
+Average FPS: 0.22
+Total time: 64.48
+Setting CPU cores to 1 and CPU frequency to 600MHz
+Current CPU frequency: 600000 kHz
+Setting memory limit to 1048576 kB
+Average FPS: 0.22
+Total time: 64.45
 Counter has reached the end of the sdram_freq list. Not rebooting.

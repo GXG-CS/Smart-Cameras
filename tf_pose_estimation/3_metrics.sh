@@ -38,8 +38,8 @@ echo "Debug: sdram_freq_list: ${sdram_freq_list[*]}" >> "$folder_path/log.txt"
 echo "Debug: sdram_freq_list_size: $sdram_freq_list_size" >> "$folder_path/log.txt"
 
 # Define CPU configurations
-CPU_SPEEDS=("1400" "1300" "1200" "1100" "1000")
-CORE_CONFIGS=("4" "2")
+CPU_SPEEDS=("1400" "1300" "1200" "1100" "1000" "900" "800" "700" "600")
+CORE_CONFIGS=("4" "2" "1")
 
 # CPU_SPEEDS=("1400")
 # CORE_CONFIGS=("4")
