@@ -208,6 +208,19 @@ Hardware configurations:
 
 
 
+Benchmark:
+
+Pi 3b+
+1. Classification
+2. Regression
+3. Predication?
+4.  
+
+
+
+
+
+
 
 
 
