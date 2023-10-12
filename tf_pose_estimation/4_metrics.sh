@@ -87,14 +87,11 @@ for speed in "${CPU_SPEEDS[@]}"; do
 
       # Run the pose_estimation.py script and capture the average FPS
       cd /home/pi/Smart-Cameras/tf_pose_estimation
-      # output=$(sudo cgexec -g memory:myGroup taskset -c $core_list python /home/pi/Smart-Cameras/tf_pose_estimation/pose_estimation.py --videoPath /home/pi/Smart-Cameras/output.avi 2>> "$folder_path/error_log.txt")
-      # output=$(taskset -c $core_list python -c "import resource; resource.setrlimit(resource.RLIMIT_AS, ($((mem_limit * 1024)), $((mem_limit * 1024)))); import sys; sys.path.append('/home/pi/Smart-Cameras/tf_pose_estimation'); import pose_estimation; pose_estimation.main()" --videoPath /home/pi/Smart-Cameras/output.avi 2>> "$folder_path/error_log.txt")
-      # output=$(taskset -c $core_list python -c "import resource; resource.setrlimit(resource.RLIMIT_AS, ($((mem_limit * 1024)), $((mem_limit * 1024)))); import sys; sys.path.append('/home/pi/Smart-Cameras/tf_pose_estimation'); import pose_estimation; pose_estimation.main(videoPath='/home/pi/Smart-Cameras/output.avi')" 2>> "$folder_path/error_log.txt")
-      # output=$(taskset -c $core_list python -c "import resource; resource.setrlimit(resource.RLIMIT_AS, ($((mem_limit * 1024)), $((mem_limit * 1024)))); import sys; sys.path.append('/home/pi/Smart-Cameras/tf_pose_estimation'); import pose_estimation; pose_estimation.main(videoPath='/home/pi/Smart-Cameras/output.avi')" 2>> "$folder_path/error_log.txt")
-
       # output=$(taskset -c $core_list python /home/pi/Smart-Cameras/tf_pose_estimation/pose_estimation.py --videoPath /home/pi/Smart-Cameras/output.avi 2>> "$folder_path/error_log.txt")
       # output=$(taskset -c $core_list python -c "import resource; resource.setrlimit(resource.RLIMIT_AS, ($((mem_limit * 1024)), $((mem_limit * 1024)))); import sys; sys.argv = ['--videoPath', '/home/pi/Smart-Cameras/output.avi']; sys.path.append('/home/pi/Smart-Cameras/tf_pose_estimation'); import pose_estimation; pose_estimation.main()" 2>> "$folder_path/error_log.txt")
-      output=$(taskset -c $core_list python /home/pi/Smart-Cameras/tf_pose_estimation/pose_estimation.py --videoPath /home/pi/Smart-Cameras/output.avi 2>> "$folder_path/error_log.txt")
+      # output=$(taskset -c $core_list python /home/pi/Smart-Cameras/tf_pose_estimation/pose_estimation.py --videoPath /home/pi/Smart-Cameras/output.avi 2>> "$folder_path/error_log.txt")
+      # output=$(taskset -c $core_list python -c "import resource; import sys; resource.setrlimit(resource.RLIMIT_AS, ($((mem_limit * 1024)), $((mem_limit * 1024)))); sys.argv = ['pose_estimation.py', '--videoPath', '/home/pi/Smart-Cameras/output.avi']; sys.path.append('/home/pi/Smart-Cameras/tf_pose_estimation'); import pose_estimation; pose_estimation.main()" 2>> "$folder_path/error_log.txt")
+      output=$(taskset -c $core_list python /home/pi/Smart-Cameras/tf_pose_estimation/pose_estimation.py --videoPath /home/pi/Smart-Cameras/output.avi --memory_limit $mem_limit 2>> "$folder_path/error_log.txt")
 
       # Extract avg_fps and total_time from output
       avg_fps=$(echo $output | awk -F',' '{print $1}')

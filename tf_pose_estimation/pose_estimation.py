@@ -18,6 +18,7 @@ import logging
 import sys
 import time
 import numpy as np
+import resource
 
 import cv2
 from ml import Classifier
@@ -27,6 +28,10 @@ from ml import Posenet
 import utils
 
 # os.chdir(os.path.dirname(os.path.abspath(__file__)))
+
+def set_memory_limit(limit_in_bytes: int):
+  soft_limit, hard_limit = resource.getrlimit(resource.RLIMIT_AS)
+  resource.setrlimit(resource.RLIMIT_AS, (limit_in_bytes, hard_limit))
 
 def run(estimation_model: str, tracker_type: str, classification_model: str,
         label_file: str, video_path: str, width: int, height: int) -> None:
@@ -211,7 +216,17 @@ def main():
       help='Height of frame to capture from camera.',
       required=False,
       default=480)
+  parser.add_argument(
+    '--memory_limit',
+    help='Memory limit in bytes. For example, 262144 for 256MB',
+    required=False,
+    type=int,
+    default=None
+  )
   args = parser.parse_args()
+
+  if args.memory_limit:
+    set_memory_limit(args.memory_limit)
 
   run(args.model, args.tracker, args.classifier, args.label_file,
       args.videoPath, args.frameWidth, args.frameHeight)
