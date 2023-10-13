@@ -53,7 +53,9 @@ def main():
     # Save the clustered data
     input_name = os.path.basename(args.data).split('.')[0]
     current_time = datetime.now().strftime('%Y%m%d_%H%M%S')
-    output_filename = f"{input_name}_cluster_{current_time}.csv"
+    # output_filename = f"{input_name}_cluster_{current_time}.csv"
+    output_filename = f"{input_name}_{current_time}.csv"
+
     output_path = os.path.join(args.output, output_filename)
     data.to_csv(output_path, index=False)
     

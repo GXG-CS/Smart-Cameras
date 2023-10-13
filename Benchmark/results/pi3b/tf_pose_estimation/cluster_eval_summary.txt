@@ -1,0 +1,37 @@
+Evaluation Metrics Summary
+---------------------------
+Metrics for n_clusters=6:
+Silhouette Score: -0.1281879117424959
+Davies-Bouldin Index: 330.8138592132036
+Calinski-Harabasz Score: 293.1324163994802
+---------------------------
+Metrics for n_clusters=7:
+Silhouette Score: -0.11144561306953142
+Davies-Bouldin Index: 518.431241233108
+Calinski-Harabasz Score: 343.6825474902408
+---------------------------
+Metrics for n_clusters=8:
+Silhouette Score: 0.005905965967853631
+Davies-Bouldin Index: 971.3512602119092
+Calinski-Harabasz Score: 569.3099952454735
+---------------------------
+Metrics for n_clusters=9:
+Silhouette Score: -0.0013586518354547932
+Davies-Bouldin Index: 911.2616918777053
+Calinski-Harabasz Score: 497.3616416395658
+---------------------------
+Metrics for n_clusters=10:
+Silhouette Score: -0.024450426563057147
+Davies-Bouldin Index: 392.1072562336375
+Calinski-Harabasz Score: 441.0196827661036
+---------------------------
+Metrics for n_clusters=11:
+Silhouette Score: -0.024885971612215382
+Davies-Bouldin Index: 356.8067700503187
+Calinski-Harabasz Score: 396.08387796530377
+---------------------------
+Metrics for n_clusters=12:
+Silhouette Score: -0.06413863899450649
+Davies-Bouldin Index: 1918.2172221654062
+Calinski-Harabasz Score: 258.9398151851631
+---------------------------

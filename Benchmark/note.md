@@ -46,7 +46,11 @@ Iterate: Periodically revisit the models, especially if new data becomes availab
 
 
 
+shell script:
 
+run cluster kmeans with n_cluster 6,7,8,9,10,11,12
+also run eval with it
+and gather all the eval results to one txt to compare
 
 
 
