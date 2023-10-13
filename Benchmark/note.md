@@ -2,13 +2,9 @@ folder structure:
 
 Benchmark/
 │
-├── classification/
-│ ├── classification.py - Entry point for all classification tasks.
-│ └── methods/ - Contains various classification methods.
+├── cluster.py - Entry point for all cluster tasks.
 │
-├── regression/
-│ ├── regression.py - Entry point for all regression tasks.
-│ └── methods/ - Contains various regression methods.
+├── regression.py - Entry point for all regression tasks.
 │
 ├── data/
 │ └── pi3b_tf_pose_estimation_results.csv - Dataset used in tasks.

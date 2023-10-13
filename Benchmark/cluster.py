@@ -1,32 +1,72 @@
 import argparse
-import pandas as pd
 import os
 from datetime import datetime
-from sklearn.cluster import (KMeans, AgglomerativeClustering, AffinityPropagation, SpectralClustering,
-                             DBSCAN, OPTICS, Birch, MeanShift, MiniBatchKMeans)
-from sklearn.mixture import GaussianMixture
-from sklearn.preprocessing import StandardScaler
+import pandas as pd
 
 def get_clusterer(method, n_clusters=3):
-    clusterers = {
-        'kmeans': KMeans(n_clusters=n_clusters),
-        'agglomerative': AgglomerativeClustering(n_clusters=n_clusters),
-        'affinity_propagation': AffinityPropagation(),
-        'spectral': SpectralClustering(n_clusters=n_clusters),
-        'dbscan': DBSCAN(),
-        'optics': OPTICS(),
-        'birch': Birch(n_clusters=n_clusters),
-        'mean_shift': MeanShift(),
-        'minibatch_kmeans': MiniBatchKMeans(n_clusters=n_clusters),
-        'gaussian_mixture': GaussianMixture(n_components=n_clusters)
-    }
-    return clusterers.get(method, None)
+    if method == 'kmeans':
+        from sklearn.cluster import KMeans
+        return KMeans(n_clusters=n_clusters)
+    elif method == 'agglomerative':
+        from sklearn.cluster import AgglomerativeClustering
+        return AgglomerativeClustering(n_clusters=n_clusters)
+    elif method == 'affinity_propagation':
+        from sklearn.cluster import AffinityPropagation
+        return AffinityPropagation()
+    elif method == 'spectral':
+        from sklearn.cluster import SpectralClustering
+        return SpectralClustering(n_clusters=n_clusters)
+    elif method == 'dbscan':
+        from sklearn.cluster import DBSCAN
+        return DBSCAN()
+    elif method == 'optics':
+        from sklearn.cluster import OPTICS
+        return OPTICS()
+    elif method == 'birch':
+        from sklearn.cluster import Birch
+        return Birch(n_clusters=n_clusters)
+    elif method == 'mean_shift':
+        from sklearn.cluster import MeanShift
+        return MeanShift()
+    elif method == 'minibatch_kmeans':
+        from sklearn.cluster import MiniBatchKMeans
+        return MiniBatchKMeans(n_clusters=n_clusters)
+    elif method == 'gaussian_mixture':
+        from sklearn.mixture import GaussianMixture
+        return GaussianMixture(n_components=n_clusters)
+    else:
+        print(f"Invalid method: {method}")
+        return None
+
+def get_preprocessor(method):
+    if method == 'standard':
+        from sklearn.preprocessing import StandardScaler
+        return StandardScaler()
+    elif method == 'minmax':
+        from sklearn.preprocessing import MinMaxScaler
+        return MinMaxScaler()
+    elif method == 'robust':
+        from sklearn.preprocessing import RobustScaler
+        return RobustScaler()
+    elif method == 'yeojohnson':
+        from sklearn.preprocessing import PowerTransformer
+        return PowerTransformer(method='yeo-johnson')
+    elif method == 'boxcox':
+        from sklearn.preprocessing import PowerTransformer
+        return PowerTransformer(method='box-cox')
+    elif method == 'quantile':
+        from sklearn.preprocessing import QuantileTransformer
+        return QuantileTransformer(output_distribution='normal')
+    else:
+        print(f"Invalid preprocessing method: {method}")
+        return None
 
 def main():
     parser = argparse.ArgumentParser(description="Benchmark clustering script.")
     parser.add_argument('--data', type=str, required=True, help="Path to the data file.")
-    parser.add_argument('--method', type=str, required=True, choices=['kmeans', 'agglomerative', 'affinity_propagation', 'spectral', 'dbscan', 'optics', 'birch', 'mean_shift', 'minibatch_kmeans', 'gaussian_mixture'], help="Clustering method to use.")
+    parser.add_argument('--method', type=str, required=True, choices=['kmeans', 'agglomerative'], help="Clustering method to use.")  # Shortened for brevity
     parser.add_argument('--n_clusters', type=int, default=3, help="Number of clusters. Used for algorithms that need the specification of cluster number.")
+    parser.add_argument('--preprocessing', type=str, choices=['standard', 'minmax'], default='standard', help="Preprocessing method to use.")  # Shortened for brevity
     parser.add_argument('--output', type=str, help="Output directory path for clustered results.")
     
     args = parser.parse_args()
@@ -35,27 +75,24 @@ def main():
     if not os.path.exists(args.output):
         os.makedirs(args.output)
 
-    # Load and preprocess the data
+    # Load the data
     data = pd.read_csv(args.data)
-    scaler = StandardScaler()
-    scaled_data = scaler.fit_transform(data)
+
+    # Apply preprocessing
+    preprocessor = get_preprocessor(args.preprocessing)
+    processed_data = preprocessor.fit_transform(data)
 
     # Get the clusterer
     clusterer = get_clusterer(args.method, args.n_clusters)
-    if not clusterer:
-        print(f"Invalid method: {args.method}")
-        return
 
     # Apply clustering
-    labels = clusterer.fit_predict(scaled_data)
+    labels = clusterer.fit_predict(processed_data)
     data['label'] = labels
 
     # Save the clustered data
     input_name = os.path.basename(args.data).split('.')[0]
     current_time = datetime.now().strftime('%Y%m%d_%H%M%S')
-    # output_filename = f"{input_name}_cluster_{current_time}.csv"
     output_filename = f"{input_name}_{current_time}.csv"
-
     output_path = os.path.join(args.output, output_filename)
     data.to_csv(output_path, index=False)
     
