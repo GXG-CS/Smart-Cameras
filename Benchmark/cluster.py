@@ -64,9 +64,9 @@ def get_preprocessor(method):
 def main():
     parser = argparse.ArgumentParser(description="Benchmark clustering script.")
     parser.add_argument('--data', type=str, required=True, help="Path to the data file.")
-    parser.add_argument('--method', type=str, required=True, choices=['kmeans', 'agglomerative'], help="Clustering method to use.")  # Shortened for brevity
+    parser.add_argument('--method', type=str, required=True, choices=['kmeans', 'agglomerative', 'affinity_propagation', 'spectral', 'dbscan', 'optics', 'birch', 'mean_shift', 'minibatch_kmeans', 'gaussian_mixture'], help="Clustering method to use.")
     parser.add_argument('--n_clusters', type=int, default=3, help="Number of clusters. Used for algorithms that need the specification of cluster number.")
-    parser.add_argument('--preprocessing', type=str, choices=['standard', 'minmax'], default='standard', help="Preprocessing method to use.")  # Shortened for brevity
+    parser.add_argument('--preprocessing', choices=['standard', 'minmax', 'robust', 'yeojohnson', 'boxcox', 'quantile'], help="Preprocessing method to use")
     parser.add_argument('--output', type=str, help="Output directory path for clustered results.")
     
     args = parser.parse_args()
@@ -92,7 +92,8 @@ def main():
     # Save the clustered data
     input_name = os.path.basename(args.data).split('.')[0]
     current_time = datetime.now().strftime('%Y%m%d_%H%M%S')
-    output_filename = f"{input_name}_{current_time}.csv"
+    # output_filename = f"{input_name}_{current_time}.csv"
+    output_filename = f"{args.preprocessing}_{args.n_clusters}.csv"
     output_path = os.path.join(args.output, output_filename)
     data.to_csv(output_path, index=False)
     

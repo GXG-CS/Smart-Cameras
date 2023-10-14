@@ -50,3 +50,9 @@ and gather all the eval results to one txt to compare
 
 
 
+ok then, i want to define data_path,
+like /Benchmark/data/pi3b_tf_pose_estimation_results.csv
+i want relative path
+
+also output_dir like Benchmark/results/pi3b/tf_pose_estimation/cluster/kmeans/6
+you just need to change "kmeans" and "6"   kmeans means m
