@@ -69,6 +69,16 @@ Iterate: Periodically revisit the models, especially if new data becomes availab
 
 
 
+data_collection steps: (pi3b_tf_pose_estimation)
+1. sudo nano /boot/config.txt     sdram_freq=450
+2. crontab -e @reboot xxx
+3. change counter.txt to 0
+4. change sdram_freq.txt sdram_freq list
+5. debug info: log.txt and error_log.txt
+6. results.txt stores the results of [cpu_cores, cpu_freq, avg_fps, sdram_freq, total_time, mem_limit_kb]
+7. ./4_metrics.sh
+
+
 
 
 
