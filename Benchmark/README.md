@@ -1,17 +1,47 @@
-folder structure:
+Benchmark contains three modules:
+1. Data_collection module
+2. Clustering module
+3. Regression module
+
+Folder structure:
 
 Benchmark/
+├── data_collection/
+│   ├── pi0/
+│   ├── pi2b/
+│   ├── pi3b/
+│   ├── pi4b/
+│   └── tensor_flow/
 │
-├── cluster.py - Entry point for all cluster tasks.
+├── results/
+│   └── pi3b/
+│       └── tf_pose_estimation/
+│           ├── cluster/
+│           │   ├── affinity_propagation/
+│           │   ├── agglomerative/
+│           │   ├── birch/
+│           │   ├── dbscan/
+│           │   ├── gaussian_mixture/
+│           │   ├── kmeans/
+│           │   ├── mean_shift/
+│           │   ├── minibatch_kmeans/
+│           │   ├── optics/
+│           │   ├── spectral/
+│           │   
+│           └── [other results]
 │
-├── regression.py - Entry point for all regression tasks.
+├── script/
+│   ├── eval_cluster_summary.py
+│   ├── eval_cluster_txt.py
+│   └── run_cluster.py
 │
-├── data/
-│ └── pi3b_tf_pose_estimation_results.csv - Dataset used in tasks.
+├── visualization/
+│   └── visualize_cluster.py
 │
-├── preprocessing.py - Data preprocessing functionalities.
-│
-└── evaluation.py - Evaluation metrics for the models.
+├── cluster.py
+└── regression.py
+
+
 
 
 Data Collection: Gather data from experiments adjusting sdram_freq, cpu_req, cpu_cores, and mem_limit_kb to measure avg_fps and total_time.
@@ -42,17 +72,5 @@ Iterate: Periodically revisit the models, especially if new data becomes availab
 
 
 
-shell script:
-
-run cluster kmeans with n_cluster 6,7,8,9,10,11,12
-also run eval with it
-and gather all the eval results to one txt to compare
 
 
-
-ok then, i want to define data_path,
-like /Benchmark/data/pi3b_tf_pose_estimation_results.csv
-i want relative path
-
-also output_dir like Benchmark/results/pi3b/tf_pose_estimation/cluster/kmeans/6
-you just need to change "kmeans" and "6"   kmeans means m

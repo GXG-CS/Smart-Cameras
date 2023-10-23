@@ -24,7 +24,7 @@ PREPROCESSING_TECHNIQUES = {
 N_CLUSTERS_RANGE = range(3, 11)
 
 # Paths
-DATA_PATH = "../data/pi3b_tf_pose_estimation_results.csv"
+DATA_PATH = "../data_collection/pi3b/pi3b_tf_pose_estimation_results.csv"
 # CLUSTER_SCRIPT_PATH = "Benchmark/cluster.py"
 
 
