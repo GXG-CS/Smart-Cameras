@@ -1,0 +1,298 @@
+_abc_impl: <_abc._abc_data object at 0x13099dc80>
+_build_request_for_signature: <bound method _MetadataRequester._build_request_for_signature of <class 'sklearn.ensemble._gb.GradientBoostingRegressor'>>
+_check_feature_names: <bound method BaseEstimator._check_feature_names of GradientBoostingRegressor()>
+_check_initialized: <bound method BaseGradientBoosting._check_initialized of GradientBoostingRegressor()>
+_check_n_features: <bound method BaseEstimator._check_n_features of GradientBoostingRegressor()>
+_check_params: <bound method BaseGradientBoosting._check_params of GradientBoostingRegressor()>
+_clear_state: <bound method BaseGradientBoosting._clear_state of GradientBoostingRegressor()>
+_compute_partial_dependence_recursion: <bound method BaseGradientBoosting._compute_partial_dependence_recursion of GradientBoostingRegressor()>
+_estimator_type: regressor
+_fit_stage: <bound method BaseGradientBoosting._fit_stage of GradientBoostingRegressor()>
+_fit_stages: <bound method BaseGradientBoosting._fit_stages of GradientBoostingRegressor()>
+_get_default_requests: <bound method _MetadataRequester._get_default_requests of <class 'sklearn.ensemble._gb.GradientBoostingRegressor'>>
+_get_metadata_request: <bound method _MetadataRequester._get_metadata_request of GradientBoostingRegressor()>
+_get_param_names: <bound method BaseEstimator._get_param_names of <class 'sklearn.ensemble._gb.GradientBoostingRegressor'>>
+_get_tags: <bound method BaseEstimator._get_tags of GradientBoostingRegressor()>
+_init_state: <bound method BaseGradientBoosting._init_state of GradientBoostingRegressor()>
+_is_initialized: <bound method BaseGradientBoosting._is_initialized of GradientBoostingRegressor()>
+_loss: <sklearn.ensemble._gb_losses.LeastSquaresError object at 0x130bc73d0>
+_make_estimator: <bound method BaseGradientBoosting._make_estimator of GradientBoostingRegressor()>
+_more_tags: <bound method RegressorMixin._more_tags of GradientBoostingRegressor()>
+_parameter_constraints: {'max_depth': [<sklearn.utils._param_validation.Interval object at 0x11fe25580>, None], 'min_samples_split': [<sklearn.utils._param_validation.Interval object at 0x11fe255b0>, <sklearn.utils._param_validation.Interval object at 0x11fe255e0>], 'min_samples_leaf': [<sklearn.utils._param_validation.Interval object at 0x13088ad00>, <sklearn.utils._param_validation.Interval object at 0x13088ad60>], 'min_weight_fraction_leaf': [<sklearn.utils._param_validation.Interval object at 0x13088adc0>], 'max_features': [<sklearn.utils._param_validation.Interval object at 0x13088ae20>, <sklearn.utils._param_validation.Interval object at 0x13088ae80>, <sklearn.utils._param_validation.StrOptions object at 0x13088aee0>, None], 'random_state': ['random_state'], 'max_leaf_nodes': [<sklearn.utils._param_validation.Interval object at 0x13088af70>, None], 'min_impurity_decrease': [<sklearn.utils._param_validation.Interval object at 0x13088afa0>], 'ccp_alpha': [<sklearn.utils._param_validation.Interval object at 0x13088e040>], 'criterion': [<sklearn.utils._param_validation.StrOptions object at 0x130996580>], 'learning_rate': [<sklearn.utils._param_validation.Interval object at 0x130973b50>], 'n_estimators': [<sklearn.utils._param_validation.Interval object at 0x130973bb0>], 'subsample': [<sklearn.utils._param_validation.Interval object at 0x130996610>], 'verbose': ['verbose'], 'warm_start': ['boolean'], 'validation_fraction': [<sklearn.utils._param_validation.Interval object at 0x130996640>], 'n_iter_no_change': [<sklearn.utils._param_validation.Interval object at 0x1309966a0>, None], 'tol': [<sklearn.utils._param_validation.Interval object at 0x130996700>], 'loss': [<sklearn.utils._param_validation.StrOptions object at 0x130996dc0>], 'init': [<sklearn.utils._param_validation.StrOptions object at 0x130996d00>, None, <sklearn.utils._param_validation.HasMethods object at 0x130996d30>], 'alpha': [<sklearn.utils._param_validation.Interval object at 0x130996cd0>]}
+_raw_predict: <bound method BaseGradientBoosting._raw_predict of GradientBoostingRegressor()>
+_raw_predict_init: <bound method BaseGradientBoosting._raw_predict_init of GradientBoostingRegressor()>
+_repr_html_: <bound method BaseEstimator._repr_html_inner of GradientBoostingRegressor()>
+_repr_html_inner: <bound method BaseEstimator._repr_html_inner of GradientBoostingRegressor()>
+_repr_mimebundle_: <bound method BaseEstimator._repr_mimebundle_ of GradientBoostingRegressor()>
+_required_parameters: []
+_resize_state: <bound method BaseGradientBoosting._resize_state of GradientBoostingRegressor()>
+_rng: RandomState(MT19937)
+_staged_raw_predict: <bound method BaseGradientBoosting._staged_raw_predict of GradientBoostingRegressor()>
+_validate_data: <bound method BaseEstimator._validate_data of GradientBoostingRegressor()>
+_validate_estimator: <bound method BaseEnsemble._validate_estimator of GradientBoostingRegressor()>
+_validate_params: <bound method BaseEstimator._validate_params of GradientBoostingRegressor()>
+_validate_y: <bound method GradientBoostingRegressor._validate_y of GradientBoostingRegressor()>
+alpha: 0.9
+apply: <bound method GradientBoostingRegressor.apply of GradientBoostingRegressor()>
+base_estimator_: Error retrieving attribute - 'GradientBoostingRegressor' object has no attribute 'estimator_'
+ccp_alpha: 0.0
+criterion: friedman_mse
+estimators_: [[DecisionTreeRegressor(criterion='friedman_mse', max_depth=3,
+                        random_state=RandomState(MT19937) at 0x103FEBA40)]
+ [DecisionTreeRegressor(criterion='friedman_mse', max_depth=3,
+                        random_state=RandomState(MT19937) at 0x103FEBA40)]
+ [DecisionTreeRegressor(criterion='friedman_mse', max_depth=3,
+                        random_state=RandomState(MT19937) at 0x103FEBA40)]
+ [DecisionTreeRegressor(criterion='friedman_mse', max_depth=3,
+                        random_state=RandomState(MT19937) at 0x103FEBA40)]
+ [DecisionTreeRegressor(criterion='friedman_mse', max_depth=3,
+                        random_state=RandomState(MT19937) at 0x103FEBA40)]
+ [DecisionTreeRegressor(criterion='friedman_mse', max_depth=3,
+                        random_state=RandomState(MT19937) at 0x103FEBA40)]
+ [DecisionTreeRegressor(criterion='friedman_mse', max_depth=3,
+                        random_state=RandomState(MT19937) at 0x103FEBA40)]
+ [DecisionTreeRegressor(criterion='friedman_mse', max_depth=3,
+                        random_state=RandomState(MT19937) at 0x103FEBA40)]
+ [DecisionTreeRegressor(criterion='friedman_mse', max_depth=3,
+                        random_state=RandomState(MT19937) at 0x103FEBA40)]
+ [DecisionTreeRegressor(criterion='friedman_mse', max_depth=3,
+                        random_state=RandomState(MT19937) at 0x103FEBA40)]
+ [DecisionTreeRegressor(criterion='friedman_mse', max_depth=3,
+                        random_state=RandomState(MT19937) at 0x103FEBA40)]
+ [DecisionTreeRegressor(criterion='friedman_mse', max_depth=3,
+                        random_state=RandomState(MT19937) at 0x103FEBA40)]
+ [DecisionTreeRegressor(criterion='friedman_mse', max_depth=3,
+                        random_state=RandomState(MT19937) at 0x103FEBA40)]
+ [DecisionTreeRegressor(criterion='friedman_mse', max_depth=3,
+                        random_state=RandomState(MT19937) at 0x103FEBA40)]
+ [DecisionTreeRegressor(criterion='friedman_mse', max_depth=3,
+                        random_state=RandomState(MT19937) at 0x103FEBA40)]
+ [DecisionTreeRegressor(criterion='friedman_mse', max_depth=3,
+                        random_state=RandomState(MT19937) at 0x103FEBA40)]
+ [DecisionTreeRegressor(criterion='friedman_mse', max_depth=3,
+                        random_state=RandomState(MT19937) at 0x103FEBA40)]
+ [DecisionTreeRegressor(criterion='friedman_mse', max_depth=3,
+                        random_state=RandomState(MT19937) at 0x103FEBA40)]
+ [DecisionTreeRegressor(criterion='friedman_mse', max_depth=3,
+                        random_state=RandomState(MT19937) at 0x103FEBA40)]
+ [DecisionTreeRegressor(criterion='friedman_mse', max_depth=3,
+                        random_state=RandomState(MT19937) at 0x103FEBA40)]
+ [DecisionTreeRegressor(criterion='friedman_mse', max_depth=3,
+                        random_state=RandomState(MT19937) at 0x103FEBA40)]
+ [DecisionTreeRegressor(criterion='friedman_mse', max_depth=3,
+                        random_state=RandomState(MT19937) at 0x103FEBA40)]
+ [DecisionTreeRegressor(criterion='friedman_mse', max_depth=3,
+                        random_state=RandomState(MT19937) at 0x103FEBA40)]
+ [DecisionTreeRegressor(criterion='friedman_mse', max_depth=3,
+                        random_state=RandomState(MT19937) at 0x103FEBA40)]
+ [DecisionTreeRegressor(criterion='friedman_mse', max_depth=3,
+                        random_state=RandomState(MT19937) at 0x103FEBA40)]
+ [DecisionTreeRegressor(criterion='friedman_mse', max_depth=3,
+                        random_state=RandomState(MT19937) at 0x103FEBA40)]
+ [DecisionTreeRegressor(criterion='friedman_mse', max_depth=3,
+                        random_state=RandomState(MT19937) at 0x103FEBA40)]
+ [DecisionTreeRegressor(criterion='friedman_mse', max_depth=3,
+                        random_state=RandomState(MT19937) at 0x103FEBA40)]
+ [DecisionTreeRegressor(criterion='friedman_mse', max_depth=3,
+                        random_state=RandomState(MT19937) at 0x103FEBA40)]
+ [DecisionTreeRegressor(criterion='friedman_mse', max_depth=3,
+                        random_state=RandomState(MT19937) at 0x103FEBA40)]
+ [DecisionTreeRegressor(criterion='friedman_mse', max_depth=3,
+                        random_state=RandomState(MT19937) at 0x103FEBA40)]
+ [DecisionTreeRegressor(criterion='friedman_mse', max_depth=3,
+                        random_state=RandomState(MT19937) at 0x103FEBA40)]
+ [DecisionTreeRegressor(criterion='friedman_mse', max_depth=3,
+                        random_state=RandomState(MT19937) at 0x103FEBA40)]
+ [DecisionTreeRegressor(criterion='friedman_mse', max_depth=3,
+                        random_state=RandomState(MT19937) at 0x103FEBA40)]
+ [DecisionTreeRegressor(criterion='friedman_mse', max_depth=3,
+                        random_state=RandomState(MT19937) at 0x103FEBA40)]
+ [DecisionTreeRegressor(criterion='friedman_mse', max_depth=3,
+                        random_state=RandomState(MT19937) at 0x103FEBA40)]
+ [DecisionTreeRegressor(criterion='friedman_mse', max_depth=3,
+                        random_state=RandomState(MT19937) at 0x103FEBA40)]
+ [DecisionTreeRegressor(criterion='friedman_mse', max_depth=3,
+                        random_state=RandomState(MT19937) at 0x103FEBA40)]
+ [DecisionTreeRegressor(criterion='friedman_mse', max_depth=3,
+                        random_state=RandomState(MT19937) at 0x103FEBA40)]
+ [DecisionTreeRegressor(criterion='friedman_mse', max_depth=3,
+                        random_state=RandomState(MT19937) at 0x103FEBA40)]
+ [DecisionTreeRegressor(criterion='friedman_mse', max_depth=3,
+                        random_state=RandomState(MT19937) at 0x103FEBA40)]
+ [DecisionTreeRegressor(criterion='friedman_mse', max_depth=3,
+                        random_state=RandomState(MT19937) at 0x103FEBA40)]
+ [DecisionTreeRegressor(criterion='friedman_mse', max_depth=3,
+                        random_state=RandomState(MT19937) at 0x103FEBA40)]
+ [DecisionTreeRegressor(criterion='friedman_mse', max_depth=3,
+                        random_state=RandomState(MT19937) at 0x103FEBA40)]
+ [DecisionTreeRegressor(criterion='friedman_mse', max_depth=3,
+                        random_state=RandomState(MT19937) at 0x103FEBA40)]
+ [DecisionTreeRegressor(criterion='friedman_mse', max_depth=3,
+                        random_state=RandomState(MT19937) at 0x103FEBA40)]
+ [DecisionTreeRegressor(criterion='friedman_mse', max_depth=3,
+                        random_state=RandomState(MT19937) at 0x103FEBA40)]
+ [DecisionTreeRegressor(criterion='friedman_mse', max_depth=3,
+                        random_state=RandomState(MT19937) at 0x103FEBA40)]
+ [DecisionTreeRegressor(criterion='friedman_mse', max_depth=3,
+                        random_state=RandomState(MT19937) at 0x103FEBA40)]
+ [DecisionTreeRegressor(criterion='friedman_mse', max_depth=3,
+                        random_state=RandomState(MT19937) at 0x103FEBA40)]
+ [DecisionTreeRegressor(criterion='friedman_mse', max_depth=3,
+                        random_state=RandomState(MT19937) at 0x103FEBA40)]
+ [DecisionTreeRegressor(criterion='friedman_mse', max_depth=3,
+                        random_state=RandomState(MT19937) at 0x103FEBA40)]
+ [DecisionTreeRegressor(criterion='friedman_mse', max_depth=3,
+                        random_state=RandomState(MT19937) at 0x103FEBA40)]
+ [DecisionTreeRegressor(criterion='friedman_mse', max_depth=3,
+                        random_state=RandomState(MT19937) at 0x103FEBA40)]
+ [DecisionTreeRegressor(criterion='friedman_mse', max_depth=3,
+                        random_state=RandomState(MT19937) at 0x103FEBA40)]
+ [DecisionTreeRegressor(criterion='friedman_mse', max_depth=3,
+                        random_state=RandomState(MT19937) at 0x103FEBA40)]
+ [DecisionTreeRegressor(criterion='friedman_mse', max_depth=3,
+                        random_state=RandomState(MT19937) at 0x103FEBA40)]
+ [DecisionTreeRegressor(criterion='friedman_mse', max_depth=3,
+                        random_state=RandomState(MT19937) at 0x103FEBA40)]
+ [DecisionTreeRegressor(criterion='friedman_mse', max_depth=3,
+                        random_state=RandomState(MT19937) at 0x103FEBA40)]
+ [DecisionTreeRegressor(criterion='friedman_mse', max_depth=3,
+                        random_state=RandomState(MT19937) at 0x103FEBA40)]
+ [DecisionTreeRegressor(criterion='friedman_mse', max_depth=3,
+                        random_state=RandomState(MT19937) at 0x103FEBA40)]
+ [DecisionTreeRegressor(criterion='friedman_mse', max_depth=3,
+                        random_state=RandomState(MT19937) at 0x103FEBA40)]
+ [DecisionTreeRegressor(criterion='friedman_mse', max_depth=3,
+                        random_state=RandomState(MT19937) at 0x103FEBA40)]
+ [DecisionTreeRegressor(criterion='friedman_mse', max_depth=3,
+                        random_state=RandomState(MT19937) at 0x103FEBA40)]
+ [DecisionTreeRegressor(criterion='friedman_mse', max_depth=3,
+                        random_state=RandomState(MT19937) at 0x103FEBA40)]
+ [DecisionTreeRegressor(criterion='friedman_mse', max_depth=3,
+                        random_state=RandomState(MT19937) at 0x103FEBA40)]
+ [DecisionTreeRegressor(criterion='friedman_mse', max_depth=3,
+                        random_state=RandomState(MT19937) at 0x103FEBA40)]
+ [DecisionTreeRegressor(criterion='friedman_mse', max_depth=3,
+                        random_state=RandomState(MT19937) at 0x103FEBA40)]
+ [DecisionTreeRegressor(criterion='friedman_mse', max_depth=3,
+                        random_state=RandomState(MT19937) at 0x103FEBA40)]
+ [DecisionTreeRegressor(criterion='friedman_mse', max_depth=3,
+                        random_state=RandomState(MT19937) at 0x103FEBA40)]
+ [DecisionTreeRegressor(criterion='friedman_mse', max_depth=3,
+                        random_state=RandomState(MT19937) at 0x103FEBA40)]
+ [DecisionTreeRegressor(criterion='friedman_mse', max_depth=3,
+                        random_state=RandomState(MT19937) at 0x103FEBA40)]
+ [DecisionTreeRegressor(criterion='friedman_mse', max_depth=3,
+                        random_state=RandomState(MT19937) at 0x103FEBA40)]
+ [DecisionTreeRegressor(criterion='friedman_mse', max_depth=3,
+                        random_state=RandomState(MT19937) at 0x103FEBA40)]
+ [DecisionTreeRegressor(criterion='friedman_mse', max_depth=3,
+                        random_state=RandomState(MT19937) at 0x103FEBA40)]
+ [DecisionTreeRegressor(criterion='friedman_mse', max_depth=3,
+                        random_state=RandomState(MT19937) at 0x103FEBA40)]
+ [DecisionTreeRegressor(criterion='friedman_mse', max_depth=3,
+                        random_state=RandomState(MT19937) at 0x103FEBA40)]
+ [DecisionTreeRegressor(criterion='friedman_mse', max_depth=3,
+                        random_state=RandomState(MT19937) at 0x103FEBA40)]
+ [DecisionTreeRegressor(criterion='friedman_mse', max_depth=3,
+                        random_state=RandomState(MT19937) at 0x103FEBA40)]
+ [DecisionTreeRegressor(criterion='friedman_mse', max_depth=3,
+                        random_state=RandomState(MT19937) at 0x103FEBA40)]
+ [DecisionTreeRegressor(criterion='friedman_mse', max_depth=3,
+                        random_state=RandomState(MT19937) at 0x103FEBA40)]
+ [DecisionTreeRegressor(criterion='friedman_mse', max_depth=3,
+                        random_state=RandomState(MT19937) at 0x103FEBA40)]
+ [DecisionTreeRegressor(criterion='friedman_mse', max_depth=3,
+                        random_state=RandomState(MT19937) at 0x103FEBA40)]
+ [DecisionTreeRegressor(criterion='friedman_mse', max_depth=3,
+                        random_state=RandomState(MT19937) at 0x103FEBA40)]
+ [DecisionTreeRegressor(criterion='friedman_mse', max_depth=3,
+                        random_state=RandomState(MT19937) at 0x103FEBA40)]
+ [DecisionTreeRegressor(criterion='friedman_mse', max_depth=3,
+                        random_state=RandomState(MT19937) at 0x103FEBA40)]
+ [DecisionTreeRegressor(criterion='friedman_mse', max_depth=3,
+                        random_state=RandomState(MT19937) at 0x103FEBA40)]
+ [DecisionTreeRegressor(criterion='friedman_mse', max_depth=3,
+                        random_state=RandomState(MT19937) at 0x103FEBA40)]
+ [DecisionTreeRegressor(criterion='friedman_mse', max_depth=3,
+                        random_state=RandomState(MT19937) at 0x103FEBA40)]
+ [DecisionTreeRegressor(criterion='friedman_mse', max_depth=3,
+                        random_state=RandomState(MT19937) at 0x103FEBA40)]
+ [DecisionTreeRegressor(criterion='friedman_mse', max_depth=3,
+                        random_state=RandomState(MT19937) at 0x103FEBA40)]
+ [DecisionTreeRegressor(criterion='friedman_mse', max_depth=3,
+                        random_state=RandomState(MT19937) at 0x103FEBA40)]
+ [DecisionTreeRegressor(criterion='friedman_mse', max_depth=3,
+                        random_state=RandomState(MT19937) at 0x103FEBA40)]
+ [DecisionTreeRegressor(criterion='friedman_mse', max_depth=3,
+                        random_state=RandomState(MT19937) at 0x103FEBA40)]
+ [DecisionTreeRegressor(criterion='friedman_mse', max_depth=3,
+                        random_state=RandomState(MT19937) at 0x103FEBA40)]
+ [DecisionTreeRegressor(criterion='friedman_mse', max_depth=3,
+                        random_state=RandomState(MT19937) at 0x103FEBA40)]
+ [DecisionTreeRegressor(criterion='friedman_mse', max_depth=3,
+                        random_state=RandomState(MT19937) at 0x103FEBA40)]
+ [DecisionTreeRegressor(criterion='friedman_mse', max_depth=3,
+                        random_state=RandomState(MT19937) at 0x103FEBA40)]
+ [DecisionTreeRegressor(criterion='friedman_mse', max_depth=3,
+                        random_state=RandomState(MT19937) at 0x103FEBA40)]
+ [DecisionTreeRegressor(criterion='friedman_mse', max_depth=3,
+                        random_state=RandomState(MT19937) at 0x103FEBA40)]]
+feature_importances_: [7.16163761e-05 0.00000000e+00 2.23018677e-01 5.28006625e-01
+ 2.48101370e-01 8.01711558e-04]
+fit: <bound method BaseGradientBoosting.fit of GradientBoostingRegressor()>
+get_metadata_routing: <bound method _MetadataRequester.get_metadata_routing of GradientBoostingRegressor()>
+get_params: <bound method BaseEstimator.get_params of GradientBoostingRegressor()>
+init: None
+init_: DummyRegressor()
+learning_rate: 0.1
+loss: squared_error
+max_depth: 3
+max_features: None
+max_features_: 6
+max_leaf_nodes: None
+min_impurity_decrease: 0.0
+min_samples_leaf: 1
+min_samples_split: 2
+min_weight_fraction_leaf: 0.0
+n_estimators: 100
+n_estimators_: 100
+n_features_in_: 6
+n_iter_no_change: None
+predict: <bound method GradientBoostingRegressor.predict of GradientBoostingRegressor()>
+random_state: None
+score: <bound method RegressorMixin.score of GradientBoostingRegressor()>
+set_fit_request: <function RequestMethod.__get__.<locals>.func at 0x130bd1820>
+set_params: <bound method BaseEstimator.set_params of GradientBoostingRegressor()>
+set_score_request: <function RequestMethod.__get__.<locals>.func at 0x130bd1790>
+staged_predict: <bound method GradientBoostingRegressor.staged_predict of GradientBoostingRegressor()>
+subsample: 1.0
+tol: 0.0001
+train_score_: [5.10258463e-01 4.13309355e-01 3.34780577e-01 2.71172268e-01
+ 2.19649537e-01 1.77916125e-01 1.44112061e-01 1.16730769e-01
+ 9.45519233e-02 7.65870579e-02 6.20355169e-02 5.02487687e-02
+ 4.07015026e-02 3.29682171e-02 2.67042559e-02 2.16304473e-02
+ 1.75206623e-02 1.41917364e-02 1.14953065e-02 9.31119828e-03
+ 7.54207061e-03 6.10907719e-03 4.94835252e-03 4.00816555e-03
+ 3.24661409e-03 2.62975741e-03 2.13010351e-03 1.72538384e-03
+ 1.39756091e-03 1.13202434e-03 9.16939713e-04 7.42721168e-04
+ 6.01604146e-04 4.87299358e-04 3.94712480e-04 3.19717109e-04
+ 2.58970858e-04 2.09766395e-04 1.69910780e-04 1.37627732e-04
+ 1.11478463e-04 9.02975548e-05 7.31410194e-05 5.92442257e-05
+ 4.79878228e-05 3.88701365e-05 3.14848106e-05 2.55026966e-05
+ 2.06571842e-05 1.67323192e-05 1.35531786e-05 1.09780746e-05
+ 8.89224045e-06 7.20271477e-06 5.83419896e-06 4.72570116e-06
+ 3.82781794e-06 3.10053253e-06 2.51143135e-06 2.03425939e-06
+ 1.64775011e-06 1.33467759e-06 1.08108885e-06 8.75681965e-07
+ 7.09302392e-07 5.74534938e-07 4.65373299e-07 3.76952373e-07
+ 3.05331422e-07 2.47318452e-07 2.00327946e-07 1.62265636e-07
+ 1.31435165e-07 1.06462484e-07 8.62346119e-08 6.98500357e-08
+ 5.65785289e-08 4.58286084e-08 3.71211728e-08 3.00681500e-08
+ 2.43552015e-08 1.97277132e-08 1.59794477e-08 1.29433526e-08
+ 1.04841156e-08 8.49213366e-09 6.87862826e-09 5.57168889e-09
+ 4.51306800e-09 3.65558508e-09 2.96102392e-09 2.39842937e-09
+ 1.94272779e-09 1.57360951e-09 1.27462370e-09 1.03244520e-09
+ 8.36280612e-10 6.77387296e-10 5.48683710e-10 4.44433805e-10]
+validation_fraction: 0.1
+verbose: 0
+warm_start: False
+--------------------------------------------------

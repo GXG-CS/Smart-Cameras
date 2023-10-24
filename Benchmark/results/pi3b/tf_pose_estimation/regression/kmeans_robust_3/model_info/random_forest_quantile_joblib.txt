@@ -1,0 +1,64 @@
+_abc_impl: <_abc._abc_data object at 0x14da67200>
+_build_request_for_signature: <bound method _MetadataRequester._build_request_for_signature of <class 'sklearn.ensemble._forest.RandomForestRegressor'>>
+_check_feature_names: <bound method BaseEstimator._check_feature_names of RandomForestRegressor()>
+_check_n_features: <bound method BaseEstimator._check_n_features of RandomForestRegressor()>
+_compute_oob_predictions: <bound method BaseForest._compute_oob_predictions of RandomForestRegressor()>
+_compute_partial_dependence_recursion: <bound method ForestRegressor._compute_partial_dependence_recursion of RandomForestRegressor()>
+_estimator_type: regressor
+_get_default_requests: <bound method _MetadataRequester._get_default_requests of <class 'sklearn.ensemble._forest.RandomForestRegressor'>>
+_get_metadata_request: <bound method _MetadataRequester._get_metadata_request of RandomForestRegressor()>
+_get_oob_predictions: <function ForestRegressor._get_oob_predictions at 0x14da74b80>
+_get_param_names: <bound method BaseEstimator._get_param_names of <class 'sklearn.ensemble._forest.RandomForestRegressor'>>
+_get_tags: <bound method BaseEstimator._get_tags of RandomForestRegressor()>
+_make_estimator: <bound method BaseEnsemble._make_estimator of RandomForestRegressor()>
+_more_tags: <bound method ForestRegressor._more_tags of RandomForestRegressor()>
+_parameter_constraints: {'n_estimators': [<sklearn.utils._param_validation.Interval object at 0x14da6f460>], 'bootstrap': ['boolean'], 'oob_score': ['boolean', <built-in function callable>], 'n_jobs': [<class 'numbers.Integral'>, None], 'random_state': ['random_state'], 'verbose': ['verbose'], 'warm_start': ['boolean'], 'max_samples': [None, <sklearn.utils._param_validation.Interval object at 0x14da6f490>, <sklearn.utils._param_validation.Interval object at 0x14da6f4f0>], 'max_depth': [<sklearn.utils._param_validation.Interval object at 0x12eac2580>, None], 'min_samples_split': [<sklearn.utils._param_validation.Interval object at 0x12eac25b0>, <sklearn.utils._param_validation.Interval object at 0x12eac25e0>], 'min_samples_leaf': [<sklearn.utils._param_validation.Interval object at 0x14875ad00>, <sklearn.utils._param_validation.Interval object at 0x14875ad60>], 'min_weight_fraction_leaf': [<sklearn.utils._param_validation.Interval object at 0x14875adc0>], 'max_features': [<sklearn.utils._param_validation.Interval object at 0x14875ae20>, <sklearn.utils._param_validation.Interval object at 0x14875ae80>, <sklearn.utils._param_validation.StrOptions object at 0x14875aee0>, None], 'max_leaf_nodes': [<sklearn.utils._param_validation.Interval object at 0x14875af70>, None], 'min_impurity_decrease': [<sklearn.utils._param_validation.Interval object at 0x14875afa0>], 'ccp_alpha': [<sklearn.utils._param_validation.Interval object at 0x14875e040>], 'criterion': [<sklearn.utils._param_validation.StrOptions object at 0x14875e670>, <sklearn.utils._param_validation.Hidden object at 0x14875e5e0>]}
+_repr_html_: <bound method BaseEstimator._repr_html_inner of RandomForestRegressor()>
+_repr_html_inner: <bound method BaseEstimator._repr_html_inner of RandomForestRegressor()>
+_repr_mimebundle_: <bound method BaseEstimator._repr_mimebundle_ of RandomForestRegressor()>
+_required_parameters: []
+_set_oob_score_and_attributes: <bound method ForestRegressor._set_oob_score_and_attributes of RandomForestRegressor()>
+_validate_X_predict: <bound method BaseForest._validate_X_predict of RandomForestRegressor()>
+_validate_data: <bound method BaseEstimator._validate_data of RandomForestRegressor()>
+_validate_estimator: <bound method BaseEnsemble._validate_estimator of RandomForestRegressor()>
+_validate_params: <bound method BaseEstimator._validate_params of RandomForestRegressor()>
+_validate_y_class_weight: <bound method BaseForest._validate_y_class_weight of RandomForestRegressor()>
+apply: <bound method BaseForest.apply of RandomForestRegressor()>
+base_estimator: deprecated
+base_estimator_: DecisionTreeRegressor()
+bootstrap: True
+ccp_alpha: 0.0
+class_weight: None
+criterion: squared_error
+decision_path: <bound method BaseForest.decision_path of RandomForestRegressor()>
+estimator: DecisionTreeRegressor()
+estimator_: DecisionTreeRegressor()
+estimator_params: ('criterion', 'max_depth', 'min_samples_split', 'min_samples_leaf', 'min_weight_fraction_leaf', 'max_features', 'max_leaf_nodes', 'min_impurity_decrease', 'random_state', 'ccp_alpha')
+estimators_: [DecisionTreeRegressor(max_features=1.0, random_state=1315332025), DecisionTreeRegressor(max_features=1.0, random_state=402487291), DecisionTreeRegressor(max_features=1.0, random_state=1576896157), DecisionTreeRegressor(max_features=1.0, random_state=759275530), DecisionTreeRegressor(max_features=1.0, random_state=232687960), DecisionTreeRegressor(max_features=1.0, random_state=1714716863), DecisionTreeRegressor(max_features=1.0, random_state=68749874), DecisionTreeRegressor(max_features=1.0, random_state=2001071873), DecisionTreeRegressor(max_features=1.0, random_state=773449365), DecisionTreeRegressor(max_features=1.0, random_state=525612897), DecisionTreeRegressor(max_features=1.0, random_state=1898564899), DecisionTreeRegressor(max_features=1.0, random_state=1981063342), DecisionTreeRegressor(max_features=1.0, random_state=1430767037), DecisionTreeRegressor(max_features=1.0, random_state=26759545), DecisionTreeRegressor(max_features=1.0, random_state=1684706743), DecisionTreeRegressor(max_features=1.0, random_state=833544442), DecisionTreeRegressor(max_features=1.0, random_state=1908691298), DecisionTreeRegressor(max_features=1.0, random_state=1004247423), DecisionTreeRegressor(max_features=1.0, random_state=1847899135), DecisionTreeRegressor(max_features=1.0, random_state=1315310122), DecisionTreeRegressor(max_features=1.0, random_state=1045403953), DecisionTreeRegressor(max_features=1.0, random_state=1885005998), DecisionTreeRegressor(max_features=1.0, random_state=436635191), DecisionTreeRegressor(max_features=1.0, random_state=1595301900), DecisionTreeRegressor(max_features=1.0, random_state=651602575), DecisionTreeRegressor(max_features=1.0, random_state=1978501078), DecisionTreeRegressor(max_features=1.0, random_state=2007404508), DecisionTreeRegressor(max_features=1.0, random_state=819066914), DecisionTreeRegressor(max_features=1.0, random_state=2110906277), DecisionTreeRegressor(max_features=1.0, random_state=2147296029), DecisionTreeRegressor(max_features=1.0, random_state=1742006979), DecisionTreeRegressor(max_features=1.0, random_state=212188832), DecisionTreeRegressor(max_features=1.0, random_state=568168310), DecisionTreeRegressor(max_features=1.0, random_state=1206028471), DecisionTreeRegressor(max_features=1.0, random_state=1600822532), DecisionTreeRegressor(max_features=1.0, random_state=1087342399), DecisionTreeRegressor(max_features=1.0, random_state=1368513704), DecisionTreeRegressor(max_features=1.0, random_state=1213695471), DecisionTreeRegressor(max_features=1.0, random_state=1804087982), DecisionTreeRegressor(max_features=1.0, random_state=244592728), DecisionTreeRegressor(max_features=1.0, random_state=1292461458), DecisionTreeRegressor(max_features=1.0, random_state=2143659189), DecisionTreeRegressor(max_features=1.0, random_state=1703371431), DecisionTreeRegressor(max_features=1.0, random_state=1226648575), DecisionTreeRegressor(max_features=1.0, random_state=1666406329), DecisionTreeRegressor(max_features=1.0, random_state=161397406), DecisionTreeRegressor(max_features=1.0, random_state=1518032577), DecisionTreeRegressor(max_features=1.0, random_state=400569784), DecisionTreeRegressor(max_features=1.0, random_state=146143845), DecisionTreeRegressor(max_features=1.0, random_state=254298937), DecisionTreeRegressor(max_features=1.0, random_state=809211645), DecisionTreeRegressor(max_features=1.0, random_state=1346963081), DecisionTreeRegressor(max_features=1.0, random_state=1779058347), DecisionTreeRegressor(max_features=1.0, random_state=1520335300), DecisionTreeRegressor(max_features=1.0, random_state=253451789), DecisionTreeRegressor(max_features=1.0, random_state=352855259), DecisionTreeRegressor(max_features=1.0, random_state=1937913602), DecisionTreeRegressor(max_features=1.0, random_state=60827282), DecisionTreeRegressor(max_features=1.0, random_state=752685093), DecisionTreeRegressor(max_features=1.0, random_state=1695149065), DecisionTreeRegressor(max_features=1.0, random_state=508828536), DecisionTreeRegressor(max_features=1.0, random_state=1855264679), DecisionTreeRegressor(max_features=1.0, random_state=659100768), DecisionTreeRegressor(max_features=1.0, random_state=620502283), DecisionTreeRegressor(max_features=1.0, random_state=1606917525), DecisionTreeRegressor(max_features=1.0, random_state=524746260), DecisionTreeRegressor(max_features=1.0, random_state=1536752146), DecisionTreeRegressor(max_features=1.0, random_state=1557642302), DecisionTreeRegressor(max_features=1.0, random_state=580427063), DecisionTreeRegressor(max_features=1.0, random_state=401980892), DecisionTreeRegressor(max_features=1.0, random_state=2041670437), DecisionTreeRegressor(max_features=1.0, random_state=668653905), DecisionTreeRegressor(max_features=1.0, random_state=2050257731), DecisionTreeRegressor(max_features=1.0, random_state=568421881), DecisionTreeRegressor(max_features=1.0, random_state=484960502), DecisionTreeRegressor(max_features=1.0, random_state=602343988), DecisionTreeRegressor(max_features=1.0, random_state=1501447687), DecisionTreeRegressor(max_features=1.0, random_state=569418806), DecisionTreeRegressor(max_features=1.0, random_state=1383143656), DecisionTreeRegressor(max_features=1.0, random_state=705142913), DecisionTreeRegressor(max_features=1.0, random_state=1228439083), DecisionTreeRegressor(max_features=1.0, random_state=1381923840), DecisionTreeRegressor(max_features=1.0, random_state=508962004), DecisionTreeRegressor(max_features=1.0, random_state=1643584312), DecisionTreeRegressor(max_features=1.0, random_state=164842945), DecisionTreeRegressor(max_features=1.0, random_state=2135271323), DecisionTreeRegressor(max_features=1.0, random_state=1858570169), DecisionTreeRegressor(max_features=1.0, random_state=2006204250), DecisionTreeRegressor(max_features=1.0, random_state=1496314754), DecisionTreeRegressor(max_features=1.0, random_state=206031659), DecisionTreeRegressor(max_features=1.0, random_state=982165741), DecisionTreeRegressor(max_features=1.0, random_state=845149501), DecisionTreeRegressor(max_features=1.0, random_state=849669647), DecisionTreeRegressor(max_features=1.0, random_state=2075806261), DecisionTreeRegressor(max_features=1.0, random_state=1919289139), DecisionTreeRegressor(max_features=1.0, random_state=129030152), DecisionTreeRegressor(max_features=1.0, random_state=190056449), DecisionTreeRegressor(max_features=1.0, random_state=180204063), DecisionTreeRegressor(max_features=1.0, random_state=926117671), DecisionTreeRegressor(max_features=1.0, random_state=1210210141)]
+feature_importances_: [1.88604304e-04 1.48452868e-02 2.28345640e-01 4.03154924e-01
+ 3.53271031e-01 1.94513611e-04]
+fit: <bound method BaseForest.fit of RandomForestRegressor()>
+get_metadata_routing: <bound method _MetadataRequester.get_metadata_routing of RandomForestRegressor()>
+get_params: <bound method BaseEstimator.get_params of RandomForestRegressor()>
+max_depth: None
+max_features: 1.0
+max_leaf_nodes: None
+max_samples: None
+min_impurity_decrease: 0.0
+min_samples_leaf: 1
+min_samples_split: 2
+min_weight_fraction_leaf: 0.0
+n_estimators: 100
+n_features_in_: 6
+n_jobs: None
+n_outputs_: 1
+oob_score: False
+predict: <bound method ForestRegressor.predict of RandomForestRegressor()>
+random_state: None
+score: <bound method RegressorMixin.score of RandomForestRegressor()>
+set_fit_request: <function RequestMethod.__get__.<locals>.func at 0x104571430>
+set_params: <bound method BaseEstimator.set_params of RandomForestRegressor()>
+set_score_request: <function RequestMethod.__get__.<locals>.func at 0x104571430>
+verbose: 0
+warm_start: False
+--------------------------------------------------

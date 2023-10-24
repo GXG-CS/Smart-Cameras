@@ -1,0 +1,55 @@
+_abc_impl: <_abc._abc_data object at 0x16c079e00>
+_build_request_for_signature: <bound method _MetadataRequester._build_request_for_signature of <class 'sklearn.tree._classes.DecisionTreeRegressor'>>
+_check_feature_names: <bound method BaseEstimator._check_feature_names of DecisionTreeRegressor()>
+_check_n_features: <bound method BaseEstimator._check_n_features of DecisionTreeRegressor()>
+_compute_missing_values_in_feature_mask: <bound method BaseDecisionTree._compute_missing_values_in_feature_mask of DecisionTreeRegressor()>
+_compute_partial_dependence_recursion: <bound method DecisionTreeRegressor._compute_partial_dependence_recursion of DecisionTreeRegressor()>
+_estimator_type: regressor
+_fit: <bound method BaseDecisionTree._fit of DecisionTreeRegressor()>
+_get_default_requests: <bound method _MetadataRequester._get_default_requests of <class 'sklearn.tree._classes.DecisionTreeRegressor'>>
+_get_metadata_request: <bound method _MetadataRequester._get_metadata_request of DecisionTreeRegressor()>
+_get_param_names: <bound method BaseEstimator._get_param_names of <class 'sklearn.tree._classes.DecisionTreeRegressor'>>
+_get_tags: <bound method BaseEstimator._get_tags of DecisionTreeRegressor()>
+_more_tags: <bound method DecisionTreeRegressor._more_tags of DecisionTreeRegressor()>
+_parameter_constraints: {'splitter': [<sklearn.utils._param_validation.StrOptions object at 0x137dc7040>], 'max_depth': [<sklearn.utils._param_validation.Interval object at 0x137db0a90>, None], 'min_samples_split': [<sklearn.utils._param_validation.Interval object at 0x137db0ac0>, <sklearn.utils._param_validation.Interval object at 0x137db0af0>], 'min_samples_leaf': [<sklearn.utils._param_validation.Interval object at 0x16c072df0>, <sklearn.utils._param_validation.Interval object at 0x16c072e50>], 'min_weight_fraction_leaf': [<sklearn.utils._param_validation.Interval object at 0x16c072eb0>], 'max_features': [<sklearn.utils._param_validation.Interval object at 0x16c072f10>, <sklearn.utils._param_validation.Interval object at 0x16c072f70>, <sklearn.utils._param_validation.StrOptions object at 0x16c072fd0>, None], 'random_state': ['random_state'], 'max_leaf_nodes': [<sklearn.utils._param_validation.Interval object at 0x16c0760a0>, None], 'min_impurity_decrease': [<sklearn.utils._param_validation.Interval object at 0x16c0760d0>], 'ccp_alpha': [<sklearn.utils._param_validation.Interval object at 0x16c076130>], 'criterion': [<sklearn.utils._param_validation.StrOptions object at 0x16c076760>, <sklearn.utils._param_validation.Hidden object at 0x16c0766d0>]}
+_prune_tree: <bound method BaseDecisionTree._prune_tree of DecisionTreeRegressor()>
+_repr_html_: <bound method BaseEstimator._repr_html_inner of DecisionTreeRegressor()>
+_repr_html_inner: <bound method BaseEstimator._repr_html_inner of DecisionTreeRegressor()>
+_repr_mimebundle_: <bound method BaseEstimator._repr_mimebundle_ of DecisionTreeRegressor()>
+_support_missing_values: <bound method BaseDecisionTree._support_missing_values of DecisionTreeRegressor()>
+_validate_X_predict: <bound method BaseDecisionTree._validate_X_predict of DecisionTreeRegressor()>
+_validate_data: <bound method BaseEstimator._validate_data of DecisionTreeRegressor()>
+_validate_params: <bound method BaseEstimator._validate_params of DecisionTreeRegressor()>
+apply: <bound method BaseDecisionTree.apply of DecisionTreeRegressor()>
+ccp_alpha: 0.0
+class_weight: None
+cost_complexity_pruning_path: <bound method BaseDecisionTree.cost_complexity_pruning_path of DecisionTreeRegressor()>
+criterion: squared_error
+decision_path: <bound method BaseDecisionTree.decision_path of DecisionTreeRegressor()>
+feature_importances_: [0.         0.         0.22264687 0.05703154 0.72032159 0.        ]
+feature_names_in_: ['sdram_freq' 'cpu_cores' 'cpu_freq' 'avg_fps' 'total_time' 'mem_limit_kb']
+fit: <bound method DecisionTreeRegressor.fit of DecisionTreeRegressor()>
+get_depth: <bound method BaseDecisionTree.get_depth of DecisionTreeRegressor()>
+get_metadata_routing: <bound method _MetadataRequester.get_metadata_routing of DecisionTreeRegressor()>
+get_n_leaves: <bound method BaseDecisionTree.get_n_leaves of DecisionTreeRegressor()>
+get_params: <bound method BaseEstimator.get_params of DecisionTreeRegressor()>
+max_depth: None
+max_features: None
+max_features_: 6
+max_leaf_nodes: None
+min_impurity_decrease: 0.0
+min_samples_leaf: 1
+min_samples_split: 2
+min_weight_fraction_leaf: 0.0
+n_features_in_: 6
+n_outputs_: 1
+predict: <bound method BaseDecisionTree.predict of DecisionTreeRegressor()>
+random_state: None
+score: <bound method RegressorMixin.score of DecisionTreeRegressor()>
+set_fit_request: <function RequestMethod.__get__.<locals>.func at 0x16c116040>
+set_params: <bound method BaseEstimator.set_params of DecisionTreeRegressor()>
+set_predict_request: <function RequestMethod.__get__.<locals>.func at 0x16c116040>
+set_score_request: <function RequestMethod.__get__.<locals>.func at 0x16c116160>
+splitter: best
+tree_: <sklearn.tree._tree.Tree object at 0x10f8836c0>
+--------------------------------------------------

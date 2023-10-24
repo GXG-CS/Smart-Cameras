@@ -10,34 +10,54 @@ model2_path = "../results/pi3b/tf_pose_estimation/regression/kmeans_robust_3/mod
 model1 = joblib.load(model1_path)
 model2 = joblib.load(model2_path)
 
+# Print model parameters
+print("Parameters for Model 1:")
+print(model1.get_params())
+
+print("\nParameters for Model 2:")
+print(model2.get_params())
+
+if hasattr(model1, 'estimator_weights_'):
+    print("\nEstimator weights for Model 1:")
+    print(model1.estimator_weights_)
+
+if hasattr(model2, 'estimator_weights_'):
+    print("\nEstimator weights for Model 2:")
+    print(model2.estimator_weights_)
+
 # Feature Importances
 importances1 = model1.feature_importances_
 importances2 = model2.feature_importances_
 
-# Suppose you have a list of feature names like this:
+# Using the feature names directly for plotting
 feature_names = ["feature_0", "feature_1", "feature_2", "feature_3", "feature_4", "feature_5"]
 
-# Display and Save Combined Feature Importances
 def plot_and_save_combined_feature_importances(importances1, importances2, title1, title2, filename):
-    indices1 = np.argsort(importances1)[::-1]
-    indices2 = np.argsort(importances2)[::-1]
-    
     plt.figure(figsize=(14, 7))
     
-    plt.bar(np.arange(len(importances1)) - 0.2, importances1[indices1], 0.4, label=f"{title1}", align='center')
-    plt.bar(np.arange(len(importances2)) + 0.2, importances2[indices2], 0.4, label=f"{title2}", align='center')
+    bar_width = 0.35
+    n_features = len(importances1)
+    index = np.arange(n_features)
 
+    # Plotting bars
+    plt.bar(index, importances1, bar_width, label=f"{title1}", align='center')
+    plt.bar(index + bar_width, importances2, bar_width, label=f"{title2}", align='center')
+
+    # Labels and title
     plt.title("Feature Importances Comparison")
     plt.xlabel("Feature Names")
     plt.ylabel("Importance")
-    plt.xticks(range(len(importances1)), [feature_names[i] for i in indices1])
-    plt.xlim([-1, len(importances1)])
-    plt.legend(loc='upper left')
+    plt.xticks(index + bar_width/2, feature_names)  # position the feature names in the middle of the grouped bars
+    plt.legend(loc='upper right')
     
-    # Move clustering and regression model info to the right side
-    plt.text(len(importances1) - 0.5, max(importances1) * 0.5, "Clustering Model: kmeans_robust_3\nRegression Model: gbr_robust", 
+    # Display clustering and regression model info to the right side of the plot
+    ax = plt.gca()
+    text_position = (n_features, ax.get_ylim()[1]*0.95)
+    plt.text(text_position[0], text_position[1], "Clustering Model: kmeans_robust_3\nRegression Model: gbr_robust",
+             horizontalalignment='right', verticalalignment='top', transform=ax.transData,
              bbox=dict(boxstyle="round", edgecolor="black", facecolor="white"))
 
+    # Save and display
     plt.tight_layout()
     plt.savefig(filename)
     plt.show()
