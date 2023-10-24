@@ -27,7 +27,6 @@ Benchmark/
 │           │   ├── minibatch_kmeans/
 │           │   ├── optics/
 │           │   ├── spectral/
-│           │   
 │           └── [other results]
 │
 ├── script/
@@ -43,31 +42,13 @@ Benchmark/
 
 
 
-
-Data Collection: Gather data from experiments adjusting sdram_freq, cpu_req, cpu_cores, and mem_limit_kb to measure avg_fps and total_time.
-
-Data Preprocessing: Clean the data, handle missing values, and normalize or standardize if necessary.
-
-Clustering: Use clustering algorithms (e.g., KMeans, DBSCAN) to segment the dataset into different performance levels based on avg_fps and total_time. Assign labels to each data point based on the cluster it belongs to.
-
-Classification (Optional):
-
-Split the labeled data into training and test sets.
-Train classification models (e.g., Logistic Regression, Decision Trees) on the training set.
-Validate the model's accuracy on the test set to confirm the distinctiveness of the clusters.
-Use the trained model to predict performance levels for new configurations.
-Regression: For each cluster identified in the clustering step:
-
-Use the configuration parameters (sdram_freq, cpu_req, etc.) as features.
-Use avg_fps and total_time as targets.
-Train regression models (e.g., Linear Regression, Random Forest Regression) to predict avg_fps and total_time based on configuration parameters.
-Evaluation: Measure the performance of regression models using metrics such as Mean Absolute Error (MAE) or Root Mean Squared Error (RMSE).
-
-Deployment: Implement the best-performing models in the desired application to predict performance outcomes for various configurations.
-
-Iterate: Periodically revisit the models, especially if new data becomes available or if the system's behavior changes over time. Adjust and retrain models as necessary.
-
-
+Setup pi
+1. miniconda python3.9
+2. git clone https://github.com/GXG-CS/Smart-Cameras.git
+3. tensorflow pose_estimation setup
+4. Install GTK libraries: sudo apt-get install libgtk2.0-dev
+5. sudo apt-get install xvfb
+6. sudo apt-get install cpufrequtils
 
 data_collection steps: (pi3b_tf_pose_estimation)
 1. sudo nano /boot/config.txt     sdram_freq=450
@@ -79,10 +60,28 @@ data_collection steps: (pi3b_tf_pose_estimation)
 7. ./4_metrics.sh
 
 
+pi Zero
+1. single-core
+2. CPU freq 1GHz
+3. 
 
 
 
+pi 2b hardware configuration:
+1. Quad Core CPU
+2. CPU clock speed of 900 MHz
+3. sdram_freq 450MHz
+192.168.1.142
+conda 3.16.0
 
+pi3b+
+1. Quad Core CPU
+2. CPU freq 1.4GHz
+3. sdram_freq 450MHz
 
+pi 4b
+1. Quad Core CPU
+2. CPU freq 1.8Ghz
+3. sdram_freq
 
 

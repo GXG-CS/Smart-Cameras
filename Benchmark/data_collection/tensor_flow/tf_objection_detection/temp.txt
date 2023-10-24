@@ -1,2 +1,0 @@
-Setting CPU frequency to 600MHz
-Running script with CPU cores: 0-3
