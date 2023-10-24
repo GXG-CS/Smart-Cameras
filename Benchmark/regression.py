@@ -39,7 +39,6 @@ def get_regressor(method):
         print(f"Invalid regression method: {method}")
         return None
 
-
 def get_preprocessor(method):
     if method == 'standard':
         from sklearn.preprocessing import StandardScaler
@@ -72,7 +71,6 @@ def get_preprocessor(method):
         print(f"Invalid preprocessing method: {method}")
         return None
 
-
 def main():
     parser = argparse.ArgumentParser(description="Benchmark regression script.")
     parser.add_argument('--data', type=str, required=True, help="Path to the data file.")
@@ -80,59 +78,71 @@ def main():
     parser.add_argument('--preprocessing', type=str, help="Preprocessing method to use.")
     parser.add_argument('--output', type=str, help="Output directory path for regression results.")
     
+    # Hyperparameters for each method
+    parser.add_argument('--alpha', type=float, default=1.0, help="Alpha for Ridge and Lasso Regression.")
+    parser.add_argument('--tree_depth', type=int, default=None, help="Max Depth for Decision Tree.")
+    parser.add_argument('--rf_n_estimators', type=int, default=100, help="Number of estimators for Random Forest.")
+    parser.add_argument('--svr_c', type=float, default=1.0, help="C parameter for SVR.")
+    parser.add_argument('--knn_n_neighbors', type=int, default=5, help="Number of neighbors for KNN.")
+    parser.add_argument('--gbr_n_estimators', type=int, default=100, help="Number of estimators for GBR.")
+    parser.add_argument('--nn_hidden_layer_sizes', type=str, default='100', help="Hidden layer sizes for Neural Network.")
+
     args = parser.parse_args()
 
-    # Ensure output directory exists
     if args.output and not os.path.exists(args.output):
         os.makedirs(args.output)
 
-    # Load the data
+    metrics_file_path = f"{args.method}_{args.preprocessing}_metrics.txt"
+    if args.output:
+        metrics_file_path = os.path.join(args.output, metrics_file_path)
+
     data = pd.read_csv(args.data)
     X = data.drop('label', axis=1)
     y = data['label']
 
-    # Apply preprocessing
     if args.preprocessing:
         preprocessor = get_preprocessor(args.preprocessing)
         X = preprocessor.fit_transform(X)
 
-    # Split the data
     X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
 
-    # Get the regressor
     regressor = get_regressor(args.method)
 
-    # Apply regression
-    regressor.fit(X_train, y_train)
-
-    # Print learned parameters
-    if args.method in ['linear', 'ridge', 'lasso']:
-        print(f"Coefficients: {regressor.coef_}")
-        print(f"Intercept: {regressor.intercept_}")
-    elif args.method == 'random_forest' or args.method == 'gbr':
-        print(f"Feature importances: {regressor.feature_importances_}")
+    # Apply hyperparameters based on the chosen method
+    if args.method == 'ridge':
+        regressor.set_params(alpha=args.alpha)
+    elif args.method == 'lasso':
+        regressor.set_params(alpha=args.alpha)
+    elif args.method == 'decision_tree':
+        regressor.set_params(max_depth=args.tree_depth)
+    elif args.method == 'random_forest':
+        regressor.set_params(n_estimators=args.rf_n_estimators)
     elif args.method == 'svr':
-        print(f"Support vectors: {regressor.support_vectors_}")
-        print(f"Dual Coefficients: {regressor.dual_coef_}")
+        regressor.set_params(C=args.svr_c)
+    elif args.method == 'knn':
+        regressor.set_params(n_neighbors=args.knn_n_neighbors)
+    elif args.method == 'gbr':
+        regressor.set_params(n_estimators=args.gbr_n_estimators)
     elif args.method == 'neural_network':
-        for i, weights in enumerate(regressor.coefs_):
-            print(f"Weights for layer {i}: {weights}")
+        hidden_layer_sizes = tuple(map(int, args.nn_hidden_layer_sizes.split(',')))
+        regressor.set_params(hidden_layer_sizes=hidden_layer_sizes)
 
+    regressor.fit(X_train, y_train)
     y_pred = regressor.predict(X_test)
     
     mse = mean_squared_error(y_test, y_pred)
     rmse = sqrt(mse)
     mae = mean_absolute_error(y_test, y_pred)
-    
-    print(f"Mean Squared Error: {mse}")
-    print(f"Root Mean Squared Error: {rmse}")
-    print(f"Mean Absolute Error: {mae}")
 
-    if args.output:
-        output_filename = f"{args.method}_{datetime.now().strftime('%Y%m%d_%H%M%S')}.csv"
-        output_path = os.path.join(args.output, output_filename)
-        pd.DataFrame({"True": y_test, "Predicted": y_pred}).to_csv(output_path, index=False)
-        print(f"Regression results saved to {output_path}")
+    with open(metrics_file_path, "a") as metrics_file:
+        metrics_file.write(f"Method: {args.method}\n")
+        metrics_file.write(f"Hyperparameters: {regressor.get_params()}\n")
+        metrics_file.write(f"Mean Squared Error: {mse}\n")
+        metrics_file.write(f"Root Mean Squared Error: {rmse}\n")
+        metrics_file.write(f"Mean Absolute Error: {mae}\n")
+        metrics_file.write("="*30 + "\n")
+
+    print(f"Metrics and parameters saved to {metrics_file_path}")
 
 if __name__ == "__main__":
     main()

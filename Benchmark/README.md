@@ -66,13 +66,11 @@ pi Zero
 3. 
 
 
-
 pi 2b hardware configuration:
 1. Quad Core CPU
 2. CPU clock speed of 900 MHz
 3. sdram_freq 450MHz
 192.168.1.142
-conda 3.16.0
 
 pi3b+
 1. Quad Core CPU
