@@ -2,9 +2,9 @@ import os
 import pandas as pd
 
 # Directory where the clustering evaluation results are located (relative path)
-DATA_DIR = '../results/pi3b/tf_pose_estimation/cluster_eval'
+DATA_DIR = '../results/pi2b/tf_pose_estimation/cluster_eval'
 # Path for the summary CSV file (relative path)
-OUTPUT_CSV_PATH = '../results/pi3b/tf_pose_estimation/cluster_eval/cluster_evaluation_summary.csv'
+OUTPUT_CSV_PATH = '../results/pi2b/tf_pose_estimation/cluster_eval/cluster_evaluation_summary.csv'
 
 def extract_metrics_from_txt(file_path):
     """

@@ -7,6 +7,8 @@ from sklearn.metrics import mean_squared_error, mean_absolute_error
 from sklearn.model_selection import train_test_split
 from math import sqrt
 
+from joblib import dump
+
 def get_regressor(method):
     if method == 'linear':
         from sklearn.linear_model import LinearRegression
@@ -77,7 +79,8 @@ def main():
     parser.add_argument('--method', type=str, required=True, help="Regression method to use.")
     parser.add_argument('--preprocessing', type=str, help="Preprocessing method to use.")
     parser.add_argument('--output', type=str, help="Output directory path for regression results.")
-    
+    # parser.add_argument('--save_model_dir', type=str, default=None, help="Directory to save the model.")
+
     # Hyperparameters for each method
     parser.add_argument('--alpha', type=float, default=1.0, help="Alpha for Ridge and Lasso Regression.")
     parser.add_argument('--tree_depth', type=int, default=None, help="Max Depth for Decision Tree.")
@@ -89,12 +92,18 @@ def main():
 
     args = parser.parse_args()
 
-    if args.output and not os.path.exists(args.output):
-        os.makedirs(args.output)
+    output_dir = args.output
+    if output_dir and not os.path.exists(output_dir):
+        os.makedirs(output_dir)
 
-    metrics_file_path = f"{args.method}_{args.preprocessing}_metrics.txt"
-    if args.output:
-        metrics_file_path = os.path.join(args.output, metrics_file_path)
+    model_save_dir = os.path.join(output_dir, 'models')
+    if not os.path.exists(model_save_dir):
+        os.makedirs(model_save_dir)
+
+    metrics_file_path = f"{args.method}_{args.preprocessing}.txt"
+    if output_dir:
+        metrics_file_path = os.path.join(output_dir, metrics_file_path)
+
 
     data = pd.read_csv(args.data)
     X = data.drop('label', axis=1)
@@ -128,6 +137,8 @@ def main():
         regressor.set_params(hidden_layer_sizes=hidden_layer_sizes)
 
     regressor.fit(X_train, y_train)
+
+    
     y_pred = regressor.predict(X_test)
     
     mse = mean_squared_error(y_test, y_pred)
@@ -144,5 +155,12 @@ def main():
 
     print(f"Metrics and parameters saved to {metrics_file_path}")
 
+    model_save_path = os.path.join(model_save_dir, f"{args.method}_{args.preprocessing}.joblib")
+    dump(regressor, model_save_path)
+    print(f"Model saved to {model_save_path}")
+
 if __name__ == "__main__":
     main()
+
+
+# python regression.py --data results/pi3b/tf_pose_estimation/cluster/kmeans/robust_3.csv --method svr --preprocessing standard --output results/pi3b/tf_pose_estimation/regression/kmeans_robust_3

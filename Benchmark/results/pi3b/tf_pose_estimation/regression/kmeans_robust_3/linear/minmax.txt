@@ -1,7 +1,0 @@
-Method: linear, Preprocessing: minmax
-Mean Squared Error: 0.10745296238044168
-Root Mean Squared Error: 0.327800186669321
-Mean Absolute Error: 0.2745405855000565
-Coefficients: [-0.10047007 -0.2211008   0.57904164  1.66928053 -0.91984523  0.02182633]
-Intercept: 0.7060435931858813
-==============================

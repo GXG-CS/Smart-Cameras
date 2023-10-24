@@ -1,0 +1,6 @@
+Method: knn
+Hyperparameters: {'algorithm': 'auto', 'leaf_size': 30, 'metric': 'minkowski', 'metric_params': None, 'n_jobs': None, 'n_neighbors': 5, 'p': 2, 'weights': 'uniform'}
+Mean Squared Error: 0.0213953488372093
+Root Mean Squared Error: 0.14627149017224547
+Mean Absolute Error: 0.06046511627906976
+==============================

@@ -1,7 +1,0 @@
-Method: linear, Preprocessing: standard
-Mean Squared Error: 0.10745296238044164
-Root Mean Squared Error: 0.3278001866693209
-Mean Absolute Error: 0.2745405855000565
-Coefficients: [-0.03431706 -0.09192038  0.18688489  0.55126259 -0.26872963  0.00907407]
-Intercept: 0.9812885064746878
-==============================

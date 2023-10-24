@@ -21,17 +21,17 @@ PREPROCESSING_TECHNIQUES = {
 }
 
 # Assuming the number of clusters you're interested in are in the range 2 to 10
-N_CLUSTERS_RANGE = range(3, 11)
+N_CLUSTERS_RANGE = range(3, 6)
 
 # Paths
-DATA_PATH = "../data_collection/pi3b/pi3b_tf_pose_estimation_results.csv"
+DATA_PATH = "../data_collection/pi2b/pi2b_tf_pose_estimation_results.csv"
 # CLUSTER_SCRIPT_PATH = "Benchmark/cluster.py"
 
 
 def main():
     for method in CLUSTER_METHODS:
         # Update output directory based on method
-        OUTPUT_DIR = os.path.join("..", "results", "pi3b", "tf_pose_estimation", "cluster", method)
+        OUTPUT_DIR = os.path.join("..", "results", "pi2b", "tf_pose_estimation", "cluster", method)
         # Ensure the directory exists
         if not os.path.exists(OUTPUT_DIR):
             os.makedirs(OUTPUT_DIR)

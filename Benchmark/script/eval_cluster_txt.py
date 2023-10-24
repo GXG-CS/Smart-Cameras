@@ -2,9 +2,9 @@ import os
 import subprocess
 
 # Directory where the clustering results are located (with subdirectories like "kmeans", "optics", etc.)
-DATA_DIR = '../results/pi3b/tf_pose_estimation/cluster'
+DATA_DIR = '../results/pi2b/tf_pose_estimation/cluster'
 # Base directory to save the evaluations
-OUTPUT_BASE_DIR = '../results/pi3b/tf_pose_estimation/cluster_eval'
+OUTPUT_BASE_DIR = '../results/pi2b/tf_pose_estimation/cluster_eval'
 
 def main():
     # Iterate over subdirectories in DATA_DIR

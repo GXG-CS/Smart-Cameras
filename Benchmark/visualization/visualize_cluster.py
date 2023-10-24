@@ -6,7 +6,7 @@ from sklearn.decomposition import PCA
 from sklearn.preprocessing import RobustScaler, StandardScaler, PowerTransformer, MinMaxScaler
 
 # Directories and methods
-root_dir = "../results/pi3b/tf_pose_estimation/cluster/"
+root_dir = "../results/pi2b/tf_pose_estimation/cluster/"
 methods = [
     "affinity_propagation", "agglomerative", "birch", "dbscan", 
     "gaussian_mixture", "kmeans", "mean_shift", "minibatch_kmeans", 
@@ -26,7 +26,7 @@ abbreviations = {
 }
 
 # Figure settings
-rows, cols = 14, 12  # Adjusted based on the number of sub-figures
+rows, cols = 8, 8  # Adjusted based on the number of sub-figures
 fig, axs = plt.subplots(rows, cols, figsize=(60, 50))
 global_index = 0
 
@@ -70,7 +70,7 @@ for method in methods:
         global_index += 1
 
 # Save the figure
-save_path = "../visualization/results/clustering_visualization.png"
+save_path = "../visualization/results/clustering_visualization_p2.png"
 plt.tight_layout()
 plt.savefig(save_path)
 plt.show()
