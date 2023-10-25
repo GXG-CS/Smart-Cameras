@@ -1,0 +1,6 @@
+Method: ridge
+Hyperparameters: {'alpha': 1.0, 'copy_X': True, 'fit_intercept': True, 'max_iter': None, 'positive': False, 'random_state': None, 'solver': 'auto', 'tol': 0.0001}
+Mean Squared Error: 0.062434604756428105
+Root Mean Squared Error: 0.24986917528264288
+Mean Absolute Error: 0.1883345437473417
+==============================

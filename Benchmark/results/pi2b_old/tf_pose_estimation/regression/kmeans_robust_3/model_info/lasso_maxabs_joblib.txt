@@ -1,0 +1,45 @@
+_abc_impl: <_abc._abc_data object at 0x12703e2c0>
+_build_request_for_signature: <bound method _MetadataRequester._build_request_for_signature of <class 'sklearn.linear_model._coordinate_descent.Lasso'>>
+_check_feature_names: <bound method BaseEstimator._check_feature_names of Lasso()>
+_check_n_features: <bound method BaseEstimator._check_n_features of Lasso()>
+_decision_function: <bound method ElasticNet._decision_function of Lasso()>
+_estimator_type: regressor
+_get_default_requests: <bound method _MetadataRequester._get_default_requests of <class 'sklearn.linear_model._coordinate_descent.Lasso'>>
+_get_metadata_request: <bound method _MetadataRequester._get_metadata_request of Lasso()>
+_get_param_names: <bound method BaseEstimator._get_param_names of <class 'sklearn.linear_model._coordinate_descent.Lasso'>>
+_get_tags: <bound method BaseEstimator._get_tags of Lasso()>
+_more_tags: <bound method MultiOutputMixin._more_tags of Lasso()>
+_parameter_constraints: {'alpha': [<sklearn.utils._param_validation.Interval object at 0x126974640>], 'fit_intercept': ['boolean'], 'precompute': ['boolean', 'array-like'], 'max_iter': [<sklearn.utils._param_validation.Interval object at 0x126974850>, None], 'copy_X': ['boolean'], 'tol': [<sklearn.utils._param_validation.Interval object at 0x127037730>], 'warm_start': ['boolean'], 'positive': ['boolean'], 'random_state': ['random_state'], 'selection': [<sklearn.utils._param_validation.StrOptions object at 0x127037d60>]}
+_repr_html_: <bound method BaseEstimator._repr_html_inner of Lasso()>
+_repr_html_inner: <bound method BaseEstimator._repr_html_inner of Lasso()>
+_repr_mimebundle_: <bound method BaseEstimator._repr_mimebundle_ of Lasso()>
+_set_intercept: <bound method LinearModel._set_intercept of Lasso()>
+_validate_data: <bound method BaseEstimator._validate_data of Lasso()>
+_validate_params: <bound method BaseEstimator._validate_params of Lasso()>
+alpha: 1.0
+coef_: [ 0.  0.  0.  0. -0.  0.]
+copy_X: True
+dual_gap_: 0.0
+fit: <bound method ElasticNet.fit of Lasso()>
+fit_intercept: True
+get_metadata_routing: <bound method _MetadataRequester.get_metadata_routing of Lasso()>
+get_params: <bound method BaseEstimator.get_params of Lasso()>
+intercept_: 1.0178571428571428
+l1_ratio: 1.0
+max_iter: 1000
+n_features_in_: 6
+n_iter_: 1
+path: <function enet_path at 0x127040280>
+positive: False
+precompute: False
+predict: <bound method LinearModel.predict of Lasso()>
+random_state: None
+score: <bound method RegressorMixin.score of Lasso()>
+selection: cyclic
+set_fit_request: <function RequestMethod.__get__.<locals>.func at 0x130a70f70>
+set_params: <bound method BaseEstimator.set_params of Lasso()>
+set_score_request: <function RequestMethod.__get__.<locals>.func at 0x130a70f70>
+sparse_coef_: 
+tol: 0.0001
+warm_start: False
+--------------------------------------------------

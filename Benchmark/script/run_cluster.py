@@ -20,8 +20,7 @@ PREPROCESSING_TECHNIQUES = {
     'minibatch_kmeans': ['standard']
 }
 
-# Assuming the number of clusters you're interested in are in the range 2 to 10
-N_CLUSTERS_RANGE = range(3, 6)
+N_CLUSTERS_RANGE = range(3, 10)
 
 # Paths
 DATA_PATH = "../data_collection/pi2b/pi2b_tf_pose_estimation_results.csv"

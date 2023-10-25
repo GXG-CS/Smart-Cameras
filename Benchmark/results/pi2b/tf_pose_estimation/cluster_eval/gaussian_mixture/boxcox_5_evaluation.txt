@@ -1,3 +1,0 @@
-Silhouette Score: -0.03308699223553775
-Davies-Bouldin Index: 18.236725267673712
-Calinski-Harabasz Score: 73.67909926445091
