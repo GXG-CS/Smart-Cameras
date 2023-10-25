@@ -2,14 +2,15 @@ import subprocess
 import os
 
 # Relative output directory for regression results
-output_dir = "../results/pi2b/tf_pose_estimation/regression/kmeans_robust_3/"
+output_dir = "../results/pi2b/tf_pose_estimation/regression/gaussian_mixture_yeojohnson_4/"
 
 # Check if the output directory exists, if not, create it
 if not os.path.exists(output_dir):
     os.makedirs(output_dir)
 
 # Relative path to your data file
-data_path = "../results/pi2b/tf_pose_estimation/cluster/kmeans/robust_3.csv"
+# data_path = "../results/pi2b/tf_pose_estimation/cluster/kmeans/robust_3.csv"
+data_path = "../data_cleaning/pi2b/pi2b_yeojohnson_4_filtered.csv"
 
 # Dictionary of regression_method: [list of preprocessing_methods]
 method_dict = {

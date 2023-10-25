@@ -1,0 +1,62 @@
+_abc_impl: <_abc._abc_data object at 0x2880cb400>
+_build_request_for_signature: <bound method _MetadataRequester._build_request_for_signature of <class 'sklearn.neighbors._regression.KNeighborsRegressor'>>
+_check_algorithm_metric: <bound method NeighborsBase._check_algorithm_metric of KNeighborsRegressor()>
+_check_feature_names: <bound method BaseEstimator._check_feature_names of KNeighborsRegressor()>
+_check_n_features: <bound method BaseEstimator._check_n_features of KNeighborsRegressor()>
+_estimator_type: regressor
+_fit: <bound method NeighborsBase._fit of KNeighborsRegressor()>
+_fit_X: [[-1.46474095 -1.03862825  0.82094913 -0.70636112  0.68911162 -0.2803363 ]
+ [-0.29394461  1.40214814 -1.54378688  1.03401133 -1.14346589 -1.07886999]
+ [ 1.46224989 -0.22503612  0.82094913 -0.50386496 -0.32935223 -0.2803363 ]
+ ...
+ [-0.87934278  1.40214814  0.0327038   1.65791843 -1.19058148  1.31673109]
+ [-1.46474095  1.40214814 -0.36141887  1.28029045 -1.16373655 -0.2803363 ]
+ [ 0.87685173 -1.03862825  0.82094913 -0.70088825  0.58721045  1.31673109]]
+_fit_method: kd_tree
+_get_default_requests: <bound method _MetadataRequester._get_default_requests of <class 'sklearn.neighbors._regression.KNeighborsRegressor'>>
+_get_metadata_request: <bound method _MetadataRequester._get_metadata_request of KNeighborsRegressor()>
+_get_param_names: <bound method BaseEstimator._get_param_names of <class 'sklearn.neighbors._regression.KNeighborsRegressor'>>
+_get_tags: <bound method BaseEstimator._get_tags of KNeighborsRegressor()>
+_kneighbors_reduce_func: <bound method KNeighborsMixin._kneighbors_reduce_func of KNeighborsRegressor()>
+_more_tags: <bound method KNeighborsRegressor._more_tags of KNeighborsRegressor()>
+_parameter_constraints: {'n_neighbors': [<sklearn.utils._param_validation.Interval object at 0x16f88b9a0>, None], 'algorithm': [<sklearn.utils._param_validation.StrOptions object at 0x16f897970>], 'leaf_size': [<sklearn.utils._param_validation.Interval object at 0x16f897a00>], 'p': [<sklearn.utils._param_validation.Interval object at 0x16f897a30>, None], 'metric': [<sklearn.utils._param_validation.StrOptions object at 0x16f897af0>, <built-in function callable>], 'metric_params': [<class 'dict'>, None], 'n_jobs': [<class 'numbers.Integral'>, None], 'weights': [<sklearn.utils._param_validation.StrOptions object at 0x28808a220>, <built-in function callable>, None]}
+_repr_html_: <bound method BaseEstimator._repr_html_inner of KNeighborsRegressor()>
+_repr_html_inner: <bound method BaseEstimator._repr_html_inner of KNeighborsRegressor()>
+_repr_mimebundle_: <bound method BaseEstimator._repr_mimebundle_ of KNeighborsRegressor()>
+_tree: <sklearn.neighbors._kd_tree.KDTree object at 0x103294210>
+_validate_data: <bound method BaseEstimator._validate_data of KNeighborsRegressor()>
+_validate_params: <bound method BaseEstimator._validate_params of KNeighborsRegressor()>
+_y: [2 0 1 0 0 2 1 1 2 1 1 2 1 2 2 2 2 0 1 2 0 0 2 2 0 0 1 1 0 0 0 0 2 2 1 1 0
+ 2 2 2 1 0 2 2 1 1 0 0 2 2 2 1 1 1 1 2 0 2 1 1 2 1 1 0 0 1 0 0 2 2 2 0 2 2
+ 1 2 2 1 0 1 2 1 0 2 1 1 2 1 1 2 2 0 2 1 1 1 1 2 0 0 0 1 0 2 0 1 2 0 1 2 0
+ 1 1 0 1 0 0 0 0 1 0 2 1 2 1 2 0 0 2 1 1 2 2 1 2 0 2 1 0 2 0 0 0 1 0 0 2 1
+ 0 2 1 0 1 0 0 0 0 2 1 1 2 1 2 1 0 1 1 0 1 2 0 2 2 0 1 0 1 2 2 1 2 0 2 2 2
+ 1 0 0 2 1 0 2 2 2 1 1 2 1 2 2 1 2 2 2 1 1 2 1 1 2 2 1 1 0 0 1 1 1 2 0 2 1
+ 1 0 1 0 2 2 1 0 1 1 0 2 1 1 2 1 1 2 2 2 1 1 2 1 1 2 2 0 1 2 2 0 1 0 1 1 0
+ 0 2 1 2 2 1 2 1 2 1 0 1 1 1 2 1 2 2 2 0 0 2 0 1 2 1 2 1 0 2 2 2 1 0 0 2 2
+ 2 2 1 2 0 2 2 0 0 0 1 1 1 2 1 0 2 0 0 2 2 1 2 1 1 1 1 1 0 2 0 1 0 0 2 0 0
+ 2 1 0 2 1 1 1 1 1 2 2 0 1 2 1 2 0 0 1 2 2 2 2 1 0 0 1 1 1 2 0 0 1 0 2 0 2
+ 0 1 0 0 0 2]
+algorithm: auto
+effective_metric_: euclidean
+effective_metric_params_: {}
+fit: <bound method KNeighborsRegressor.fit of KNeighborsRegressor()>
+get_metadata_routing: <bound method _MetadataRequester.get_metadata_routing of KNeighborsRegressor()>
+get_params: <bound method BaseEstimator.get_params of KNeighborsRegressor()>
+kneighbors: <bound method KNeighborsMixin.kneighbors of KNeighborsRegressor()>
+kneighbors_graph: <bound method KNeighborsMixin.kneighbors_graph of KNeighborsRegressor()>
+leaf_size: 30
+metric: minkowski
+metric_params: None
+n_features_in_: 6
+n_jobs: None
+n_neighbors: 5
+n_samples_fit_: 376
+p: 2
+predict: <bound method KNeighborsRegressor.predict of KNeighborsRegressor()>
+radius: None
+score: <bound method RegressorMixin.score of KNeighborsRegressor()>
+set_params: <bound method BaseEstimator.set_params of KNeighborsRegressor()>
+set_score_request: <function RequestMethod.__get__.<locals>.func at 0x2880d4ca0>
+weights: uniform
+--------------------------------------------------

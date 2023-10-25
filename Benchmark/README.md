@@ -82,5 +82,5 @@ pi 4b
 1. Quad Core CPU
 2. CPU freq 1.8Ghz
 3. sdram_freq
-192.168.246
+192.168.168
 

@@ -1,0 +1,36 @@
+_abc_impl: <_abc._abc_data object at 0x14815c780>
+_build_request_for_signature: <bound method _MetadataRequester._build_request_for_signature of <class 'sklearn.linear_model._base.LinearRegression'>>
+_check_feature_names: <bound method BaseEstimator._check_feature_names of LinearRegression()>
+_check_n_features: <bound method BaseEstimator._check_n_features of LinearRegression()>
+_decision_function: <bound method LinearModel._decision_function of LinearRegression()>
+_estimator_type: regressor
+_get_default_requests: <bound method _MetadataRequester._get_default_requests of <class 'sklearn.linear_model._base.LinearRegression'>>
+_get_metadata_request: <bound method _MetadataRequester._get_metadata_request of LinearRegression()>
+_get_param_names: <bound method BaseEstimator._get_param_names of <class 'sklearn.linear_model._base.LinearRegression'>>
+_get_tags: <bound method BaseEstimator._get_tags of LinearRegression()>
+_more_tags: <bound method MultiOutputMixin._more_tags of LinearRegression()>
+_parameter_constraints: {'fit_intercept': ['boolean'], 'copy_X': ['boolean'], 'n_jobs': [None, <class 'numbers.Integral'>], 'positive': ['boolean']}
+_repr_html_: <bound method BaseEstimator._repr_html_inner of LinearRegression()>
+_repr_html_inner: <bound method BaseEstimator._repr_html_inner of LinearRegression()>
+_repr_mimebundle_: <bound method BaseEstimator._repr_mimebundle_ of LinearRegression()>
+_set_intercept: <bound method LinearModel._set_intercept of LinearRegression()>
+_validate_data: <bound method BaseEstimator._validate_data of LinearRegression()>
+_validate_params: <bound method BaseEstimator._validate_params of LinearRegression()>
+coef_: [-0.0218317  -1.07313072 -0.00180523  0.37361305  0.0859779   0.00388642]
+copy_X: True
+fit: <bound method LinearRegression.fit of LinearRegression()>
+fit_intercept: True
+get_metadata_routing: <bound method _MetadataRequester.get_metadata_routing of LinearRegression()>
+get_params: <bound method BaseEstimator.get_params of LinearRegression()>
+intercept_: 1.0311831723441671
+n_features_in_: 6
+n_jobs: None
+positive: False
+predict: <bound method LinearModel.predict of LinearRegression()>
+rank_: 6
+score: <bound method RegressorMixin.score of LinearRegression()>
+set_fit_request: <function RequestMethod.__get__.<locals>.func at 0x149163790>
+set_params: <bound method BaseEstimator.set_params of LinearRegression()>
+set_score_request: <function RequestMethod.__get__.<locals>.func at 0x149163790>
+singular_: [31.7486449  19.53480998 19.31438515 18.70008324  7.32703815  2.2486778 ]
+--------------------------------------------------
