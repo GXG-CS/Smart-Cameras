@@ -22,5 +22,5 @@ def run_for_all_models(directory):
             subprocess.run(['python', 'output_joblib.py', input_path, output_path])
 
 if __name__ == '__main__':
-    directory = "../results/pi2b/tf_pose_estimation/regression/kmeans_robust_3"
+    directory = "../results/pi3b/tf_pose_estimation/regression/gaussian_mixture_yeojohnson_4"
     run_for_all_models(directory)

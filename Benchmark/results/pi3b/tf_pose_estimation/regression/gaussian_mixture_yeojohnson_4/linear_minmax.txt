@@ -1,0 +1,6 @@
+Method: linear
+Hyperparameters: {'copy_X': True, 'fit_intercept': True, 'n_jobs': None, 'positive': False}
+Mean Squared Error: 0.00986873956802131
+Root Mean Squared Error: 0.09934152992591422
+Mean Absolute Error: 0.07676316277857628
+==============================

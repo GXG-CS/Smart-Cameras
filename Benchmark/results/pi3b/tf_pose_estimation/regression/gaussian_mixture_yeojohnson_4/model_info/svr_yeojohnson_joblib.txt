@@ -1,0 +1,118 @@
+C: 1.0
+_abc_impl: <_abc._abc_data object at 0x146bd7740>
+_build_request_for_signature: <bound method _MetadataRequester._build_request_for_signature of <class 'sklearn.svm._classes.SVR'>>
+_check_feature_names: <bound method BaseEstimator._check_feature_names of SVR()>
+_check_n_features: <bound method BaseEstimator._check_n_features of SVR()>
+_compute_kernel: <bound method BaseLibSVM._compute_kernel of SVR()>
+_decision_function: <bound method BaseLibSVM._decision_function of SVR()>
+_dense_decision_function: <bound method BaseLibSVM._dense_decision_function of SVR()>
+_dense_fit: <bound method BaseLibSVM._dense_fit of SVR()>
+_dense_predict: <bound method BaseLibSVM._dense_predict of SVR()>
+_dual_coef_: [[ 0.63893185 -0.02692802  0.7143272  -0.5155002  -0.66963026 -0.33528545
+   0.38331773  0.69403273 -0.42108981 -0.60481581 -0.49190029  0.53720738
+   0.6820717   0.61858954 -0.14051165 -0.15012465  0.02862176 -0.46651762
+  -0.14029764 -0.01310819  0.12722781  0.65011619  0.17630819  0.0200656
+  -0.03931578  0.01424756 -0.13810004 -0.3776444  -0.11561407 -0.38051762
+  -0.32826235 -0.18654561  0.72002681 -0.46338258]]
+_estimator_type: regressor
+_gamma: 0.17347084678964564
+_get_coef: <bound method BaseLibSVM._get_coef of SVR()>
+_get_default_requests: <bound method _MetadataRequester._get_default_requests of <class 'sklearn.svm._classes.SVR'>>
+_get_metadata_request: <bound method _MetadataRequester._get_metadata_request of SVR()>
+_get_param_names: <bound method BaseEstimator._get_param_names of <class 'sklearn.svm._classes.SVR'>>
+_get_tags: <bound method BaseEstimator._get_tags of SVR()>
+_impl: epsilon_svr
+_intercept_: [1.00100769]
+_more_tags: <bound method SVR._more_tags of SVR()>
+_n_support: [34 34]
+_num_iter: [122]
+_parameter_constraints: {'kernel': [<sklearn.utils._param_validation.StrOptions object at 0x14507c580>, <built-in function callable>], 'degree': [<sklearn.utils._param_validation.Interval object at 0x14507c610>], 'gamma': [<sklearn.utils._param_validation.StrOptions object at 0x14507c640>, <sklearn.utils._param_validation.Interval object at 0x145149130>], 'coef0': [<sklearn.utils._param_validation.Interval object at 0x145149160>], 'tol': [<sklearn.utils._param_validation.Interval object at 0x1451491c0>], 'C': [<sklearn.utils._param_validation.Interval object at 0x145149220>], 'epsilon': [<sklearn.utils._param_validation.Interval object at 0x1451492e0>], 'shrinking': ['boolean'], 'cache_size': [<sklearn.utils._param_validation.Interval object at 0x145149340>], 'verbose': ['verbose'], 'max_iter': [<sklearn.utils._param_validation.Interval object at 0x145149430>]}
+_probA: []
+_probB: []
+_repr_html_: <bound method BaseEstimator._repr_html_inner of SVR()>
+_repr_html_inner: <bound method BaseEstimator._repr_html_inner of SVR()>
+_repr_mimebundle_: <bound method BaseEstimator._repr_mimebundle_ of SVR()>
+_sparse: False
+_sparse_decision_function: <bound method BaseLibSVM._sparse_decision_function of SVR()>
+_sparse_fit: <bound method BaseLibSVM._sparse_fit of SVR()>
+_sparse_kernels: ['linear', 'poly', 'rbf', 'sigmoid', 'precomputed']
+_sparse_predict: <bound method BaseLibSVM._sparse_predict of SVR()>
+_validate_data: <bound method BaseEstimator._validate_data of SVR()>
+_validate_for_predict: <bound method BaseLibSVM._validate_for_predict of SVR()>
+_validate_params: <bound method BaseEstimator._validate_params of SVR()>
+_validate_targets: <bound method BaseLibSVM._validate_targets of SVR()>
+_warn_from_fit_status: <bound method BaseLibSVM._warn_from_fit_status of SVR()>
+cache_size: 200
+class_weight: None
+class_weight_: []
+coef0: 0.0
+coef_: Error retrieving attribute - coef_ is only available when using a linear kernel
+degree: 3
+dual_coef_: [[ 0.63893185 -0.02692802  0.7143272  -0.5155002  -0.66963026 -0.33528545
+   0.38331773  0.69403273 -0.42108981 -0.60481581 -0.49190029  0.53720738
+   0.6820717   0.61858954 -0.14051165 -0.15012465  0.02862176 -0.46651762
+  -0.14029764 -0.01310819  0.12722781  0.65011619  0.17630819  0.0200656
+  -0.03931578  0.01424756 -0.13810004 -0.3776444  -0.11561407 -0.38051762
+  -0.32826235 -0.18654561  0.72002681 -0.46338258]]
+epsilon: 0.1
+fit: <bound method BaseLibSVM.fit of SVR()>
+fit_status_: 0
+gamma: scale
+get_metadata_routing: <bound method _MetadataRequester.get_metadata_routing of SVR()>
+get_params: <bound method BaseEstimator.get_params of SVR()>
+intercept_: [1.00100769]
+kernel: rbf
+max_iter: -1
+n_features_in_: 6
+n_iter_: 122
+n_support_: [34]
+nu: 0.0
+predict: <bound method BaseLibSVM.predict of SVR()>
+probability: False
+random_state: None
+score: <bound method RegressorMixin.score of SVR()>
+set_fit_request: <function RequestMethod.__get__.<locals>.func at 0x146be7790>
+set_params: <bound method BaseEstimator.set_params of SVR()>
+set_score_request: <function RequestMethod.__get__.<locals>.func at 0x146be7790>
+shape_fit_: (376, 6)
+shrinking: True
+support_: [ 15  34  60  64  78  85 107 109 110 135 138 149 169 172 174 193 210 213
+ 217 242 259 267 273 289 290 293 319 329 336 337 351 359 367 370]
+support_vectors_: [[ 1.42284342 -1.18832035 -1.1590012  -1.24768428  1.51363264 -1.23063226]
+ [ 1.42284342  0.03020437  1.55339192 -0.01469711 -0.12726182  1.21241418]
+ [-1.50714157 -1.18832035 -1.60097029 -1.28212573  1.66331538 -1.23063226]
+ [-1.50714157  1.28503279 -1.60097029  1.26408306 -1.2111341   1.21241418]
+ [-1.50714157  1.28503279  1.55339192  1.24322239 -1.18089776  1.21241418]
+ [ 1.42284342  0.03020437 -1.60097029 -0.77499516  0.72013844  1.21241418]
+ [-0.25937314  1.28503279  0.4548872   1.4052658  -1.32909169 -0.02089205]
+ [ 1.42284342 -1.18832035  1.55339192 -0.62908825  0.53630809 -1.23063226]
+ [-1.50714157  1.28503279  0.82968199  1.2230867  -1.16667383 -1.23063226]
+ [ 1.42284342  1.28503279  1.55339192  1.41947845 -1.35413253  1.21241418]
+ [ 1.42284342  1.28503279 -1.60097029  1.23928767 -1.19289234 -1.23063226]
+ [ 1.42284342 -1.18832035 -1.1590012  -1.24768428  1.52071469  1.21241418]
+ [-1.50714157 -1.18832035  1.55339192 -0.70022304  0.60765381 -1.23063226]
+ [-1.50714157 -1.18832035  1.55339192 -0.70022304  0.60847586  1.21241418]
+ [-1.50714157  0.03020437  1.55339192 -0.02886158 -0.11858896 -1.23063226]
+ [-0.25937314 -1.18832035  0.82968199 -0.77499516  0.72445493 -0.02089205]
+ [-1.50714157 -1.18832035  0.07011335 -0.90844545  0.92605344  1.21241418]
+ [ 0.88140181  1.28503279  1.19555838  1.50202396 -1.41220713 -1.23063226]
+ [ 1.42284342  0.03020437  1.19555838 -0.05776132 -0.08825923 -1.23063226]
+ [-1.50714157  0.03020437  1.19555838 -0.10259345 -0.04948081  1.21241418]
+ [-0.25937314  1.28503279 -0.73494228  1.40972727 -1.3346018  -0.02089205]
+ [ 1.42284342 -1.18832035  1.55339192 -0.62908825  0.53461339  1.21241418]
+ [ 0.88140181 -1.18832035 -1.60097029 -1.28212573  1.64608613  1.21241418]
+ [-1.50714157 -1.18832035  0.07011335 -0.90844545  0.92677858 -1.23063226]
+ [-0.25937314 -1.18832035 -1.1590012  -1.21389738  1.49971638 -0.02089205]
+ [ 0.3217821   1.28503279 -0.32594738  1.46293344 -1.38855213 -0.02089205]
+ [ 1.42284342  0.03020437  1.19555838 -0.0725039  -0.08655683 -0.02089205]
+ [-1.50714157  1.28503279 -1.1590012   1.31340203 -1.2523869  -1.23063226]
+ [ 0.3217821  -1.18832035  0.4548872  -0.85367527  0.81948983 -0.02089205]
+ [-1.50714157  0.03020437 -1.60097029 -0.77499516  0.71266511  1.21241418]
+ [-0.86672763  0.03020437 -1.60097029 -0.77499516  0.7142403  -1.23063226]
+ [ 0.88140181  0.03020437 -1.60097029 -0.77499516  0.70832822 -1.23063226]
+ [-1.50714157 -1.18832035 -1.60097029 -1.28212573  1.66387871  1.21241418]
+ [ 1.42284342  1.28503279 -1.60097029  1.2353075  -1.18687872  1.21241418]]
+tol: 0.001
+unused_param: random_state
+verbose: False
+--------------------------------------------------

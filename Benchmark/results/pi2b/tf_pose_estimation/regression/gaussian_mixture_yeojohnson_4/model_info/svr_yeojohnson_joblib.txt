@@ -1,0 +1,144 @@
+C: 1.0
+_abc_impl: <_abc._abc_data object at 0x1574396c0>
+_build_request_for_signature: <bound method _MetadataRequester._build_request_for_signature of <class 'sklearn.svm._classes.SVR'>>
+_check_feature_names: <bound method BaseEstimator._check_feature_names of SVR()>
+_check_n_features: <bound method BaseEstimator._check_n_features of SVR()>
+_compute_kernel: <bound method BaseLibSVM._compute_kernel of SVR()>
+_decision_function: <bound method BaseLibSVM._decision_function of SVR()>
+_dense_decision_function: <bound method BaseLibSVM._dense_decision_function of SVR()>
+_dense_fit: <bound method BaseLibSVM._dense_fit of SVR()>
+_dense_predict: <bound method BaseLibSVM._dense_predict of SVR()>
+_dual_coef_: [[ 0.08583473 -0.11126442 -0.5404056   1.         -0.55838654 -0.86649318
+   0.30058742 -0.34069625  1.          0.7209602  -0.24715418 -0.16387514
+   0.09028377 -0.28268009  0.38463091  0.41853214 -0.38221924 -0.6819013
+  -0.02079556  1.          1.         -1.         -0.00452683 -0.19863317
+  -0.27530555 -1.         -0.29254633 -0.44203345  0.20292507  0.36172752
+   0.07763638 -1.         -0.93113085  1.         -0.16796836  1.
+   0.63305829 -0.65275335 -0.56376569 -0.20399433  1.          0.74628931
+  -0.58579206  0.8325904   1.         -0.06613372 -0.24685906  1.
+  -0.63880256  0.11180262 -1.         -0.87677351  0.37603159]]
+_estimator_type: regressor
+_gamma: 0.16365262079033888
+_get_coef: <bound method BaseLibSVM._get_coef of SVR()>
+_get_default_requests: <bound method _MetadataRequester._get_default_requests of <class 'sklearn.svm._classes.SVR'>>
+_get_metadata_request: <bound method _MetadataRequester._get_metadata_request of SVR()>
+_get_param_names: <bound method BaseEstimator._get_param_names of <class 'sklearn.svm._classes.SVR'>>
+_get_tags: <bound method BaseEstimator._get_tags of SVR()>
+_impl: epsilon_svr
+_intercept_: [0.59944301]
+_more_tags: <bound method SVR._more_tags of SVR()>
+_n_support: [53 53]
+_num_iter: [247]
+_parameter_constraints: {'kernel': [<sklearn.utils._param_validation.StrOptions object at 0x156ed8580>, <built-in function callable>], 'degree': [<sklearn.utils._param_validation.Interval object at 0x156ed8610>], 'gamma': [<sklearn.utils._param_validation.StrOptions object at 0x156ed8640>, <sklearn.utils._param_validation.Interval object at 0x156fa4130>], 'coef0': [<sklearn.utils._param_validation.Interval object at 0x156fa4160>], 'tol': [<sklearn.utils._param_validation.Interval object at 0x156fa41c0>], 'C': [<sklearn.utils._param_validation.Interval object at 0x156fa4220>], 'epsilon': [<sklearn.utils._param_validation.Interval object at 0x156fa42e0>], 'shrinking': ['boolean'], 'cache_size': [<sklearn.utils._param_validation.Interval object at 0x156fa4340>], 'verbose': ['verbose'], 'max_iter': [<sklearn.utils._param_validation.Interval object at 0x156fa4430>]}
+_probA: []
+_probB: []
+_repr_html_: <bound method BaseEstimator._repr_html_inner of SVR()>
+_repr_html_inner: <bound method BaseEstimator._repr_html_inner of SVR()>
+_repr_mimebundle_: <bound method BaseEstimator._repr_mimebundle_ of SVR()>
+_sparse: False
+_sparse_decision_function: <bound method BaseLibSVM._sparse_decision_function of SVR()>
+_sparse_fit: <bound method BaseLibSVM._sparse_fit of SVR()>
+_sparse_kernels: ['linear', 'poly', 'rbf', 'sigmoid', 'precomputed']
+_sparse_predict: <bound method BaseLibSVM._sparse_predict of SVR()>
+_validate_data: <bound method BaseEstimator._validate_data of SVR()>
+_validate_for_predict: <bound method BaseLibSVM._validate_for_predict of SVR()>
+_validate_params: <bound method BaseEstimator._validate_params of SVR()>
+_validate_targets: <bound method BaseLibSVM._validate_targets of SVR()>
+_warn_from_fit_status: <bound method BaseLibSVM._warn_from_fit_status of SVR()>
+cache_size: 200
+class_weight: None
+class_weight_: []
+coef0: 0.0
+coef_: Error retrieving attribute - coef_ is only available when using a linear kernel
+degree: 3
+dual_coef_: [[ 0.08583473 -0.11126442 -0.5404056   1.         -0.55838654 -0.86649318
+   0.30058742 -0.34069625  1.          0.7209602  -0.24715418 -0.16387514
+   0.09028377 -0.28268009  0.38463091  0.41853214 -0.38221924 -0.6819013
+  -0.02079556  1.          1.         -1.         -0.00452683 -0.19863317
+  -0.27530555 -1.         -0.29254633 -0.44203345  0.20292507  0.36172752
+   0.07763638 -1.         -0.93113085  1.         -0.16796836  1.
+   0.63305829 -0.65275335 -0.56376569 -0.20399433  1.          0.74628931
+  -0.58579206  0.8325904   1.         -0.06613372 -0.24685906  1.
+  -0.63880256  0.11180262 -1.         -0.87677351  0.37603159]]
+epsilon: 0.1
+fit: <bound method BaseLibSVM.fit of SVR()>
+fit_status_: 0
+gamma: scale
+get_metadata_routing: <bound method _MetadataRequester.get_metadata_routing of SVR()>
+get_params: <bound method BaseEstimator.get_params of SVR()>
+intercept_: [0.59944301]
+kernel: rbf
+max_iter: -1
+n_features_in_: 6
+n_iter_: 247
+n_support_: [53]
+nu: 0.0
+predict: <bound method BaseLibSVM.predict of SVR()>
+probability: False
+random_state: None
+score: <bound method RegressorMixin.score of SVR()>
+set_fit_request: <function RequestMethod.__get__.<locals>.func at 0x15744a790>
+set_params: <bound method BaseEstimator.set_params of SVR()>
+set_score_request: <function RequestMethod.__get__.<locals>.func at 0x15744a790>
+shape_fit_: (163, 6)
+shrinking: True
+support_: [  2   3   9  12  13  15  16  17  18  22  33  36  37  40  44  46  53  57
+  58  59  61  63  68  71  72  74  76  79  80  85  89  92  95  98 101 103
+ 113 115 118 122 124 125 130 135 138 141 143 146 154 159 160 161 162]
+support_vectors_: [[ 0.83939761  0.02873242  1.34682396  0.97967776 -0.95243144 -1.24194815]
+ [ 1.40872334 -1.1732494  -0.45806063 -1.22144017  1.2304676  -1.24194815]
+ [-0.93577297 -1.1732494   0.45702397 -1.09493554  1.12258856 -1.24194815]
+ [ 1.40872334  0.02873242  1.34682396  1.12573419 -1.09492512  1.21668535]
+ [-0.93577297  0.02873242  0.45702397  0.2674691  -0.2475147  -0.02873495]
+ [-1.55778205  1.26998285 -0.45806063  0.30575411 -0.33247347  1.21668535]
+ [-0.93577297  0.02873242  1.34682396  0.49580301 -0.48786493 -1.24194815]
+ [-1.55778205 -1.1732494   0.45702397 -1.30641048  1.3123599   1.21668535]
+ [-1.55778205  0.02873242  1.34682396  0.15205111 -0.13748919 -1.24194815]
+ [ 1.40872334  0.02873242 -1.40294456 -0.27865823  0.19868849 -0.02873495]
+ [ 0.83939761 -1.1732494   1.34682396 -0.59975978  0.60613524 -1.24194815]
+ [ 1.40872334 -1.1732494  -0.45806063 -1.22144017  1.22705889  1.21668535]
+ [-0.33090091  0.02873242 -1.40294456 -0.43834783  0.37772363 -0.02873495]
+ [ 1.40872334  1.26998285  1.34682396  1.62716261 -1.63054448  1.21668535]
+ [-0.93577297  0.02873242  1.34682396  0.53354227 -0.50701335  1.21668535]
+ [-0.33090091  0.02873242 -1.40294456 -0.15998774  0.12573079  1.21668535]
+ [ 1.40872334 -1.1732494  -1.40294456 -1.56447104  1.5758751  -1.24194815]
+ [ 1.40872334 -1.1732494   1.34682396 -0.6403887   0.59313807 -1.24194815]
+ [ 1.40872334  1.26998285 -1.40294456  0.79527067 -0.87767091 -1.24194815]
+ [-1.55778205  0.02873242 -0.45806063 -0.39826618  0.38318226 -1.24194815]
+ [ 1.40872334  0.02873242 -1.40294456 -0.23899836  0.18870833  1.21668535]
+ [-0.93577297 -1.1732494   1.34682396 -0.88655398  0.86837385  1.21668535]
+ [-0.33090091 -1.1732494   1.34682396 -0.76295291  0.7554353   1.21668535]
+ [ 1.40872334  1.26998285  1.34682396  1.62716261 -1.63907458 -1.24194815]
+ [-1.55778205  1.26998285  0.45702397  0.53354227 -0.54578614 -0.02873495]
+ [ 0.83939761 -1.1732494  -1.40294456 -1.4348408   1.46154627  1.21668535]
+ [ 0.83939761  1.26998285 -1.40294456  0.75813866 -0.77111609  1.21668535]
+ [ 1.40872334  1.26998285 -1.40294456  0.79527067 -0.87447061 -0.02873495]
+ [ 0.83939761  0.02873242  1.34682396  0.90616318 -0.89051338  1.21668535]
+ [-0.93577297  1.26998285 -0.45806063  0.75813866 -0.75278228 -0.02873495]
+ [-0.93577297  1.26998285  0.45702397  1.05286662 -1.02607746 -0.02873495]
+ [-0.93577297 -1.1732494  -1.40294456 -1.47791585  1.49838635 -1.24194815]
+ [-1.55778205  1.26998285  0.45702397  0.5711929  -0.56260063 -1.24194815]
+ [ 1.40872334  0.02873242  1.34682396  0.72092176 -0.80508863 -1.24194815]
+ [-0.33090091  1.26998285 -1.40294456  0.45797445 -0.46347434 -0.02873495]
+ [-1.55778205  0.02873242  1.34682396  0.15205111 -0.1398236   1.21668535]
+ [-1.55778205  0.02873242  0.45702397 -0.15998774  0.12366709 -1.24194815]
+ [ 1.40872334 -1.1732494   1.34682396 -0.59975978  0.59150712  1.21668535]
+ [-1.55778205  1.26998285  1.34682396  0.72092176 -0.71952418  1.21668535]
+ [-1.55778205 -1.1732494  -1.40294456 -1.52112549  1.54182265 -0.02873495]
+ [-0.93577297  0.02873242 -1.40294456 -0.4785371   0.43341393 -1.24194815]
+ [-1.55778205  0.02873242  0.45702397 -0.15998774  0.12160134  1.21668535]
+ [-1.55778205  1.26998285 -1.40294456  0.03577352 -0.06182333 -1.24194815]
+ [ 1.40872334  0.02873242 -0.45806063  0.22909074 -0.30212099 -1.24194815]
+ [-1.55778205  0.02873242 -0.45806063 -0.39826618  0.38499847  1.21668535]
+ [-0.93577297 -1.1732494   0.45702397 -1.13697853  1.12742744  1.21668535]
+ [ 1.40872334  1.26998285  1.34682396  1.66242114 -1.64334939 -0.02873495]
+ [-0.33090091 -1.1732494  -0.45806063 -1.52112549  1.5993481  -0.02873495]
+ [-1.55778205 -1.1732494  -1.40294456 -1.52112549  1.54089152  1.21668535]
+ [ 1.40872334  0.02873242  0.45702397  0.60875554 -0.69859464  1.21668535]
+ [ 0.26007271  0.02873242 -0.45806063  0.15205111 -0.14918617 -0.02873495]
+ [-1.55778205 -1.1732494   1.34682396 -1.05301626  1.08460771 -1.24194815]
+ [ 0.26007271  0.02873242 -1.40294456 -0.27865823  0.26336405  1.21668535]]
+tol: 0.001
+unused_param: random_state
+verbose: False
+--------------------------------------------------
