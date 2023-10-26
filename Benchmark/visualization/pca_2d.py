@@ -46,7 +46,7 @@ def preprocess_and_pca(data, preprocess_name):
 
 # Main code starts here
 if __name__ == "__main__":
-    root_dir = "../results/pi2b/tf_pose_estimation/cluster/"
+    root_dir = "../results/pi4b/tf_pose_estimation/cluster/"
     methods = [
         "affinity_propagation", "agglomerative", "birch", "dbscan", 
         "gaussian_mixture", "kmeans", "mean_shift", "minibatch_kmeans", 
@@ -90,7 +90,7 @@ if __name__ == "__main__":
             global_index += 1
 
      # Save the plot to a file before displaying it
-    save_path = "../visualization/results_2D/clustering_visualization_p2.png"
+    save_path = "../visualization/results_2D/clustering_visualization_p4.png"
     os.makedirs(os.path.dirname(save_path), exist_ok=True)
     plt.tight_layout()
     plt.savefig(save_path)
