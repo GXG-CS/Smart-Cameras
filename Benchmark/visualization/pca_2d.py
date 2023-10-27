@@ -42,6 +42,11 @@ def preprocess_and_pca(data, preprocess_name):
     X = data.drop('label', axis=1)
     y = data['label']
     X_pca = pipeline.fit_transform(X)
+
+    # Added this line to print the explained variance ratios
+    pca = pipeline.named_steps['pca']  # Access the 'pca' step of the pipeline
+    print("Explained variance ratios:", pca.explained_variance_ratio_)  # Print explained variance
+    
     return X_pca[:, 0], X_pca[:, 1]
 
 # Main code starts here
@@ -93,6 +98,6 @@ if __name__ == "__main__":
     save_path = "../visualization/results_2D/clustering_visualization_p4.png"
     os.makedirs(os.path.dirname(save_path), exist_ok=True)
     plt.tight_layout()
-    plt.savefig(save_path)
+    # plt.savefig(save_path)
 
     plt.show()

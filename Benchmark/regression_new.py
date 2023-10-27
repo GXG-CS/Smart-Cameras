@@ -178,7 +178,6 @@ def main():
     dump(pipeline, model_save_path)
     print(f"Pipeline (including preprocessor and model) saved to {model_save_path}")
 
-
 if __name__ == "__main__":
     main()
 

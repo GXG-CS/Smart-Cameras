@@ -1,38 +1,44 @@
 import os
-import glob
 import subprocess
 
-def main():
-    # Relative directory where the models are saved
-    models_dir = "../results/pi3b/tf_pose_estimation/regression/kmeans_robust_3/models"
+def run_prediction_for_model(model_path, data_path, output_path):
+    """
+    Function to run the prediction script for a specific model.
     
-    # Relative directory where the predictions will be saved
-    output_dir = "../results/predictions/3b_2b"
+    Parameters:
+    - model_path: Path to the saved model (pipeline).
+    - data_path: Path to the input data for prediction.
+    - output_path: Path to save the prediction results.
+    """
+    command = [
+        'python', 'prediction.py',
+        '--model', model_path,
+        '--data', data_path,
+        '--output', output_path
+    ]
     
-    # Relative path to the new dataset for prediction
-    data_path = "../results/pi2b/tf_pose_estimation/cluster/kmeans/robust_3.csv"
+    subprocess.run(command)
 
-    # Make sure output directory exists
-    if not os.path.exists(output_dir):
-        os.makedirs(output_dir)
+def run_all_models(model_dir, data_file, results_dir):
+    """
+    Run predictions on all models in the model directory using the data from the data file.
+    """
+    # Ensure the results directory exists
+    if not os.path.exists(results_dir):
+        os.makedirs(results_dir)
 
-    # List all .joblib files in the models directory
-    model_files = glob.glob(f"{models_dir}/*.joblib")
-    
-    for model_file in model_files:
-        model_name = os.path.basename(model_file).split('.')[0]
+    for model_name in os.listdir(model_dir):
+        model_path = os.path.join(model_dir, model_name)
+        output_filename = os.path.join(results_dir, f"{model_name}_results.csv")
+        
+        run_prediction_for_model(model_path, data_file, output_filename)
 
-        # Command to run prediction.py
-        cmd = f"python prediction.py --model {model_file} --data {data_path} --output {output_dir}/{model_name}_predictions.csv"
+if __name__ == '__main__':
+    # Relative Paths
+    model_dir = "../results/pi2b/tf_pose_estimation/regression/gaussian_mixture_yeojohnson_4/models"
+    data_file = "../data_cleaning/pi2b/pi2b_yeojohnson_4_filtered.csv"
+    results_dir = "../results/pi2b/tf_pose_estimation/regression/gaussian_mixture_yeojohnson_4/prediction_results"
 
-        # Log the command
-        print(f"Running command: {cmd}")
+    run_all_models(model_dir, data_file, results_dir)
 
-        # Run the command
-        try:
-            subprocess.run(cmd, shell=True, check=True)
-        except subprocess.CalledProcessError:
-            print(f"Failed to run {cmd}")
-
-if __name__ == "__main__":
-    main()
+    print(f"Results saved in {results_dir}")

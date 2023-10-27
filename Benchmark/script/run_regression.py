@@ -32,7 +32,7 @@ method_dict = {
 for reg_method, preproc_methods in method_dict.items():
     for preproc_method in preproc_methods:
         # Construct the command to run regression.py
-        cmd = f"python ../regression.py --data {data_path} --method {reg_method} --preprocessing {preproc_method} --output {output_dir}"
+        cmd = f"python ../regression_new.py --data {data_path} --method {reg_method} --preprocessing {preproc_method} --output {output_dir}"
 
         # Log the command
         print(f"Running command: {cmd}")
