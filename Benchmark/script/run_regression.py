@@ -2,7 +2,7 @@ import subprocess
 import os
 
 # Relative output directory for regression results
-output_dir = "../results/pi2b/tf_pose_estimation/regression/gaussian_mixture_yeojohnson_4/"
+output_dir = "../results/pi4b/tf_pose_estimation/regression/optics_standard_9/"
 
 # Check if the output directory exists, if not, create it
 if not os.path.exists(output_dir):
@@ -10,7 +10,7 @@ if not os.path.exists(output_dir):
 
 # Relative path to your data file
 # data_path = "../results/pi2b/tf_pose_estimation/cluster/kmeans/robust_3.csv"
-data_path = "../data_cleaning/pi2b/pi2b_yeojohnson_4_filtered.csv"
+data_path = "../data_cleaning/pi4b/pi4b_standard_9_filtered.csv"
 
 # Dictionary of regression_method: [list of preprocessing_methods]
 method_dict = {
@@ -45,7 +45,7 @@ for reg_method, preproc_methods in method_dict.items():
 
     # If no preprocessing is defined for the regression method, run without preprocessing
     if not preproc_methods:
-        cmd = f"python ../regression.py --data {data_path} --method {reg_method} --output {output_dir} "
+        cmd = f"python ../regression_new.py --data {data_path} --method {reg_method} --output {output_dir} "
         
         # Log the command
         print(f"Running command: {cmd}")

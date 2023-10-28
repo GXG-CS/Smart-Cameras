@@ -1,0 +1,6 @@
+Method: lasso
+Hyperparameters: {'alpha': 1.0, 'copy_X': True, 'fit_intercept': True, 'max_iter': 1000, 'positive': False, 'precompute': False, 'random_state': None, 'selection': 'cyclic', 'tol': 0.0001, 'warm_start': False}
+Mean Squared Error: 5.520360056863207
+Root Mean Squared Error: 2.349544648833728
+Mean Absolute Error: 2.036828611811659
+==============================

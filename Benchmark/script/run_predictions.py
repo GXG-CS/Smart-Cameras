@@ -35,9 +35,9 @@ def run_all_models(model_dir, data_file, results_dir):
 
 if __name__ == '__main__':
     # Relative Paths
-    model_dir = "../results/pi2b/tf_pose_estimation/regression/gaussian_mixture_yeojohnson_4/models"
-    data_file = "../data_cleaning/pi2b/pi2b_yeojohnson_4_filtered.csv"
-    results_dir = "../results/pi2b/tf_pose_estimation/regression/gaussian_mixture_yeojohnson_4/prediction_results"
+    model_dir = "../results/pi4b/tf_pose_estimation/regression/optics_standard_9/models"
+    data_file = "../data_cleaning/pi4b/pi4b_standard_9_filtered.csv"
+    results_dir = "../results/pi4b/tf_pose_estimation/regression/optics_standard_9/prediction_results"
 
     run_all_models(model_dir, data_file, results_dir)
 
