@@ -23,14 +23,14 @@ PREPROCESSING_TECHNIQUES = {
 N_CLUSTERS_RANGE = range(3, 10)
 
 # Paths
-DATA_PATH = "../data_collection/pi4b/pi4b_tf_pose_estimation_results.csv"
+DATA_PATH = "../data_collection/pi0/pi0_tf_pose_estimation_results.csv"
 # CLUSTER_SCRIPT_PATH = "Benchmark/cluster.py"
 
 
 def main():
     for method in CLUSTER_METHODS:
         # Update output directory based on method
-        OUTPUT_DIR = os.path.join("..", "results", "pi4b", "tf_pose_estimation", "cluster", method)
+        OUTPUT_DIR = os.path.join("..", "results", "pi0", "tf_pose_estimation", "cluster", method)
         # Ensure the directory exists
         if not os.path.exists(OUTPUT_DIR):
             os.makedirs(OUTPUT_DIR)
