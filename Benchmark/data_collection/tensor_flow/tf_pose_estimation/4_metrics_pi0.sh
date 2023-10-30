@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #disable swap temporarily until the next reboot
-sudo swapoff -a
+# sudo swapoff -a
 
 # Start Xvfb on display :1
 Xvfb :1 &
