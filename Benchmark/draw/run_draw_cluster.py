@@ -2,10 +2,12 @@ import os
 import subprocess
 
 # Base directory where the CSV files are located
-base_directory = "../results/pi0/tf_pose_estimation/cluster"
+# base_directory = "../results/pi0/tf_pose_estimation/cluster"
+base_directory = "show/different_cluster_methods/"
 
 # Relative path to the directory where you want to save all output plots
-output_directory = "pi0/cluster_3D/"
+# output_directory = "pi0/cluster_3D/"
+output_directory = "show/different_cluster_methods/"
 
 # Create the output directory if it doesn't exist
 if not os.path.exists(output_directory):
