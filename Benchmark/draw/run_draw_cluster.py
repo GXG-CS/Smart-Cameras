@@ -2,10 +2,10 @@ import os
 import subprocess
 
 # Base directory where the CSV files are located
-base_directory = "../results/pi4b/tf_pose_estimation/cluster"
+base_directory = "../results/pi0/tf_pose_estimation/cluster"
 
 # Relative path to the directory where you want to save all output plots
-output_directory = "pi4b/cluster_2D_sdram_cpufreq/"
+output_directory = "pi0/cluster_3D/"
 
 # Create the output directory if it doesn't exist
 if not os.path.exists(output_directory):
@@ -25,7 +25,7 @@ for csv_file in csv_files:
     output_path = os.path.join(output_directory, f"{clustering_method}_{filename_without_extension}_plot.png")
 
     # Run the draw_cluster_3D.py script with the current CSV file and output path
-    subprocess.run(["python", "draw_cluster_2D.py", "--data_path", csv_file, "--output_path", output_path])
+    subprocess.run(["python", "draw_cluster_3D.py", "--data_path", csv_file, "--output_path", output_path])
 
 print(f"All plots have been saved in {output_directory}")
 

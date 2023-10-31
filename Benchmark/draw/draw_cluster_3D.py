@@ -18,6 +18,8 @@ def plot_data(data_path, output_path):
 
     # Select features for visualization
     features = ['sdram_freq', 'cpu_cores', 'cpu_freq']
+    # features = ['cpu_freq', 'cpu_cores', 'avg_fps']
+
     selected_data = df[features]
 
     # Get unique labels for coloring
@@ -31,9 +33,11 @@ def plot_data(data_path, output_path):
     for label in labels:
         label_data = selected_data[df['label'] == label]
         ax.scatter(label_data['sdram_freq'], label_data['cpu_cores'], label_data['cpu_freq'], label=f'Label {label}')
+        # ax.scatter(label_data['cpu_freq'], label_data['cpu_cores'], label_data['avg_fps'], label=f'Label {label}')
 
     # Add axis labels
-    ax.set_xlabel('SDRAM Frequency')
+    # ax.set_xlabel('CPU Frequency')
+    ax.set_xlabel('Sdram Frequency')
     ax.set_ylabel('CPU Cores')
     ax.set_zlabel('CPU Frequency')
 
