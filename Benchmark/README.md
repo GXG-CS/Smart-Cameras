@@ -84,3 +84,19 @@ pi 4b
 3. sdram_freq
 192.168.1.168
 
+
+
+
+Implementation:
+Benchmarker contains three moudles: 
+1. Data collection
+2. Clustering 
+3. Regression
+
+We run tensorflow pose estimation on a recorded video to measure fps and running time. By adjusting sdram frequency, cpu cores, cpu frequency, memory allocation, we can simulate different hardware spec smart cameras. 
+We also use crontab job and shell script to realize data collection.
+
+We use sklearn to do clustering and regression.
+After collection 6 features data from each pi we do clustering work. We use multiple clustering methods including kmeans, dbscan, optics, birch, gaussian_mixture, agglomerative, affinity propagation, spectral, mean shift, minibatch kmeans(can retain only the first three) with several data preprocessing methods including standard, minmax, robust, yeojohnson, boxcox, quantile. 
+
+And we use multiple regression methods including linear, svr, gbr, knn, random forest, ridge, lasso, neural network with various data preprocessing methods like standard, minmax, robust, maxabs, quantile, yeojohnson, log, normalizer, binarizer. 
